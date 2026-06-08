@@ -1,0 +1,1 @@
+IF  Global("L0AMUL","LOCALS",0)  HasItemEquiped("L0AMUL",Lastsummonerof(Myself))THEN  RESPONSE #100    SetGlobal("L0AMUL","LOCALS",1)    ApplySpellRES("L0AMUL",Myself)END

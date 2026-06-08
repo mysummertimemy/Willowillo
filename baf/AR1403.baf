@@ -1,0 +1,12 @@
+IF
+  CombatCounter(0)
+  Contains("L0SEED","Container2")
+  Global("L0TheVisionhive","GLOBAL",0)
+  Global("L0StartWisp","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("L0TheVisionhive","GLOBAL",1)
+    SetGlobal("L0StartWisp","GLOBAL",5)
+    DestroyItem("L0SEED")
+    StartCutScene("L0CUT01")
+END

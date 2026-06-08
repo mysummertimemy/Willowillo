@@ -1,0 +1,8 @@
+
+
+IF
+  See(Nearestenemyof(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(Nearestenemyof(Myself),15)
+END

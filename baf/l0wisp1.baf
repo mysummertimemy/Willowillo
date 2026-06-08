@@ -1,0 +1,47 @@
+IF
+!See([ENEMY])
+See([PC])
+CombatCounter(0)
+InParty("L0Will")
+Global("L0WispOnWillCom","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L0WispOnWillCom","GLOBAL",1)
+StartDialogueNoSet(Player1)
+END
+
+
+IF
+!See([ENEMY])
+See([PC])
+CombatCounter(0)
+OR(2)
+Global("L0ShamanStronghold","GLOBAL",8)
+Global("L0ShamanStronghold","GLOBAL",11)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+!See([ENEMY])
+See([PC])
+CombatCounter(0)
+Global("L0ShamanStronghold","GLOBAL",17)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+IF
+See([PC])
+PartyHasItem("L0spidx")
+Global("l0spiderX","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("l0spiderX","GLOBAL",1)
+CreateCreatureObjectOffset("L0spidx",Player1,[-15.-15])
+TakePartyItem("L0spidx")
+DestroyItem("L0spidx")
+StartDialogueNoSet(Player1)
+END

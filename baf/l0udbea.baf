@@ -1,0 +1,93 @@
+//DIALOGUE
+
+IF
+See([PC])
+Global("L0WillQuestUD","GLOBAL",4)
+THEN
+RESPONSE #100
+StartDialogueNoSet(Player1)
+END
+
+//FIGHT TIME!
+
+IF
+See(Nearestenemyof(Myself))
+Global("stone","LOCALS",0)
+ THEN
+  RESPONSE #100
+ApplySpell(Myself,WIZARD_TRUE_SIGHT)
+ApplySpell(Myself,WIZARD_STONE_SKIN)
+SetGlobal("stone","LOCALS",1)
+END
+
+IF
+See(Nearestenemyof(Myself))
+Global("stone","LOCALS",1)
+ THEN
+  RESPONSE #100
+ForceSpell(Nearestenemyof(Myself),WIZARD_HORROR)
+ForceSpell(Myself,NPC_BLADE_BARRIER)
+SetGlobalTimer("BE_MEAN","LOCALS",TWO_ROUNDS)
+SetGlobal("stone","LOCALS",2)
+END
+
+IF
+See(Nearestenemyof(Myself))
+Global("stone","LOCALS",2)
+GlobalTimerExpired("BE_MEAN","LOCALS")
+ THEN
+  RESPONSE #100
+ApplySpell(Myself,CLERIC_CURE_MEDIUM_WOUNDS)
+ApplySpell(Myself,WIZARD_STONE_SKIN)
+ForceSpell(Nearestenemyof(Myself),WIZARD_HORROR)
+ForceSpell(Nearestenemyof(Myself),WIZARD_LIGHTNING_BOLT)
+SetGlobalTimer("BE_MEAN","LOCALS",THREE_ROUNDS)
+SetGlobal("stone","LOCALS",3)
+END
+
+IF
+See(Nearestenemyof(Myself))
+Global("stone","LOCALS",3)
+GlobalTimerExpired("BE_MEAN","LOCALS")
+ THEN
+  RESPONSE #100
+ApplySpell(Myself,WIZARD_HASTE)
+ForceSpell(Nearestenemyof(Myself),WIZARD_SLOW)
+SetGlobal("stone","LOCALS",4)
+ForceSpell(Nearestenemyof(Myself),WIZARD_CHAIN_LIGHTNING)
+ForceSpell(Nearestenemyof(Myself),CLERIC_EARTHQUAKE)
+SetGlobalTimer("BE_MEAN","LOCALS",THREE_ROUNDS)
+END
+
+IF
+See(Nearestenemyof(Myself))
+Global("stone","LOCALS",4)
+GlobalTimerExpired("BE_MEAN","LOCALS")
+ THEN
+  RESPONSE #100
+ApplySpell(Myself,WIZARD_PROTECTION_FROM_NORMAL_WEAPONS)
+ForceSpell(Nearestenemyof(Myself),WIZARD_BREACH)
+ForceSpell(Nearestenemyof(Myself),WIZARD_CHAIN_LIGHTNING)
+SetGlobalTimer("BE_MEAN","LOCALS",FOUR_ROUNDS)
+SetGlobal("stone","LOCALS",5)
+END
+
+IF
+See(Nearestenemyof(Myself))
+Global("stone","LOCALS",5)
+GlobalTimerExpired("BE_MEAN","LOCALS")
+ THEN
+  RESPONSE #100
+ApplySpell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+ForceSpell(Nearestenemyof(Myself),WIZARD_BREACH)
+ForceSpell(Nearestenemyof(Myself),CLERIC_SUMMON_INSECTS)
+SetGlobal("stone","LOCALS",6)
+END
+
+
+IF
+  See(Nearestenemyof(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(Nearestenemyof(Myself),15)
+END

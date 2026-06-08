@@ -1,0 +1,7 @@
+IF
+Global("L0rida","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("Pileo'Stuff",CreateItem("L0rida",5,0,0))
+SetGlobal("L0rida","GLOBAL",1)
+END

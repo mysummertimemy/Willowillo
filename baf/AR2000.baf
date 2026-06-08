@@ -1,0 +1,1 @@
+IFInParty("L0Will")GlobalGT("L0WillDialogue","GLOBAL",7)GlobalLT("L0WillDialogue","GLOBAL",100)Global("geniesgone","GLOBAL",1)Global("loganjob2","GLOBAL",2)Global("L0WillFamilyMatters","GLOBAL",0)THENRESPONSE #100CreateCreature("l0wiboy",[1420.2760],1)SetGlobal("L0WillFamilyMatters","GLOBAL",1)END

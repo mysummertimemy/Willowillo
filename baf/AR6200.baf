@@ -1,0 +1,22 @@
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("L0Will")
+   Global("L0WillBIO","GLOBAL",0)
+   !Global("L0WillRelationshipActive","GLOBAL",2)
+THEN
+   RESPONSE #100
+      SetGlobal("L0WillBIO","GLOBAL",1)
+      TextScreen("L0WilEP")
+END
+
+
+IF
+   Global("StartEndBios","AR6200",1)
+   InParty("L0Will")
+   Global("L0WillBIO","GLOBAL",0)
+   Global("L0WillRelationshipActive","GLOBAL",2)
+THEN
+   RESPONSE #100
+      SetGlobal("L0WillBIO","GLOBAL",1)
+      TextScreen("L0WilEP2")
+END

@@ -1,0 +1,14 @@
+IF
+True()
+THEN RESPONSE #100
+CutSceneId("L0WILL")
+StartCutSceneMode()
+Wait(1)
+MoveViewObject(Myself,INSTANT)
+Wait(2)
+CreateVisualEffectObject("SPFLESHS",Myself)
+Wait(2)
+ForceSpellRES("L0NECK1",Myself)
+EndCutSceneMode()
+SetGlobal("L0WillDeath","GLOBAL",3)
+END

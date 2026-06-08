@@ -1,0 +1,7 @@
+IF
+Global("L0shri","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("MimicChest",CreateItem("L0shri",0,0,0))
+SetGlobal("L0shri","GLOBAL",1)
+END

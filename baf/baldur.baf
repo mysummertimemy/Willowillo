@@ -1,0 +1,98 @@
+
+////WILL-O'-WISP
+
+IF
+CombatCounter(0)
+GlobalGT("ShadowLordDead","GLOBAL",0)
+Global("L0StartWisp","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L0StartWisp","GLOBAL",1)
+SetGlobalTimer("L0StartWispTimer","GLOBAL",ONE_DAY)
+Continue()
+END
+
+IF
+CombatCounter(0)
+!AreaType(CITY)
+TimeOfDay(NIGHT)
+Global("L0StartWisp","GLOBAL",1)
+GlobalTimerExpired("L0StartWispTimer","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L0StartWisp","GLOBAL",2)
+CreateCreatureObjectOffset("L0WISP1",Player1,[-15.-15])
+ActionOverride("L0WISP1",StartDialogueNoSet(Player1))
+Continue()
+END
+
+
+////SHAMAN'S STRONGHOLD
+
+IF
+Global("L0ShamanStronghold","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",2)
+SetGlobalTimer("L0ShamanStrongholdTime","GLOBAL",THREE_DAYS)
+Continue()
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",2)
+GlobalTimerExpired("L0ShamanStrongholdTime","GLOBAL")
+THEN
+RESPONSE #100
+DisplayStringHead(Player1,@17)
+SetGlobal("L0ShamanStronghold","GLOBAL",3)
+Continue()
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",13)
+GlobalTimerExpired("L0ShamanStrongholdTime","GLOBAL")
+THEN
+RESPONSE #100
+DisplayStringHead(Player1,@17)
+SetGlobal("L0ShamanStronghold","GLOBAL",14)
+Continue()
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",20)
+THEN
+RESPONSE #100
+SetGlobalTimer("L0ShamanStrongholdTime","GLOBAL",FOUR_DAYS)
+SetGlobal("L0ShamanStronghold","GLOBAL",21)
+Continue()
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",21)
+GlobalTimerExpired("L0ShamanStrongholdTime","GLOBAL")
+THEN
+RESPONSE #100
+DisplayStringHead(Player1,@17)
+SetGlobal("L0ShamanStronghold","GLOBAL",22)
+Continue()
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",26)
+GlobalTimerExpired("L0ShamanStrongholdTime","GLOBAL")
+THEN
+RESPONSE #100
+DisplayStringHead(Player1,@17)
+SetGlobal("L0ShamanStronghold","GLOBAL",27)
+Continue()
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",29)
+GlobalTimerExpired("L0ShamanStrongholdTime","GLOBAL")
+THEN
+RESPONSE #100
+DisplayStringHead(Player1,@17)
+SetGlobal("L0ShamanStronghold","GLOBAL",30)
+Continue()
+END

@@ -1,0 +1,8 @@
+IF
+GlobalGT("L0spiderX","GLOBAL",0)
+Global("L0fly","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("Hidden1",CreateItem("L0fly",0,0,0))
+SetGlobal("L0fly","GLOBAL",1)
+END

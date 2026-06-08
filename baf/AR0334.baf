@@ -1,0 +1,13 @@
+IF
+Global("L0SkinCrom","GLOBAL",1)
+Global("L0ForgeItem","GLOBAL",1)
+THEN
+ RESPONSE #100
+  TakePartyItem("l0skin") 
+  DestroyItem("l0skin")
+  TakePartyItemNum("SCRL08",1)
+  DestroyItem("SCRL08")
+     GiveItemCreate("L0Skin2",Player1,1,0,0) // completed item
+     ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END
+

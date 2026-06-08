@@ -1,0 +1,16 @@
+IF
+Global("L0WillEETsafescript","AR4500",0)
+THEN
+RESPONSE #100
+CreateCreature("L0FATESP",[1900.1090],0)
+SetGlobal("L0WillEETsafescript","AR4500",1)
+END
+
+IF
+Global("L0WillEETsafescript","AR4500",1)
+Global("L0WillJoin25","GLOBAL",1)
+THEN
+RESPONSE #100
+ActionOverride("L0FATESP",DestroySelf())
+SetGlobal("L0WillEETsafescript","AR4500",2)
+END

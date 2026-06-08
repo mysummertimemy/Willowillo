@@ -1,0 +1,49 @@
+IF
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+Global("L0WillDialogue","GLOBAL",9)
+RealGlobalTimerExpired("L0WillTimer","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L0WillDialogue","GLOBAL",10)
+END
+
+IF
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+Global("L0WillDialogue","GLOBAL",18)
+RealGlobalTimerExpired("L0WillTimer","GLOBAL")
+THEN
+RESPONSE #100
+SetGlobal("L0WillDialogue","GLOBAL",19)
+END
+
+IF
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+Global("L0WillRelationshipActive","GLOBAL",2)
+RealGlobalTimerExpired("L0Player1RomanceCheckT","GLOBAL")
+Global("L0Player1RomanceCheck","GLOBAL",11)
+THEN
+RESPONSE #100
+SetGlobal("L0Player1RomanceCheck","GLOBAL",12)
+END
+
+IF
+InParty(Myself)
+CombatCounter(0)
+!See([ENEMY])
+See(Player1)
+Global("L0WillRelationshipActive","GLOBAL",2)
+RealGlobalTimerExpired("L0Player1RomanceCheckT","GLOBAL")
+Global("L0Player1RomanceCheck","GLOBAL",14)
+THEN
+RESPONSE #100
+SetGlobal("L0Player1RomanceCheck","GLOBAL",15)
+END

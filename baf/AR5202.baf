@@ -1,0 +1,1 @@
+IFGlobal("L0tote","AR5202",0)THENRESPONSE #100ActionOverride("Container1",CreateItem("L0tote",1,0,0))SetGlobal("L0tote","AR5202",1)END

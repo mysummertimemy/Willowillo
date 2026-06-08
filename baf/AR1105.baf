@@ -1,0 +1,1 @@
+IFGlobal("L0StartWisp","GLOBAL",3)THENRESPONSE #100SetGlobal("L0StartWisp","GLOBAL",4)	CreateCreature("L0THIEF1",[975.160],1)ENDIFGlobal("L0grapx","GLOBAL",0)Global("L0ShamanStronghold","GLOBAL",23)THENRESPONSE #100ActionOverride("Container1",CreateItem("L0grap",0,0,0))SetGlobal("L0grapx","GLOBAL",1)END

@@ -1,0 +1,156 @@
+//NORLAM JOURNAL
+
+IF
+Global("L0StartWisp","GLOBAL",3)
+Global("L0StartWispJournal","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L0StartWispJournal","GLOBAL",1)
+AddJournalEntry(@4,QUEST)
+END
+
+IF
+GlobalGT("L0StartWisp","GLOBAL",5)
+Global("L0StartWispJournal","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0StartWispJournal","GLOBAL",2)
+EraseJournalEntry(@4)
+END
+
+//STRONGHOLD JOURNAL
+
+//1 
+
+IF
+Global("L0SStrongholdJournal1","GLOBAL",0)
+Global("L0ShamanStronghold","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal1","GLOBAL",1)
+AddJournalEntry(@5,QUEST)
+END
+
+IF
+Global("L0truce","GLOBAL",1)
+Global("L0SStrongholdJournal1","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal1","GLOBAL",2)
+EraseJournalEntry(@5)
+AddJournalEntry(@6,QUEST)
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",10)
+Global("L0SStrongholdJournal1","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal1","GLOBAL",2)
+EraseJournalEntry(@5)
+AddJournalEntry(@7,QUEST)
+END
+
+IF
+Global("L0truce","GLOBAL",1)
+Global("L0ShamanStronghold","GLOBAL",17)
+Global("L0SStrongholdJournal1","GLOBAL",2)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal1","GLOBAL",3)
+EraseJournalEntry(@6)
+AddJournalEntry(@7,QUEST)
+END
+
+IF
+GlobalGT("L0ShamanStronghold","GLOBAL",19)
+Global("L0ClearAllQ1","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L0ClearAllQ1","GLOBAL",1)
+EraseJournalEntry(@6)
+EraseJournalEntry(@5)
+EraseJournalEntry(@7)
+END
+
+//2
+
+IF
+Global("L0SStrongholdJournal2","GLOBAL",0)
+Global("L0ShamanStronghold","GLOBAL",23)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal2","GLOBAL",1)
+AddJournalEntry(@8,QUEST)
+END
+
+IF
+Global("L0SStrongholdJournal2","GLOBAL",1)
+GlobalGT("L0ShamanStronghold","GLOBAL",24)
+THEN
+RESPONSE #100
+EraseJournalEntry(@8)
+SetGlobal("L0SStrongholdJournal2","GLOBAL",2)
+END
+
+//3
+
+IF
+Global("L0ShamanStronghold","GLOBAL",28)
+Global("L0SStrongholdJournal3","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal3","GLOBAL",1)
+AddJournalEntry(@9,USER)
+END
+
+IF
+GlobalGT("L0ShamanStronghold","GLOBAL",29)
+Global("L0SStrongholdJournal3","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal3","GLOBAL",2)
+EraseJournalEntry(@9)
+END
+
+//4
+
+IF
+Global("L0SStrongholdJournal4","GLOBAL",0)
+Global("L0ShamanStronghold","GLOBAL",31)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal4","GLOBAL",1)
+AddJournalEntry(@10,QUEST)
+END
+
+IF
+GlobalGT("L0ShamanStronghold","GLOBAL",34)
+Global("L0SStrongholdJournal4","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournal4","GLOBAL",2)
+EraseJournalEntry(@10)
+AddJournalEntry(@11,QUEST_DONE)
+END
+
+//SPIDER
+
+IF
+Global("L0SStrongholdJournalSPI","GLOBAL",0)
+Global("l0spiderX","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournalSPI","GLOBAL",1)
+AddJournalEntry(@12,QUEST)
+END
+
+IF
+PartyHasItem("l0ioun")
+Global("L0SStrongholdJournalSPI","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0SStrongholdJournalSPI","GLOBAL",1)
+EraseJournalEntry(@12)
+AddJournalEntry(@13,QUEST_DONE)
+END

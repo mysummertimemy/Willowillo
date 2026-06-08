@@ -1,0 +1,14 @@
+IF
+OR(4)
+Contains("L0web","rock")
+Contains("L0bowl","rock")
+Contains("L0grap","rock")
+Contains("L0mush","rock")
+GlobalGT("L0ShamanStronghold","GLOBAL",24)
+THEN
+RESPONSE #100
+DestroyItem("L0web")
+DestroyItem("L0mush")
+DestroyItem("L0bowl")
+DestroyItem("L0grap")
+END

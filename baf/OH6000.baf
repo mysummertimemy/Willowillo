@@ -1,0 +1,13 @@
+IF
+Global("L0Light","OH6000",0)
+THEN
+RESPONSE #100
+CreateCreature("l0wspws",[3500.520],1)
+CreateCreature("l0wspws",[3600.490],1)
+CreateCreature("l0wspws",[3600.3000],1)
+CreateCreature("l0wspdm",[3650.3070],1)
+CreateCreature("l0wspdm",[3650.3070],1)
+CreateCreature("l0wspdm",[4250.2670],1)
+CreateCreature("l0wspdm",[4350.2770],1)
+SetGlobal("L0Light","OH6000",1)
+END

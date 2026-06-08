@@ -1,0 +1,160 @@
+IF
+Global("L0ShamanStronghold","GLOBAL",4)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",5)
+CreateCreature("l0emis",[1424.782],1)
+END
+
+IF
+AreaCheckObject("L00000",Player1)
+Global("L0ShamanStronghold","GLOBAL",14)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",15)
+CreateCreature("l0emis",[930.665],1)
+CreateCreature("l0emisx",[738.659],1)
+CreateCreature("l0emisx",[1330.702],1)
+CreateCreature("l0emisx",[1123.677],1)
+CreateCreature("l0emisx",[1000.762],1)
+CreateCreature("l0emisx",[1010.850],1)
+ActionOverride("l0emis",StartDialogueNoSet(Player1))
+END
+
+IF
+Dead("l0emis")
+NumDead("l0emisx",5)
+Global("L0ShamanStronghold","GLOBAL",16)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",17)
+END
+
+IF
+Dead("l0emis")
+Global("L0ShamanStronghold","GLOBAL",9)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",10)
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",12)
+Global("L0truce","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",20)
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",12)
+Global("L0truce","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",13)
+SetGlobalTimer("L0ShamanStrongholdTime","GLOBAL",THREE_DAYS)
+END
+
+IF
+Global("L0bowl","GLOBAL",0)
+Global("L0ShamanStronghold","GLOBAL",23)
+THEN
+RESPONSE #100
+ActionOverride("Chest",CreateItem("L0bowl",0,0,0))
+SetGlobal("L0bowl","GLOBAL",1)
+END
+
+IF
+Contains("L0web","rock")
+Contains("L0bowl","rock")
+Contains("L0grap","rock")
+Contains("L0mush","rock")
+Global("L0ShamanStronghold","GLOBAL",23)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",24)
+DestroyItem("L0web")
+DestroyItem("L0mush")
+DestroyItem("L0bowl")
+DestroyItem("L0grap")
+StartCutScene("L0CUT02")
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",25)
+THEN
+RESPONSE #100
+DestroyItem("L0web")
+DestroyItem("L0mush")
+DestroyItem("L0bowl")
+DestroyItem("L0grap")
+SetGlobal("L0ShamanStronghold","GLOBAL",26)
+SetGlobalTimer("L0ShamanStrongholdTime","GLOBAL",THREE_DAYS)
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",28)
+THEN
+RESPONSE #100
+SetGlobal("L0ShamanStronghold","GLOBAL",29)
+SetGlobalTimer("L0ShamanStrongholdTime","GLOBAL",THREE_DAYS)
+CreateCreature("l0merch",[1424.782],1)
+END
+
+IF
+GlobalTimerExpired("L0ShamanStrongholdTime","GLOBAL")
+GlobalGT("L0ShamanStronghold","GLOBAL",28)
+Global("L0destroymerchant","GLOBAL",0)
+THEN 
+RESPONSE #100
+ActionOverride("L0merch",EscapeArea())
+SetGlobal("L0destroymerchant","GLOBAL",1)
+END
+
+IF
+Global("L0ShamanStronghold","GLOBAL",32)
+THEN
+RESPONSE #100
+CreateVisualEffect("SPPORTAL",[980.685])
+SetGlobal("L0ShamanStronghold","GLOBAL",33)
+Deactivate("L0wisp1")
+Deactivate("L0wisp2")
+Deactivate("L0spidx")
+CreateCreature("l0ghas",[980.685],1)
+END
+
+IF
+CombatCounter(0)
+Dead("l0ghas")
+Global("L0ShamanStronghold","GLOBAL",33)
+THEN
+RESPONSE #100
+Activate("L0wisp1")
+Activate("L0wisp2")
+Activate("L0spidx")
+SetGlobal("L0ShamanStronghold","GLOBAL",34)
+ActionOverride("L0wisp1",StartDialogueNoSet(Player1))
+END
+
+//STORYTELLER
+
+IF
+GlobalGT("L0ShamanStronghold","GLOBAL",0)
+Global("L0StorytellerSpawn","l00000",0)
+THEN
+RESPONSE #100
+SetGlobal("L0StorytellerSpawn","l00000",1)
+CreateCreature("l0wisp2",[1311.705],S)
+END
+
+
+///WILL
+
+
+IF
+Global("L0WillCreated","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("L0WillCreated","GLOBAL",1)
+CreateCreature("l0will",[1325.475],1)
+END

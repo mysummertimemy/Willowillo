@@ -1,0 +1,11 @@
+IF
+Global("L0spawntreant","AR9300",0)
+THEN
+RESPONSE #100
+CreateCreature("l0tree",[2100.430],1)
+CreateCreature("l0tree",[2500.550],1)
+CreateCreature("l0tree",[1313.770],1)
+CreateCreature("l0tree",[3200.1470],1)
+CreateCreature("l0tree",[1430.440],1)
+SetGlobal("L0spawntreant","AR9300",1)
+END

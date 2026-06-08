@@ -1,0 +1,9 @@
+IF
+  BeenInParty("L0WILL")
+  GlobalLT("L0WillDeath","GLOBAL",4)
+  Global("L0WillRitualCheck","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("L0WILLPartyBG2","GLOBAL",0)
+    SetGlobal("L0WillRitualCheck","GLOBAL",1)
+END

@@ -1,0 +1,20 @@
+IF
+  Global("BD_Infra","MYAREA",0)
+  Entered([PC])
+  OR(8)
+    Race(Lasttrigger,ELF)
+    Race(Lasttrigger,HALF_ELF)
+    Race(Lasttrigger,DWARF)
+    Race(Lasttrigger,GNOME)
+    Race(Lasttrigger,HALFORC)
+    Race(Lasttrigger,TIEFLING)
+    Race(Lasttrigger,GOBLIN)
+    StateCheck(Lasttrigger,STATE_INFRAVISION)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("BD_Infra","MYAREA",1)
+    TriggerActivation("Light_Torch",TRUE)
+    SetInterrupt(TRUE)
+END
+

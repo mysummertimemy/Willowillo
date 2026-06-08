@@ -1,0 +1,49 @@
+
+IF
+  Global("BD_Torch","MYAREA",0)
+  Clicked([0])
+  OpenState("DOOR02",FALSE)
+  Range(Lasttrigger,6)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("BD_Torch","MYAREA",1)
+    OpenDoor("DOOR02")
+    AmbientActivate("Wall_Torch_01",TRUE)
+    ContainerEnable("Darkness_Chest",TRUE)
+    ContainerEnable("Darkness_Corpse",TRUE)
+    TriggerActivation("Infopoint06",TRUE)
+    TriggerActivation("Infravision_text",FALSE)
+    SetInterrupt(TRUE)
+END
+
+IF
+  Global("BD_Torch","MYAREA",1)
+  Clicked([0])
+  OpenState("DOOR02",FALSE)
+  Range(Lasttrigger,6)
+THEN
+  RESPONSE #100
+    OpenDoor("DOOR02")
+    AmbientActivate("Wall_Torch_01",TRUE)
+    ContainerEnable("Darkness_Chest",TRUE)
+    ContainerEnable("Darkness_Corpse",TRUE)
+    TriggerActivation("Infopoint06",TRUE)
+    TriggerActivation("Infravision_text",FALSE)
+END
+
+IF
+  Clicked([0])
+  OpenState("DOOR02",TRUE)
+  Range(Lasttrigger,6)
+THEN
+  RESPONSE #100
+    CloseDoor("DOOR02")
+    AmbientActivate("Wall_Torch_01",FALSE)
+    ContainerEnable("Darkness_Chest",FALSE)
+    ContainerEnable("Darkness_Corpse",FALSE)
+    TriggerActivation("Infopoint06",FALSE)
+    TriggerActivation("Infravision_text",TRUE)
+END
+
+

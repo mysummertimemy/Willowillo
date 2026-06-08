@@ -1,0 +1,1 @@
+IFGlobal("L0drum","AR2402",0)THENRESPONSE #100ActionOverride("Shelf1",CreateItem("L0drum",1,0,0))SetGlobal("L0drum","AR2402",1)END

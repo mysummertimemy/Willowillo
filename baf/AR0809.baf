@@ -1,0 +1,7 @@
+IF
+Global("L0bodd","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("Altar1",CreateItem("L0bodd",0,0,0))
+SetGlobal("L0bodd","GLOBAL",1)
+END

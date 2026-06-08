@@ -1,0 +1,7 @@
+IF
+Global("L0unboo","GLOBAL",0)
+THEN
+RESPONSE #100
+ActionOverride("Container2",CreateItem("L0unboo",0,0,0))
+SetGlobal("L0unboo","GLOBAL",1)
+END

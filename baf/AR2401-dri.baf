@@ -1,0 +1,1 @@
+IFGlobal("L0GiveMeDriders2","AR2401",0)THENRESPONSE #100CreateCreature("l0drider",[1580.1060],5)SetGlobal("L0GiveMeDriders2","AR2401",1)END
