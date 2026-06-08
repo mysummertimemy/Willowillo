@@ -1,0 +1,141 @@
+// Town Medium, American English
+//Kit range: @5501 to @6000
+
+///////////////////////////////////////////////////////////////////////////
+// Kit Text                                                              //
+///////////////////////////////////////////////////////////////////////////
+@5501 = ~miejskie medium~
+@5502 = ~Miejskie Medium~
+@5503 = ~MIEJSKIE MEDIUM: Miejskie media bywają nazywane miejskimi szamanami. Żyją w miastach, miasteczkach i innych osadach - albo przynajmniej w ich pobliżu. Wciąż znają magię natury i duchów, ale nie stronią od życia wśród ludzi i od miejskich spraw. Jedni próbują ukrywać swój dar, inni czynią z niego źródło utrzymania: zostają uzdrowicielami, zbieraczami miejskich podań, pośrednikami między żywymi a zmarłymi. Nierzadko mieszkańcy proszą ich o pomoc w skontaktowaniu się z nieżyjącymi krewnymi... a nawet z ukochanymi zwierzętami, bo wierzą, że to ostatnia szansa na pożegnanie. Wiele miejskich mediów ma jednak większą moc. Czasem wynajmuje się je, by chroniły żywych przed poltergeistami, badały sprawy w jakiś sposób związane ze śmiercią albo wspierały proces leczenia swymi nie z tego świata umiejętnościami. Ci, którzy próbują wieść zwyczajne życie, często przekonują się, że to trudne - bo nie tylko żywi potrafią domagać się uwagi medium.
+
+Zalety:
+– Może rzucać Poznanie charakteru raz dziennie
+– Może rzucać Wykrycie niewidzialnego raz dziennie
+– Szamański taniec przyzywa następujące istoty:
+  Poziom 1: Duch mieszczanina (rzeźnik, zawadiaka, kowal), maksymalnie 2 duchy jednocześnie.
+  Poziom 6: Duch miejscowego rzezimieszka (bandyta, przemytnik, zbir), maksymalnie 3 duchy jednocześnie.
+  Poziom 12: Duch miejscowego awanturnika (bard, najemnik, łucznik), maksymalnie 4 duchy jednocześnie.
+  Poziom 18: Uosobienie lokalnej legendy (lokalny bohater, wilkołak, kapitan straży), maksymalnie 5 duchów jednocześnie.
+
+– 2. poziom: Może użyć Zawładnięcia dawno umarłymi raz dziennie.
+
+ZAWŁADNIĘCIE DAWNO UMARŁYMI: Medium potrafi nawiązać kontakt z duchami, które zmarły w danym miejscu, i poprosić je o wskazanie drogi do cennych przedmiotów pozostawionych za życia. Należy jednak pamiętać, że pojęcie „cenny” związane jest z sentymentem — duchy mogą więc zaprowadzić medium do tego, za czym tęsknią najbardziej. Przedmioty, które medium może otrzymać, są losowo wybierane z poniższej listy: złoty pierścień, pierścień z jadeitem, srebrny naszyjnik, lwie oko, andradyt, cyrkon, perła, sfin, sztylet, 100 szt. złota, 20 strzał +1, mikstura leczenia, czaszka, losowa niemagiczna księga.
+
+– 4. poziom: Może użyć Ochrony przed Zbłąkanymi raz dziennie.
+
+OCHRONA PRZED ZBŁĄKANYMI: Medium potrafi osłonić żywych przed duchami zmarłych krewnych i innymi zjawami, otaczając wszystkich w promieniu 5 metrów magiczną ochroną, która zapewnia +2 do Klasy Pancerza oraz do rzutów obronnych przeciw nieumarłym. Dodatkowo istnieje 20% + 5% na poziom (maks. 100%) szansy, że wrogie nieumarłe istoty w zasięgu zostaną odepchnięte od czarującego i otrzymają 2k4 obrażeń obuchowych. Efekt ochronny trwa 1 turę + 1 rundę na każde 3 poziomy czarującego.
+
+– 6. poziom: Może użyć Ukojenia Zmarłych raz dziennie.
+
+UKOJENIE ZMARŁYCH: Zdolność obejmuje 1k4 wrogich nieumarłych. Dokładniej: działa na wybranego przeciwnika oraz do 3 wrogich nieumarłych w promieniu 3 metrów od niego - z 50% szansą na oczarowanie na 1 turę albo z 50% szansą na spowolnienie: -4 do szybkości poruszania i -0,5 ataku na rundę na ten sam czas. Udany rzut obronny przeciw czarom z modyfikatorem -5 niweczy efekt. Na 8. poziomie Ukojenie Zmarłych ulepsza się i obejmuje 2k4 wrogich nieumarłych.
+
+– 8. poziom: Oprócz czarów dostępnych wyłącznie dla szamanów zyskuje dodatkowy czar - Pomniejsze przywrócenie, którego uczy się automatycznie.
+– 9. poziom: Zyskuje pasywną zdolność Miejskie obycie, która zapewnia stały +1 do Charyzmy oraz +2 do Klasy Pancerza i rzutów obronnych przeciw wszystkim humanoidom.
+– 12. poziom: Może użyć Wyroczni raz dziennie.
+
+Wady:
+– Maksymalna Siła zostaje zmniejszona o 2.
+– Może opanować biegłość w następujących broniach: sztylet, kostur, oszczep oraz krótkie łuki.~
+
+@5504 = ~Zawładnięcie dawno umarłymi~
+@5505 = ~Zawładnięcie dawno umarłymi
+Medium potrafi porozumieć się z duchami, które zginęły w danym miejscu i poprosić je o wskazanie cennych przedmiotów pozostawionych za życia. Pojęcie „cenny” związane jest z sentymentem — duchy mogą więc zaprowadzić medium do tego, za czym tęsknią najbardziej. Przedmioty, które medium może otrzymać, są losowo wybierane z poniższej listy: 
+
+1) złoty pierścień
+2) pierścień z jadeitem
+3) srebrny naszyjnik
+4) lwie oko
+5) andradyt
+6) cyrkon
+7) perła
+8) sfin
+9) sztylet
+10) 100 szt. złota
+11) 20 strzał +1
+12) mikstura leczenia
+13) czaszka
+14) Losowa niemagiczna księga~
+
+@5506 = ~Ochrona przed zbłąkanymi~
+@5507 = ~Ochrona przed zbłąkanymi
+Medium potrafi osłonić żywych przed duchami zmarłych krewnych i innymi zjawami, otaczając wszystkich w promieniu 5 metrów magią, która zapewnia +2 do Klasy Pancerza oraz do rzutów obronnych przeciw nieumarłym. Dodatkowo istnieje 20% + 5% na poziom (maks. 100%) szansy, że wrogie nieumarłe istoty w zasięgu zostaną odepchnięte od czarującego i otrzymają 2k4 obrażeń obuchowych. Efekt ochronny trwa 1 turę + 1 rundę na każde 3 poziomy czarującego.~
+
+@5508 = ~Ukojenie Zmarłych~
+@5509 = ~Ukojenie Zmarłych
+Zdolność obejmuje 1k4 wrogich nieumarłych. Dokładniej: działa na wybranego przeciwnika oraz do 3 wrogich nieumarłych w promieniu 3 metrów od niego - z 50% szansą na oczarowanie na 1 turę albo z 50% szansą na spowolnienie: -4 do szybkości poruszania i -0,5 ataku na rundę na ten sam czas. Udany rzut obronny przeciw czarom z modyfikatorem -5 niweczy efekt. Na 8. poziomie Ukojenie zmarłych ulepsza się i obejmuje 2k4 wrogich nieumarłych. ~
+
+@5510 = ~Poznanie charakteru
+(Poznanie)
+
+Poziom: 2
+Sfera: Poznanie
+Zasięg: pole widzenia rzucającego czar
+Czas trwania: 1 tura
+Czas rzucania: 0
+Obszar działania: 1 istota
+Rzut obronny: neguje
+
+Czar Poznanie charakteru pozwala kapłanowi odczytać aurę istoty. Udany rzut obronny przeciw czarom niweczy efekt. Istoty złe przez krótki czas jarzą się na czerwono, neutralne na niebiesko, a dobre na zielono.~
+
+@5511 = ~Wykrycie niewidzialnego
+(Poznanie)
+
+Poziom: 2
+Zasięg: pole widzenia rzucającego czar
+Czas działania: natychmiastowy
+Czas rzucania: 0
+Obszar działania: w promieniu 5 metrów
+Rzut obronny: brak
+
+Gdy czarodziej rzuca Wykrycie niewidzialnego, rozprasza wrogą niewidzialność i ujawnia ukrytych przeciwników w obszarze działania (np. złodziei korzystających z ukrywania się w cieniu).
+
+Uwaga: jeśli niewidzialna istota wejdzie na obszar, na który wcześniej rzucono ten czar, to pozostanie ona niewidzialna.~
+
+@5512 = ~Wyrocznia
+(Poznanie)
+
+Poziom: 5
+Zasięg: 0
+Czas działania: natychmiastowy
+Czas rzucania: 0
+Obszar działania: w promieniu 40 metrów
+Rzut obronny: brak
+
+Czar ten neguje wszystkie zaklęcia ze szkoły Iluzji/Urojeń poziomu 5. lub niższego, które funkcjonują na danym obszarze. Do zaklęć tych zalicza się: Rozmycie, Odbity obraz, Niewidzialność, Lustrzane odbicie, Niewykrywalność, Ulepszona niewidzialność oraz Drzwi z cienia. Czarujący może określić, na kogo dane zaklęcie będzie wpływać, w związku z tym działa ono jedynie na istoty niebędące członkami jego drużyny.
+
+Posiadana przez cel odporność na magię nie ma wpływu na działanie tego czaru.~
+
+@5513 = ~Wykrycie niewidzialności~
+@5514 = ~Wyrocznia~
+
+///////////////////////////////////////////////////////////////////////////
+// Dance Text                                                            //
+///////////////////////////////////////////////////////////////////////////
+@4000 = ~Duch zmarłego mieszczanina odpowiada na twoje wezwanie.~
+@4001 = ~Duch miejscowego rzezimieszka odpowiada na twoje wezwanie.~
+@4002 = ~Duch awanturnika odpowiada na twoje wezwanie.~
+@4003 = ~Duch legendy odpowiada na twoje wezwanie.~
+@4004 = ~Żaden duch nie odpowiada na twoje wezwanie.~
+
+///////////////////////////////////////////////////////////////////////////
+// Creatures                                                             //
+///////////////////////////////////////////////////////////////////////////
+// lvl 2 (normal weapons)
+@2000 = ~Rzeźnik~  // Dude with axe
+@2001 = ~Kowal~  // Dude with hammer and leather armor
+@2002 = ~Zawadiaka~  // Angry monk woman with fists
+
+// lvl 4 (+1 enchantment)
+@2003 = ~Bandyta~  // Dude with crossbow and daddy issues
+@2004 = ~Przemytnik~  // Thief w/ club
+@2005 = ~Zbir~  // Thief with short sword
+
+// lvl 8 (+2 enchantment)
+@2006 = ~Bard~  // Sing and Quarterstaff
+@2007 = ~Najemnik~  // Chain mail, bastard sword, single weapon style
+@2008 = ~Łucznik~  // Bow and leather armor
+
+// lvl 12 (+3 enchantment)
+@2009 = ~Lokalny bohater~  // Dual Wield Flail and Warhammer
+@2010 = ~Wilkołak~  // Greater Werewolf
+@2011 = ~Kapitan straży~  // Sword and Shield style

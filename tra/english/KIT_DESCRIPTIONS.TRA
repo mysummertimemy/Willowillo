@@ -1,0 +1,139 @@
+// Town Medium, American English
+//Kit range: @5501 to @6000
+
+///////////////////////////////////////////////////////////////////////////
+// Kit Text                                                              //
+///////////////////////////////////////////////////////////////////////////
+@5501 = ~town medium~
+@5502 = ~Town Medium~
+@5503 = ~TOWN MEDIUM: The Town Mediums are often reffered to as urban shamans. They live in the cities, towns and other settlements, or at least somewhat close to them. They still know nature and spirit types of magic, but they also do not stray from the urban life and social events. Some of them try to hide their gifts, while others turn it into business, become healers, collectors of urban myths, and spiritual links between people and the dead ones. It's not uncommon for other citizens to ask these people to help them contact their dead relatives and pets, as many think of them as their chance for saying their last goodbyes. Many of the Town Mediums, however, have more power than that. Sometimes they are also hired to protect the living from poltergeists, to investigate matters somehow conncected to the dead or those that may help the healing process with their otherwordly skills. Those that try to live the normal life, however, often find it quite hard as it's not just the living that may seek medium's attention.  
+
+Advantages:
+– May cast Know Alignment once per day 
+– May cast Detect Invisibility once per day
+– Shamanic dance summons the following creatures:
+  Level 1: Commoner's spirit (butcher, rowdy, blacksmith), up to 2 spirits at the same time.
+  Level 6: Local thug's spirit (bandit, smuggler, thug), up to 3 spirits at the same time.
+  Level 12: Local adventurer spirit (bard, mercenary, archer), up to 4 spirits at the same time.
+  Level 18: Local legend manifestation (local hero, werewolf, guard captain), up to 5 spirits at the same time.
+
+– 2nd Level: May use Long Left Possession once per day.
+
+LONG LEFT POSSESSION: The medium may communicate with ghosts that died on the location to ask them for a direction to precious items they left behind. However, the word "precious" may be a matter of sentiment, thus the spirits may lead the medium to what the ghosts miss the most. The items the medium can receive are random from the following list: Gold ring, Jade ring, Silver necklace, Lynx eye gem, Andar gem, Zircon gem, Pearl, Sphene gem, Dagger, 100 gold, 20 Arrows +1, Potion of Healing, Skull, Random non-magical book.
+
+– 4th Level: May use Protect from the Lost Ones once per day.
+
+PROTECT FROM THE LOST ONES: The medium may protect the living from their dead relatives, and other ghosts, by surrounding everyone within a 15-ft radius with magic that grants +2 bonus to Armor Class and Saving Throws vs. Undead. There is also a 20% +5% per level chance (up to 100%) that the hostile undead standing within range will be pushed away from the caster and dealt 2d4 crushing damage. The protective effect lasts 1 turn + 1 round per every 3 levels of the caster.
+
+– 6th Level: May use Calm the Dead once per day.
+
+CALM THE DEAD: The ability targets 1d4 enemy undead creatures. Specifically, it affects the targeted enemy and up to 3 hostile undead creatures within 10ft. of it with either a 50% chance to become charmed for 1 turn or a 50% to receive -4 to movement speed and -0.5 attack per round for the same duration. A successful Save vs. Spell at -5 negates the effects. At 8th level, Calm the Dead improves and will target 2d4 enemy undead creatures.
+
+– 8th Level: In addition to shaman exclusive spells, gains one additional spell, Lesser Restoration, that is automatically learned.
+– 9th Level: Gains the Urban Recognition passive ability which provides a permanent +1 bonus to Charisma and a bonus of +2 Armor Class and Saving Throws vs. all Humanoids.
+– 12th Level: May use Oracle once per day.
+
+Disadvantages:
+– Receives a -2 max strength penalty.
+– May become proficient in following weapons: dagger, quarterstaff, dart, shortbows, and fighting styles.~
+
+@5504 = ~Long Left Possession~
+@5505 = ~Long Left Possession
+The medium may communicate with ghosts that died on the location to ask them for a direction to precious items they left behind. However, the word "precious" may be a matter of sentiment, thus the spirits may lead the medium to what the ghosts miss the most. The items the medium can receive are random from the following list:
+
+1) Gold ring 
+2) Jade ring 
+3) Silver necklace
+4) Lynx eye gem
+5) Andar gem
+6) Zircon gem
+7) Pearl
+8) Sphene gem
+9) Dagger
+10) 100 gold
+11) 20 Arrows +1
+12) Potion of Healing
+13) Skull
+14) Random non-magical book~
+
+@5506 = ~Protect from the Lost Ones~
+@5507 = ~Protect from the Lost Ones
+The medium may protect the living from their dead relatives, and other ghosts, by surrounding everyone within a 15-ft radius with magic that grants +2 bonus to Armor Class and Saving Throws vs. Undead. There is also a 20% +5% per level chance (up to 100%) that the hostile undead standing within range will be pushed away from the caster and dealt 2d4 crushing damage. The protective effect lasts 1 turn + 1 round per every 3 levels of the caster.~
+
+@5508 = ~Calm the Dead~
+@5509 = ~Calm the Dead
+The ability targets 1d4 enemy undead creatures. Specifically, it affects the targeted enemy and up to 3 hostile undead creatures within 10ft. of it with either a 50% chance to become charmed for 1 turn or a 50% to receive -4 to movement speed and -0.5 attack per round for the same duration. A successful Save vs. Spell at -5 negates the effects. At 8th level, Calm the Dead improves and will target 2d4 enemy undead creatures. ~
+
+@5510 = ~Know Alignment
+(Divination)
+
+Level: 2
+Sphere: Divination
+Range: Visual range of the caster
+Duration: 1 turn
+Casting Time: 0
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+A Know Alignment spell enables the priest to read the aura of a creature. A successful Save vs. Spell negates the effect. Evil creatures will glow red, neutrals blue, and good creatures will glow green for a brief period.~
+
+@5511 = ~Detect Invisibility
+(Divination)
+
+Level: 2
+Range: Visual range of the caster
+Duration: Instant
+Casting Time: 0
+Area of Effect: 15-ft. radius
+Saving Throw: None
+
+When the wizard casts Detect Invisibility, <PRO_HESHE> dispels enemy invisibility and reveals any hidden foes in the area of effect (i.e. Thieves using Stealth).
+
+Note: If an invisible enemy enters the area of effect after the spell has already been cast, the creature will remain invisible.~
+
+@5512 = ~Oracle
+(Divination)
+
+Level: 5
+Range: 0
+Duration: Instant
+Casting Time: 0
+Area of Effect: 120-ft. radius
+Saving Throw: None
+
+When cast, this spell will cancel all Illusion/Phantasm spells of 5th level and lower within its area of effect. The spells affected are Blur, Reflected Image, Invisibility, Mirror Image, Non-Detection, Improved Invisibility, and Shadow Door. The caster can control whom this spell affects; thus, it will affect only creatures that are not in the caster's party. A target's Magic Resistance, if any, does not affect this spell.~
+
+@5513 = ~Detect Invisibility~
+@5514 = ~Oracle~
+
+///////////////////////////////////////////////////////////////////////////
+// Dance Text                                                            //
+///////////////////////////////////////////////////////////////////////////
+@4000 = ~A spirit of a dead commoner answers your call.~
+@4001 = ~A spirit of a local thug answers your call.~
+@4002 = ~A spirit of an adventurer answers your call.~
+@4003 = ~A spirit of legend answers your call.~
+@4004 = ~No spirits answer your call.~
+
+///////////////////////////////////////////////////////////////////////////
+// Creatures                                                             //
+///////////////////////////////////////////////////////////////////////////
+// lvl 2 (normal weapons)
+@2000 = ~Butcher~  // Dude with axe
+@2001 = ~Blacksmith~  // Dude with hammer and leather armor
+@2002 = ~Rowdy~  // Angry monk woman with fists
+
+// lvl 4 (+1 enchantment)
+@2003 = ~Bandit~  // Dude with crossbow and daddy issues
+@2004 = ~Smuggler~  // Thief w/ club
+@2005 = ~Thug~  // Thief with short sword
+
+// lvl 8 (+2 enchantment)
+@2006 = ~Bard~  // Sing and Quarterstaff
+@2007 = ~Mercenary~  // Chain mail, bastard sword, single weapon style
+@2008 = ~Archer~  // Bow and leather armor
+
+// lvl 12 (+3 enchantment)
+@2009 = ~Local Hero~  // Dual Wield Flail and Warhammer
+@2010 = ~Werewolf~  // Greater Werewolf
+@2011 = ~Guard Captain~  // Sword and Shield style

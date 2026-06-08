@@ -1,0 +1,1446 @@
+BACKUP ~willowisp\backup~
+AUTHOR ~Lava Del'Vortel~
+README ~willowisp\readme.txt~
+VERSION ~v3.3~
+
+AUTO_TRA ~willowisp/tra/%s~
+
+ALWAYS
+  INCLUDE ~%MOD_FOLDER%/lib/fl#add_kit_ee.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/always.tph~
+  INCLUDE ~%MOD_FOLDER%/lib/functions.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/other_functions.tpa~
+  INCLUDE ~%MOD_FOLDER%/RA_SPHERE_COMPAT.tpa~
+END
+
+LANGUAGE ~English~
+         ~English~
+         ~willowisp/tra/English/setup.TRA~
+
+LANGUAGE ~Simplified Chinese (translation: Lzw104522773)~
+         ~schinese~
+         ~willowisp/tra/schinese/setup.TRA~
+
+BEGIN @21
+  REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @22
+  LABEL L#-WILLOFTHEWISP-MAIN
+  
+
+
+//////////////////////////////////////////////////////////////////////////////////
+////WILSON DOESN'T HAVE HIS BANTER FILE - THAT MAKES HIM SAD! LET'S CHANGE THAT///
+//////////////////////////////////////////////////////////////////////////////////
+
+
+ACTION_IF FILE_EXISTS_IN_GAME ~wilson.dlg~ THEN BEGIN
+ PRINT @23
+    APPEND ~interdia.2da~ ~WILSON BWILSON BWILSO25~
+    UNLESS ~WILSON~
+   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSON.dlg~) THEN BEGIN
+   COMPILE ~willowisp/d/BWILSONFix.d~
+  END
+   ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSO25.dlg~) THEN BEGIN
+   COMPILE ~willowisp/d/BWILSO25Fix.d~
+  END
+END
+
+
+////////////////////Existing Area Change
+
+COPY_EXISTING ar2100.are override
+  LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 2275
+    fj_loc_y       = 325
+    fj_orientation = 2   // NW
+    STR_VAR
+    fj_structure_type = entrance
+    fj_name           = L0NEW
+  END
+
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+///////////////////KIT////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+
+
+
+COPY ~willowisp/2da~ ~override~
+COPY ~willowisp/cre-kit~ ~override~
+COPY ~willowisp/spl-kit~ ~override~
+
+ADD_KIT ~l0ws~
+  // Appended to CLASWEAP.2da
+  ~l0ws                1           0           1           1           0           0           0           1~
+
+  // Appended column-wise to WEAPPROF.2da
+  //11                              T   S           F   Q             S S
+  //10                              W   C           L   U             W I
+  //9                       B L S   O   I   W       A   A             O N
+  //8                       A O H   H   M   A       I   R C   S       R G
+  //7       L S           M S N O   A   I   R     H L   T R L H     2 D L 2                 E E E E E E E E E E E
+  //6       _ _       S   I T G R   N K T D H     A M   E O O O     H A E W E E E E E E E E X X X X X X X X X X X
+  //5       S S   S B P   S A S T   D A A A A   S L O   R S N R   S A N W E X X X X X X X X T T T T T T T T T T T
+  //4       W W   P L I   S R W S   E T R G M C P B R M S S G T D L N D E A T T T T T T T T R R R R R R R R R R R
+  //3       O O B E U K A I D O W A D A W G M L E E N A T B B B A I D S A P R R R R R R R R A A A A A A A A A A A
+  //2       R R O A N E X L S R O X S N A E E U A R I C A O O O R N E H P O A A A A A A A A 1 1 1 1 1 1 1 1 1 1 2
+  //1       D D W R T D E E W D R E W A K R R B R D N E F W W W T G D I O N 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
+  ~l0ws		0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  // Appended to ABCLASRQ.2da
+  ~l0ws                0       0       12       0       12      0~
+
+  // Appended to ABCLSMOD.2da
+  ~l0ws                0       -2       0      0       0       -2~
+
+  // Appended to ABDCDSRQ.2da
+  ~l0ws                0 0 0 0 0 0~
+
+  // Appended to ABDCSCRQ.2da
+  ~l0ws                0 0 0 0 0 0~
+
+  // Appended to ALIGNMNT.2da
+  ~l0ws                0       0       0       0       1       0       0       0       0~
+
+  // Appended to DUALCLAS.2da
+  ~l0ws                0       0       0       0       0       0~
+  ~willowisp/2da/l0clabws.2da~
+  // PC races and classes allowed to use this kit, from KITTABLE.2da
+  ~K_SH_H K_SH_HE K_SH_HO~
+  ~0x00004000        21~
+  ~l0ws~
+  ~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
+  SAY @24
+  SAY @24
+  SAY @25
+
+LAF fl#add_kit_ee
+  STR_VAR
+    kit_name = l0ws
+END
+
+//DoF's Spheres
+
+ACTION_IF FILE_EXISTS_IN_GAME ~RASPHERE.marker~ BEGIN
+
+	LAF RA_SPHERE_COMPAT STR_VAR kitname = ~l0ws~ clabfile = ~l0clabws~ seqresref  = ~L0WS~ END
+
+END
+
+// Creatures
+
+COPY ~willowisp/cre-kit/l0summ1.cre~ ~override~
+SAY NAME1 @26
+SAY NAME2 @26
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM1~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ2.cre~ ~override~
+SAY NAME1 @27
+SAY NAME2 @27
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP_SMALL~))
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM2~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ3.cre~ ~override~
+SAY NAME1 @28
+SAY NAME2 @28
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM3~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ4.cre~ ~override~
+SAY NAME1 @29
+SAY NAME2 @29
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP~))
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM4~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ5.cre~ ~override~
+SAY NAME1 @30
+SAY NAME2 @30
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM5~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ6.cre~ ~override~
+SAY NAME1 @31
+SAY NAME2 @31
+    WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP~))
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM6~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ7.cre~ ~override~
+SAY NAME1 @32
+SAY NAME2 @32
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM7~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0tree.cre~ ~override~
+SAY NAME1 @33
+SAY NAME2 @33
+
+// Spells
+
+COPY ~willowisp/spl-kit/l0wsinn1.spl~ ~override~
+
+COPY ~willowisp/spl-kit/l0wssumm.SPL~ ~override~ //The new shaman dance
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103121 // "A minor animal spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@34)
+  END
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103122 // "A major animal spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@35)
+  END
+    LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103123 // "A minor nature spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@36)
+  END
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103124 // "A major nature spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@37)
+  END
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103120 // @38
+ parameter1 = RESOLVE_STR_REF (@38)
+  END
+
+COPY ~willowisp/spl-kit/l0wssp1.spl~ ~override~
+SAY NAME1 @39
+SAY NAME2 @39
+SAY UNIDENTIFIED_DESC @40
+
+COPY ~willowisp/spl-kit/l0wssp2.spl~ ~override~
+SAY NAME1 @41
+SAY NAME2 @41
+SAY UNIDENTIFIED_DESC @42
+
+COPY ~willowisp/spl-kit/l0wssp3.spl~ ~override~
+SAY NAME1 @43
+SAY NAME2 @43
+SAY UNIDENTIFIED_DESC @44
+
+COPY ~willowisp/spl-kit/l0wssp4.spl~ ~override~
+SAY NAME1 @45
+SAY NAME2 @45
+SAY UNIDENTIFIED_DESC @46
+
+COPY ~willowisp/spl-kit/l0wssp5.spl~ ~override~
+SAY NAME1 @47
+SAY NAME2 @47
+SAY UNIDENTIFIED_DESC @48
+
+COPY ~willowisp/spl-kit/l0wssp6.spl~ ~override~
+SAY NAME1 @49
+SAY NAME2 @49
+SAY UNIDENTIFIED_DESC @50
+
+COPY ~willowisp/spl-kit/l0wsin1.spl~ ~override~
+SAY NAME1 @51
+SAY NAME2 @51
+SAY UNIDENTIFIED_DESC @52
+
+COPY ~willowisp/spl-kit/l0wsin2.spl~ ~override~
+SAY NAME1 @53
+SAY NAME2 @53
+SAY UNIDENTIFIED_DESC @54
+
+COPY ~willowisp/spl-kit/l0wsdag1.itm~ ~override~
+COPY ~willowisp/spl-kit/l0wsdag2.itm~ ~override~
+
+COPY ~willowisp/spl-kit/l0wsin3.spl~ ~override~
+SAY NAME1 @55
+SAY NAME2 @55
+SAY UNIDENTIFIED_DESC @56
+
+COPY ~willowisp/spl-kit/l0tnat.spl~ ~override~
+SAY NAME1 @57
+SAY NAME2 @57
+SAY UNIDENTIFIED_DESC @58
+
+COPY ~willowisp/spl-kit/l0wsdag1.itm~ ~override~
+COPY ~willowisp/spl-kit/l0wsdag2.itm~ ~override~
+
+COPY ~willowisp/spl-kit/l0wshla1.spl~ ~override~
+SAY NAME1 @59
+SAY NAME2 @59
+SAY UNIDENTIFIED_DESC @60
+
+COPY ~willowisp/spl-kit/l0wshla2.spl~ ~override~
+SAY NAME1 @61
+SAY NAME2 @61
+SAY UNIDENTIFIED_DESC @62
+
+COPY ~willowisp/spl-kit/l0wshla3.spl~ ~override~
+SAY NAME1 @45
+SAY NAME2 @45
+
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+
+COPY ~willowisp/wavbmp-n~ ~override~
+COPY ~willowisp/ini~ ~override~
+
+////////////////////////////////////////
+/////////RACE///////////////////////////
+////////////////////////////////////////
+
+OUTER_SET spec_lcase = RESOLVE_STR_REF(@63)
+OUTER_SET spec_ucase = RESOLVE_STR_REF(@30)
+APPEND ~racetext.2da~ ~SPECTRE   133        %spec_lcase%       -1         %spec_ucase%          -1~ UNLESS ~SPECTRE~
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+
+COPY ~willowisp/cre/L0will.cre~ ~override~
+
+  WRITE_SHORT   0x244 0
+  WRITE_SHORT   0x246 0x4000 + ~%l0ws%~
+  
+  SAY NAME1 @64
+  SAY NAME2 @64
+  
+  SAY BIO @65
+  
+SAY MORALE ~~ []
+SAY HAPPY @67
+SAY UNHAPPY_ANNOYED @68
+SAY UNHAPPY_SERIOUS @69
+SAY UNHAPPY_BREAKING_POINT @70
+SAY LEADER @71
+SAY TIRED @72
+SAY BORED @73
+SAY BATTLE_CRY1 @74
+SAY BATTLE_CRY2 @75
+SAY BATTLE_CRY3 @76
+SAY BATTLE_CRY4 @77
+SAY BATTLE_CRY5 @78
+SAY DAMAGE @79
+SAY DYING @80
+SAY HURT @81
+SAY AREA_FOREST @82
+SAY AREA_CITY @83
+SAY AREA_DUNGEON @84
+SAY AREA_DAY @85
+SAY AREA_NIGHT @86
+SAY SELECT_COMMON1 @87
+SAY SELECT_COMMON2 @88
+SAY SELECT_COMMON3 @89
+SAY SELECT_COMMON4 @90
+SAY SELECT_COMMON5 @91
+SAY SELECT_COMMON6 @92
+SAY SELECT_ACTION1 @93
+SAY SELECT_ACTION2 @94
+SAY SELECT_ACTION3 @95
+SAY SELECT_ACTION4 @96
+SAY SELECT_ACTION5 @97
+SAY SELECT_ACTION6 @98
+SAY SELECT_ACTION7 @99
+SAY CRITICAL_HIT @100
+SAY CRITICAL_MISS @101
+SAY TARGET_IMMUNE @102
+SAY INVENTORY_FULL @103
+SAY SELECT_RARE1 @104
+SAY SELECT_RARE2 @105
+SAY SPELL_DISRUPTED @106
+SAY SET_A_TRAP ~~ []
+SAY HIDDEN_IN_SHADOWS ~~ []
+SAY PICKED_POCKET ~~ []
+SAY REACT_TO_DIE_GENERAL ~~ []
+
+
+// Appends
+
+APPEND ~pdialog.2da~ ~l0will l0willP l0willJ l0willD l0wil25P l0wil25J l0wil25D l0wil25~
+  UNLESS ~l0will~
+
+APPEND ~interdia.2da~ ~l0will l0willB l0wil25B~
+  UNLESS ~l0will~
+
+
+
+
+//////////////////
+///AREA CHANGE////
+//////////////////
+
+////////////////////Existing Area Change
+
+COPY_EXISTING ar1400.are override
+  LPF fj_are_structure
+    INT_VAR
+    fj_type         = 2    //travel
+    fj_box_left     = 518
+    fj_box_top      = 552
+    fj_box_right    = 682
+    fj_box_bottom   = 688
+    fj_cursor_idx   = 42   // door
+   fj_flags        = 4    // party required
+   fj_flags        = 512  // NPCs can't pass
+   fj_flags        = 516  // party required, NPCs can't pass
+    fj_vertex_0     = 682 + (644 << 16)
+    fj_vertex_1     = 659 + (559 << 16)
+    fj_vertex_2     = 627 + (552 << 16)
+    fj_vertex_3     = 584 + (562 << 16)
+    fj_vertex_4     = 548 + (589 << 16)
+    fj_vertex_5     = 518 + (613 << 16)
+    fj_vertex_6     = 566 + (688 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = L0Trans // region name
+    fj_destination_area = L00000      // *.ARE
+    fj_destination_name = En          // entrance name
+  END
+
+
+
+//CD_STATE_NOTVALID
+
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+UNLESS ~CD_STATE_NOTVALID~
+
+
+//STORE
+
+COPY ~willowisp/sto/l0merch.sto~  ~override/l0merch.sto~
+  SAY 0xc @107
+  
+COPY ~willowisp/sto/l0wiboy.sto~  ~override/l0wiboy.sto~
+  SAY 0xc @108
+
+//CREATURE
+
+COPY ~willowisp/cre/L0wisp1.cre~ ~override~
+  
+  SAY NAME1 @109
+  SAY NAME2 @109
+  
+COPY ~willowisp/cre/L0wisp2.cre~ ~override~
+  
+  SAY NAME1 @110
+  SAY NAME2 @110
+
+COPY ~willowisp/cre/L0spidx.cre~ ~override~
+  
+  SAY NAME1 @111
+  SAY NAME2 @111  
+
+COPY ~willowisp/cre/L0thief1.cre~ ~override~
+  
+  SAY NAME1 @112
+  SAY NAME2 @112
+  
+COPY ~willowisp/cre/L0emis.cre~ ~override~
+  
+  SAY NAME1 @113
+  SAY NAME2 @113
+
+COPY ~willowisp/cre/L0emisx.cre~ ~override~
+  
+  SAY NAME1 @114
+  SAY NAME2 @114
+   
+COPY ~willowisp/cre/L0spid.cre~ ~override~
+  
+  SAY NAME1 @115
+  SAY NAME2 @115 
+
+COPY ~willowisp/cre/L0merch.cre~ ~override~
+  
+  SAY NAME1 @116
+  SAY NAME2 @116 
+
+COPY ~willowisp/cre/L0sq.cre~ ~override~
+  
+  SAY NAME1 @117
+  SAY NAME2 @117 
+
+COPY ~willowisp/cre/L0ghas.cre~ ~override~
+  
+  SAY NAME1 @118
+  SAY NAME2 @118 
+
+COPY ~willowisp/cre/L0wiboy.cre~ ~override~
+  
+  SAY NAME1 @116
+  SAY NAME2 @116 
+
+COPY ~willowisp/cre/L0udwi.cre~ ~override~
+  
+  SAY NAME1 @119
+  SAY NAME2 @119 
+
+COPY ~willowisp/cre/L0udbea.cre~ ~override~
+  
+  SAY NAME1 @120
+  SAY NAME2 @120 
+
+COPY ~willowisp/cre/L0mow.cre~ ~override~
+  
+  SAY NAME1 @121
+  SAY NAME2 @121 
+
+COPY ~willowisp/cre/L0mow2.cre~ ~override~
+  
+  SAY NAME1 @121
+  SAY NAME2 @121 
+  
+  
+//ITEMS
+
+COPY ~willowisp/itm-n~ ~override~
+COPY ~willowisp/itm/l0tree.itm~ ~override~
+
+COPY ~willowisp/itm/l0mow.itm~ ~override~
+SAY NAME1 @122
+SAY NAME2 @122
+
+COPY ~willowisp/itm/l0udkey.itm~ ~override~
+SAY NAME1 @123
+SAY NAME2 @123
+SAY DESC @124
+
+COPY ~willowisp/itm/l0udtre.itm~ ~override~
+SAY NAME1 @125
+SAY NAME2 @126
+SAY DESC @127
+
+COPY ~willowisp/itm/l0wisp1.itm~ ~override~
+SAY NAME1 @128
+SAY NAME2 @128
+SAY DESC @129
+
+
+COPY ~willowisp/itm/l0ioun.itm~ ~override~
+SAY NAME1 @130
+SAY NAME2 @131
+SAY DESC @132
+
+COPY ~willowisp/itm/L0will0.itm~ ~override~
+SAY NAME1 @133
+SAY NAME2 @133
+SAY DESC @134
+
+COPY ~willowisp/itm/L0seed.itm~ ~override~
+SAY NAME1 @135
+SAY NAME2 @135
+SAY DESC @136
+
+COPY ~willowisp/itm/L0fro.itm~ ~override~
+SAY NAME1 @137
+SAY NAME2 @137
+SAY UNIDENTIFIED_DESC @138
+SAY DESC @139
+
+COPY ~willowisp/itm/L0skin.itm~ ~override~
+SAY NAME1 @140
+SAY NAME2 @140
+SAY DESC @141
+
+COPY ~willowisp/itm/L0skin2.itm~ ~override~
+SAY NAME1 @142
+SAY NAME2 @142
+SAY DESC @143
+
+COPY ~willowisp/itm/L0spidx.itm~ ~override~
+SAY NAME1 @111
+SAY NAME2 @111
+SAY DESC @144
+
+COPY ~willowisp/itm/L0fly.itm~ ~override~
+SAY NAME1 @145
+SAY NAME2 @145
+SAY DESC @146
+
+
+COPY ~willowisp/itm/L0bowl.itm~ ~override~
+SAY NAME1 @147
+SAY NAME2 @147
+SAY DESC @148
+
+COPY ~willowisp/itm/L0web.itm~ ~override~
+SAY NAME1 @149
+SAY NAME2 @149
+SAY DESC @150
+
+COPY ~willowisp/itm/L0mush.itm~ ~override~
+SAY NAME1 @151
+SAY NAME2 @151
+SAY DESC @152
+
+COPY ~willowisp/itm/L0grap.itm~ ~override~
+SAY NAME1 @153
+SAY NAME2 @153
+SAY DESC @154
+
+COPY ~willowisp/itm/L0ale.itm~ ~override~
+SAY NAME1 @155
+SAY NAME2 @155
+SAY DESC @156
+
+COPY ~willowisp/itm/l0buck.itm~ ~override~
+SAY NAME1 @157
+SAY NAME2 @158
+SAY DESC @159
+
+COPY ~willowisp/itm/l0swo1.itm~ ~override~
+SAY NAME1 @160
+SAY NAME2 @161
+SAY DESC @162
+
+COPY ~willowisp/itm/L0belt.itm~ ~override~
+SAY NAME1 @163
+SAY NAME2 @164
+SAY DESC @165
+
+COPY ~willowisp/itm/L0amul.itm~ ~override~
+SAY NAME1 @166
+SAY NAME2 @167
+SAY DESC @168
+
+COPY ~willowisp/itm/L0amul.spl~ ~override~
+SAY NAME1 @169
+SAY NAME1 @169
+
+COPY ~willowisp/itm/L0amul.eff~ ~override~
+
+COPY ~willowisp/itm/L0willne.itm~ ~override~
+SAY NAME1 @170
+SAY NAME2 @170
+SAY DESC @171
+
+COPY ~willowisp/itm/L0willn0.itm~ ~override~
+SAY NAME1 @172
+SAY NAME2 @172
+SAY DESC @173
+
+COPY ~willowisp/itm/L0wan.itm~ ~override~
+SAY NAME1 @174
+SAY NAME2 @175
+SAY DESC @176
+
+
+//SPELLS
+
+COPY ~willowisp/spl/l0mow.spl~ ~override~
+SAY NAME1 @177
+SAY NAME2 @177
+
+COPY ~willowisp/spl/l0spihea.spl~ ~override~
+SAY NAME1 @178
+SAY NAME2 @178
+SAY DESC @179
+
+COPY ~willowisp/spl/L0neck1.spl~ ~override~
+SAY NAME1 @170
+SAY NAME2 @170
+SAY DESC @170
+
+COPY ~willowisp/spl/L0heal.spl~ ~override~
+SAY NAME1 ~~
+SAY NAME2 ~~
+SAY DESC ~~
+
+COPY ~willowisp/spl/L0skina.spl~ ~override~
+SAY NAME1 @180
+SAY NAME2 @180
+SAY DESC @181
+
+COPY ~willowisp/spl/L0skinb.spl~ ~override~
+SAY NAME1 @182
+SAY NAME2 @182
+SAY DESC @183
+
+//GRAPHICS
+
+COPY ~willowisp/bam~ ~override~
+COPY ~willowisp/bmp~ ~override~
+COPY ~willowisp/are~ ~override~
+
+ACTION_IF NOT GAME_IS ~eet~ BEGIN
+	COPY ~willowisp/bam-anim~ ~override~
+END
+
+//SCRIPTS
+
+COMPILE ~willowisp/baf/L0Torch.baf~
+        ~willowisp/baf/L0infr01.baf~
+        ~willowisp/baf/l0cut03.baf~
+        ~willowisp/baf/l00000.baf~
+        ~willowisp/baf/l00001.baf~
+        ~willowisp/baf/l0wisp1.baf~
+        ~willowisp/baf/l0rock.baf~
+        ~willowisp/baf/l0mow.baf~
+        ~willowisp/baf/l0udbea.baf~
+        ~willowisp/baf/l0wiboy.baf~
+        ~willowisp/baf/l0willD.baf~
+
+COMPILE EVALUATE_BUFFER ~willowisp/baf/l0will.baf~  
+COMPILE EVALUATE_BUFFER ~willowisp/baf/l0cut01.baf~ USING ~willowisp/tra/%LANGUAGE%/setup.tra~
+COMPILE EVALUATE_BUFFER ~willowisp/baf/l0cut02.baf~ USING ~willowisp/tra/%LANGUAGE%/setup.tra~
+COMPILE EVALUATE_BUFFER ~willowisp/baf/l0cut04.baf~ USING ~willowisp/tra/%LANGUAGE%/setup.tra~
+
+EXTEND_TOP ~baldur.bcs~      ~willowisp/baf/baldur.baf~ EVALUATE_BUFFER USING ~willowisp/tra/%LANGUAGE%/setup.tra~ 
+EXTEND_BOTTOM ~AR1105.bcs~   ~willowisp/baf/AR1105.baf~
+EXTEND_BOTTOM ~AR1403.bcs~   ~willowisp/baf/AR1403.baf~
+EXTEND_BOTTOM ~AR1400.bcs~   ~willowisp/baf/AR1400.baf~ EVALUATE_BUFFER USING ~willowisp/tra/%LANGUAGE%/setup.tra~ 
+EXTEND_BOTTOM ~AR0334.bcs~   ~willowisp/baf/AR0334.baf~ 
+EXTEND_BOTTOM ~AR2101.bcs~   ~willowisp/baf/AR2101.baf~
+EXTEND_BOTTOM ~AR2000.bcs~   ~willowisp/baf/AR2000.baf~
+EXTEND_BOTTOM ~bdshunsu.bcs~ ~willowisp/baf/bdshunsu.baf~
+
+EXTEND_BOTTOM ~baldur.bcs~   ~willowisp/baf/JournalEntries.baf~ EVALUATE_BUFFER USING ~willowisp/tra/%LANGUAGE%/setup.tra~ 
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+ EXTEND_BOTTOM ~AR4000.bcs~   ~willowisp/baf/AR4000.baf~
+ EXTEND_BOTTOM ~AR4500.bcs~   ~willowisp/baf/EETAddOn.baf~
+END
+      
+//DIALOGUES
+
+COMPILE ~willowisp/d/L0wisp1.d~
+COMPILE ~willowisp/d/L0wisp2.d~
+COMPILE ~willowisp/d/L0thief1.d~
+COMPILE ~willowisp/d/cromwell.d~
+COMPILE ~willowisp/d/l0emis.d~
+COMPILE ~willowisp/d/l0mow.d~
+COMPILE ~willowisp/d/uhinn01.d~
+COMPILE ~willowisp/d/l0merch.d~
+
+COMPILE ~willowisp/d/l0will.d~
+COMPILE ~willowisp/d/l0willj.d~
+COMPILE ~willowisp/d/l0willB.d~
+
+//AUDIO
+
+LAF HANDLE_AUDIO END
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+
+COPY ~willowisp/cre/L0fatesp.cre~ ~override~
+
+COPY ~willowisp/cre/L0will25.cre~ ~override~
+
+  WRITE_SHORT   0x244 0
+  WRITE_SHORT   0x246 0x4000 + ~%l0ws%~
+  
+  SAY NAME1 @64
+  SAY NAME2 @64
+  
+  SAY BIO @65
+  
+SAY MORALE ~~ []
+SAY HAPPY @67
+SAY UNHAPPY_ANNOYED @68
+SAY UNHAPPY_SERIOUS @69
+SAY UNHAPPY_BREAKING_POINT @70
+SAY LEADER @71
+SAY TIRED @72
+SAY BORED @73
+SAY BATTLE_CRY1 @74
+SAY BATTLE_CRY2 @75
+SAY BATTLE_CRY3 @76
+SAY BATTLE_CRY4 @77
+SAY BATTLE_CRY5 @78
+SAY DAMAGE @79
+SAY DYING @80
+SAY HURT @81
+SAY AREA_FOREST @82
+SAY AREA_CITY @83
+SAY AREA_DUNGEON @84
+SAY AREA_DAY @85
+SAY AREA_NIGHT @86
+SAY SELECT_COMMON1 @87
+SAY SELECT_COMMON2 @88
+SAY SELECT_COMMON3 @89
+SAY SELECT_COMMON4 @90
+SAY SELECT_COMMON5 @91
+SAY SELECT_COMMON6 @92
+SAY SELECT_ACTION1 @93
+SAY SELECT_ACTION2 @94
+SAY SELECT_ACTION3 @95
+SAY SELECT_ACTION4 @96
+SAY SELECT_ACTION5 @97
+SAY SELECT_ACTION6 @98
+SAY SELECT_ACTION7 @99
+SAY CRITICAL_HIT @100
+SAY CRITICAL_MISS @101
+SAY TARGET_IMMUNE @102
+SAY INVENTORY_FULL @103
+SAY SELECT_RARE1 @104
+SAY SELECT_RARE2 @105
+SAY SPELL_DISRUPTED @106
+SAY SET_A_TRAP ~~ []
+SAY HIDDEN_IN_SHADOWS ~~ []
+SAY PICKED_POCKET ~~ []
+SAY REACT_TO_DIE_GENERAL ~~ []
+  
+  
+// Appends
+
+APPEND ~pdialog.2da~ ~l0will l0willP l0willJ l0willD l0wil25P l0wil25J l0wil25D l0will25~
+  UNLESS ~l0will~
+
+APPEND ~interdia.2da~ ~l0will l0willB l0wil25B~
+  UNLESS ~l0will~
+
+//SCRIPTS
+
+COMPILE EVALUATE_BUFFER ~willowisp/baf/L0will25.baf~ 
+
+//DIALOGUES
+
+COMPILE ~willowisp/d/L0will25.d~
+COMPILE ~willowisp/d/L0wil25J.d~
+COMPILE ~willowisp/d/L0wil25B.d~
+
+
+//EPILOGUES
+
+EXTEND_TOP ~ar6200.bcs~ ~willowisp\baf\AR6200.baf~
+
+COPY ~willowisp\L0WilEp.2da~ ~override\L0WilEp.2da~
+
+        REPLACE_TEXTUALLY ~PORTRAIT~ ~L0willL~ 
+
+        REPLACE 99999 @184
+        
+
+COPY ~willowisp\L0WilEp.2da~ ~override\L0WilEp2.2da~
+
+        REPLACE_TEXTUALLY ~PORTRAIT~ ~L0willL~ 
+
+        REPLACE 99999 @185
+
+
+//Prevent Melissan from killing any undead creatures
+
+COPY_EXISTING ~meliss01.bcs~ ~override~
+              ~meliss02.bcs~ ~override~
+              ~meliss03.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~\(See(Nearestenemyoftype(\[GOODCUTOFF\.UNDEAD\]))\)~ ~False() \1~
+  END
+BUT_ONLY
+
+//FATESP and EET compatibility
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+  INCLUDE ~EET/other/EET_functions.tph~
+  LAF ~EET_NPC_TRANSITION~
+    INT_VAR
+      type = 2
+      default_ToB = 1
+    STR_VAR
+      dv = "L0WILL"
+      override_SoA = "L0WILL"
+      override_ToB = "L0WILL25"
+      dialog_ToB = "L0WILL25"
+      //traFile = EVAL "%MOD_FOLDER%/translation/%LANGUAGE%/.tra"
+      string = "Bring me Will, the spectral shaman."
+      stringPosDV = "Wilson"
+      cre_ToB = "L0will25"
+  END
+END ELSE BEGIN
+  COMPILE ~%MOD_FOLDER%/d/FATESP.d~ //USING ~%MOD_FOLDER%/translation/%LANGUAGE%/.tra~
+END
+
+//Give Will proper spells accordingly to Witchlight's spheres
+
+ACTION_IF FILE_EXISTS_IN_GAME ~RASPHERE.marker~ BEGIN
+
+	REINCLUDE ~override\RASPHERE.tpa~
+
+	ACTION_FOR_EACH creature IN l0will l0will25 BEGIN
+
+		LAF	UPDATE_NPC_SPHERE	STR_VAR	npc_file = EVAL ~%creature%~ kitname = ~L0WS~ END
+
+	
+		ACTION_IF FILE_EXISTS_IN_GAME ~%creature%.cre~ THEN BEGIN
+      
+			LAF RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_SPOOK~ 	  		RET	spell_1 = spell_res	END
+			OUTER_PATCH_SAVE spell_1 ~%spell_1%~ BEGIN	WRITE_ASCII	0 ~RA~ END
+			LAF RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~CLERIC_CURSE~		  		RET	spell_2	= spell_res	END
+			LAF RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_BLUR~		  		RET	spell_3	= spell_res	END
+			OUTER_PATCH_SAVE spell_3 ~%spell_3%~ BEGIN	WRITE_ASCII	0 ~RA~ END
+			LAF RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~WIZARD_WRAITH_FORM~ 		RET	spell_4	= spell_res	END
+			OUTER_PATCH_SAVE spell_4 ~%spell_4%~ BEGIN	WRITE_ASCII	0 ~RA~ END
+			LAF RES_NUM_OF_SPELL_NAME STR_VAR	spell_name = ~CLERIC_WALL_OF_MOONLIGHT~	RET	spell_5	= spell_res	END
+	  
+			COPY_EXISTING ~%creature%.cre~ ~override~
+	        REMOVE_MEMORIZED_SPELL ~SPPR113~
+			REMOVE_KNOWN_SPELL ~SPPR113~
+			REMOVE_MEMORIZED_SPELL ~SPPR104~
+			REMOVE_KNOWN_SPELL ~SPPR104~
+			REMOVE_MEMORIZED_SPELL ~SPPR210~
+			REMOVE_KNOWN_SPELL ~SPPR210~
+			REMOVE_MEMORIZED_SPELL ~SPPR302~
+			REMOVE_KNOWN_SPELL ~SPPR302~
+			REMOVE_MEMORIZED_SPELL ~SPPR401~
+			REMOVE_KNOWN_SPELL ~SPPR401~
+			ADD_MEMORIZED_SPELL ~%spell_1%~ #0 ~priest~ 
+			ADD_KNOWN_SPELL ~%spell_1%~		#0 ~priest~
+			ADD_MEMORIZED_SPELL ~%spell_2%~ #0 ~priest~
+			ADD_KNOWN_SPELL ~%spell_2%~		#0 ~priest~		
+			ADD_MEMORIZED_SPELL ~%spell_3%~ #1 ~priest~
+			ADD_KNOWN_SPELL ~%spell_3%~		#1 ~priest~
+			ADD_MEMORIZED_SPELL ~%spell_4%~ #2 ~priest~
+			ADD_KNOWN_SPELL ~%spell_4%~		#2 ~priest~
+			ADD_MEMORIZED_SPELL ~%spell_5%~ #3 ~priest~
+			ADD_KNOWN_SPELL ~%spell_5%~		#3 ~priest~
+			BUT_ONLY
+		END	
+		
+	END
+	
+END
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+PRINT @186
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+BEGIN @187
+REQUIRE_COMPONENT ~willowisp.tp2~ ~0~ @188
+LABEL L#-WILLOFTHEWISP-CLASSDESC
+
+ACTION_IF ENGINE_IS ~bg2ee~ BEGIN
+STRING_SET 103060 @189
+END
+
+PRINT @190
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+BEGIN @239
+FORBID_COMPONENT ~willowisp.tp2~ ~0~ @240
+LABEL L#-WILLOFTHEWISP-KITSTANDALONE
+  
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+///////////////////KIT////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+
+COPY ~willowisp/2da~ ~override~
+COPY ~willowisp/bam~ ~override~
+COPY ~willowisp/cre-kit~ ~override~
+COPY ~willowisp/spl-kit~ ~override~
+
+ACTION_IF NOT GAME_IS ~eet~ BEGIN
+	COPY ~willowisp/bam-anim~ ~override~
+END
+
+ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
+// Will-o'-Wisp animation (because IWDEE is STUPID)
+
+ACTION_IF NOT GAME_IS ~bgee~ BEGIN
+  LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0x7000 slotMax = 0x7999 RET slot END
+  ACTION_IF (slot <= 0) BEGIN
+    FAIL @241 // No free creature animation slot found.
+  END
+
+  LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+
+  APPEND ~animate.ids~ ~0x%hexNumber% WILL_O_WISP_IWDEE~ UNLESS ~WILL_O_WISP_IWDEE~
+  CLEAR_IDS_MAP
+
+  COPY ~%MOD_FOLDER%/bam-anim/iwdee/small/7xxx.ini~ ~override/%hexNumber%.ini~
+  END
+
+// Is this check needed here twice?
+ACTION_IF NOT GAME_IS ~bgee~ BEGIN
+  LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0x7000 slotMax = 0x7999 RET slot END
+  ACTION_IF (slot <= 0) BEGIN
+    FAIL @241 // No free creature animation slot found.
+  END
+
+  LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+  APPEND ~animate.ids~ ~0x%hexNumber% WILL_O_WISP_LARGE_IWDEE~ UNLESS ~WILL_O_WISP_LARGE_IWDEE~
+  CLEAR_IDS_MAP
+
+  COPY ~%MOD_FOLDER%/bam-anim/iwdee/large/7xxx.ini~ ~override/%hexNumber%.ini~
+  END
+END
+
+ADD_KIT ~l0ws~
+  // Appended to CLASWEAP.2da
+  ~l0ws                1           0           1           1           0           0           0           1~
+
+  // Appended column-wise to WEAPPROF.2da
+  //11                              T   S           F   Q             S S
+  //10                              W   C           L   U             W I
+  //9                       B L S   O   I   W       A   A             O N
+  //8                       A O H   H   M   A       I   R C   S       R G
+  //7       L S           M S N O   A   I   R     H L   T R L H     2 D L 2                 E E E E E E E E E E E
+  //6       _ _       S   I T G R   N K T D H     A M   E O O O     H A E W E E E E E E E E X X X X X X X X X X X
+  //5       S S   S B P   S A S T   D A A A A   S L O   R S N R   S A N W E X X X X X X X X T T T T T T T T T T T
+  //4       W W   P L I   S R W S   E T R G M C P B R M S S G T D L N D E A T T T T T T T T R R R R R R R R R R R
+  //3       O O B E U K A I D O W A D A W G M L E E N A T B B B A I D S A P R R R R R R R R A A A A A A A A A A A
+  //2       R R O A N E X L S R O X S N A E E U A R I C A O O O R N E H P O A A A A A A A A 1 1 1 1 1 1 1 1 1 1 2
+  //1       D D W R T D E E W D R E W A K R R B R D N E F W W W T G D I O N 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
+  ~l0ws		0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  // Appended to ABCLASRQ.2da
+  ~l0ws                0       0       12       0       12      0~
+
+  // Appended to ABCLSMOD.2da
+  ~l0ws                0       -2       0      0       0       -2~
+
+  // Appended to ABDCDSRQ.2da
+  ~l0ws                0 0 0 0 0 0~
+
+  // Appended to ABDCSCRQ.2da
+  ~l0ws                0 0 0 0 0 0~
+
+  // Appended to ALIGNMNT.2da
+  ~l0ws                0       0       0       0       1       0       0       0       0~
+
+  // Appended to DUALCLAS.2da
+  ~l0ws                0       0       0       0       0       0~
+  ~willowisp/2da/l0clabws.2da~
+  // PC races and classes allowed to use this kit, from KITTABLE.2da
+  ~K_SH_H K_SH_HE K_SH_HO~
+  ~0x00004000        21~
+  ~l0ws~
+  ~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
+  SAY @24
+  SAY @24
+  SAY @25
+
+LAF fl#add_kit_ee
+  STR_VAR
+    kit_name = l0ws
+END
+
+//DoF's Spheres
+
+ACTION_IF FILE_EXISTS_IN_GAME ~RASPHERE.marker~ BEGIN
+
+	LAF RA_SPHERE_COMPAT STR_VAR kitname = ~l0ws~ clabfile = ~l0clabws~ seqresref  = ~L0WS~ END
+
+END
+
+// Creatures
+
+COPY ~willowisp/cre-kit/l0summ1.cre~ ~override~
+SAY NAME1 @26
+SAY NAME2 @26
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM1~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ2.cre~ ~override~
+SAY NAME1 @27
+SAY NAME2 @27
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM2~ #32 // death variable
+ACTION_IF GAME_IS ~IWDEE~ BEGIN
+COPY_EXISTING ~l0summ2.cre~ ~override~
+WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP_IWDEE~))
+END
+
+COPY ~willowisp/cre-kit/l0summ3.cre~ ~override~
+SAY NAME1 @28
+SAY NAME2 @28
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM3~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ4.cre~ ~override~
+SAY NAME1 @29
+SAY NAME2 @29
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM4~ #32 // death variable
+ACTION_IF GAME_IS ~IWDEE~ BEGIN
+COPY_EXISTING ~l0summ4.cre~ ~override~
+WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP_LARGE_IWDEE~))
+END
+
+COPY ~willowisp/cre-kit/l0summ5.cre~ ~override~
+SAY NAME1 @30
+SAY NAME2 @30
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM5~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0summ6.cre~ ~override~
+SAY NAME1 @31
+SAY NAME2 @31
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM6~ #32 // death variable
+ACTION_IF GAME_IS ~IWDEE~ BEGIN
+COPY_EXISTING ~l0summ6.cre~ ~override~
+WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP_LARGE_IWDEE~))
+END
+
+COPY ~willowisp/cre-kit/l0summ7.cre~ ~override~
+SAY NAME1 @32
+SAY NAME2 @32
+WRITE_ASCII 0x248 ~BDSHUNSU~  #8  // override
+WRITE_ASCII 0x280 ~L0SUMM7~ #32 // death variable
+
+COPY ~willowisp/cre-kit/l0tree.cre~ ~override~
+SAY NAME1 @33
+SAY NAME2 @33
+
+// Spells
+
+COPY ~willowisp/spl-kit/l0wsinn1.spl~ ~override~
+
+COPY ~willowisp/spl-kit/l0wssumm.SPL~ ~override~ //The new shaman dance
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103121 // "A minor animal spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@34)
+  END
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103122 // "A major animal spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@35)
+  END
+    LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103123 // "A minor nature spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@36)
+  END
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103124 // "A major nature spirit answers your call."
+ parameter1 = RESOLVE_STR_REF (@37)
+  END
+  LPF ALTER_EFFECT
+    INT_VAR
+      check_globals = 1
+      check_headers = 1
+      match_opcode = 139 // display string
+      match_parameter1 = 103120 // @38
+ parameter1 = RESOLVE_STR_REF (@38)
+  END
+
+COPY ~willowisp/spl-kit/l0wssp1.spl~ ~override~
+SAY NAME1 @39
+SAY NAME2 @39
+SAY UNIDENTIFIED_DESC @40
+
+COPY ~willowisp/spl-kit/l0wssp2.spl~ ~override~
+SAY NAME1 @41
+SAY NAME2 @41
+SAY UNIDENTIFIED_DESC @42
+
+COPY ~willowisp/spl-kit/l0wssp3.spl~ ~override~
+SAY NAME1 @43
+SAY NAME2 @43
+SAY UNIDENTIFIED_DESC @44
+
+COPY ~willowisp/spl-kit/l0wssp4.spl~ ~override~
+SAY NAME1 @45
+SAY NAME2 @45
+SAY UNIDENTIFIED_DESC @46
+
+COPY ~willowisp/spl-kit/l0wssp5.spl~ ~override~
+SAY NAME1 @47
+SAY NAME2 @47
+SAY UNIDENTIFIED_DESC @48
+
+COPY ~willowisp/spl-kit/l0wssp6.spl~ ~override~
+SAY NAME1 @49
+SAY NAME2 @49
+SAY UNIDENTIFIED_DESC @50
+
+COPY ~willowisp/spl-kit/l0wsin1.spl~ ~override~
+SAY NAME1 @51
+SAY NAME2 @51
+SAY UNIDENTIFIED_DESC @52
+
+COPY ~willowisp/spl-kit/l0wsin2.spl~ ~override~
+SAY NAME1 @53
+SAY NAME2 @53
+SAY UNIDENTIFIED_DESC @54
+
+COPY ~willowisp/spl-kit/l0wsdag1.itm~ ~override~
+COPY ~willowisp/spl-kit/l0wsdag2.itm~ ~override~
+
+COPY ~willowisp/itm/l0tree.itm~ ~override~
+COPY ~willowisp/spl-kit/l0wsin3.spl~ ~override~
+SAY NAME1 @55
+SAY NAME2 @55
+SAY UNIDENTIFIED_DESC @56
+
+COPY ~willowisp/spl-kit/l0tnat.spl~ ~override~
+SAY NAME1 @57
+SAY NAME2 @57
+SAY UNIDENTIFIED_DESC @58
+
+COPY ~willowisp/spl-kit/l0wsdag1.itm~ ~override~
+COPY ~willowisp/spl-kit/l0wsdag2.itm~ ~override~
+
+COPY ~willowisp/spl-kit/l0wshla1.spl~ ~override~
+SAY NAME1 @59
+SAY NAME2 @59
+SAY UNIDENTIFIED_DESC @60
+
+COPY ~willowisp/spl-kit/l0wshla2.spl~ ~override~
+SAY NAME1 @61
+SAY NAME2 @61
+SAY UNIDENTIFIED_DESC @62
+
+COPY ~willowisp/spl-kit/l0wshla3.spl~ ~override~
+SAY NAME1 @45
+SAY NAME2 @45
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+BEGIN @243
+ LABEL L#-WILLOFTHEWISP-TM
+ FORBID_FILE ~override/L#_USHA.2DA~ @244
+
+ INCLUDE ~willowisp/town-medium/components/town_medium.tpa~
+
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+
+PRINT ~~
+BEGIN @191
+  REQUIRE_PREDICATE GAME_IS ~bg2ee eet iwdee~ @22
+  LABEL L#-WILLOFTHEWISP-ITEMS
+
+PRINT @192
+PRINT ~~
+
+
+ACTION_IF NOT GAME_IS ~eet~ BEGIN
+	COPY ~willowisp/bam-anim~ ~override~
+END
+
+ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
+// Will-o'-Wisp animation (because IWDEE is STUPID)
+
+ACTION_IF NOT GAME_IS ~bgee~ BEGIN
+  LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0x7000 slotMax = 0x7999 RET slot END
+  ACTION_IF (slot <= 0) BEGIN
+    FAIL @241 // No free creature animation slot found.
+  END
+
+  LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+  APPEND ~animate.ids~ ~0x%hexNumber% WILL_O_WISP_IWDEE~ UNLESS ~WILL_O_WISP_IWDEE~
+  CLEAR_IDS_MAP
+
+  COPY ~%MOD_FOLDER%/bam-anim/iwdee/small/7xxx.ini~ ~override/%hexNumber%.ini~
+  END
+
+ACTION_IF NOT GAME_IS ~bgee~ BEGIN
+  LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0x7000 slotMax = 0x7999 RET slot END
+  ACTION_IF (slot <= 0) BEGIN
+    FAIL @241 // No free creature animation slot found.
+  END
+
+  LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+  APPEND ~animate.ids~ ~0x%hexNumber% WILL_O_WISP_LARGE_IWDEE~ UNLESS ~WILL_O_WISP_LARGE_IWDEE~
+  CLEAR_IDS_MAP
+
+  COPY ~%MOD_FOLDER%/bam-anim/iwdee/large/7xxx.ini~ ~override/%hexNumber%.ini~
+  END
+END
+
+
+
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+	INCLUDE ~willowisp/item_components/bg2ee.tpa~
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+	INCLUDE ~willowisp/item_components/iwdee.tpa~
+END
+
+
+/////////////////////////////////////////
+
+BEGIN @232
+  REQUIRE_PREDICATE GAME_IS ~bg2ee eet iwdee~ @22
+  LABEL L#-WILLOFTHEWISP-ENEMIES
+
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+ COPY ~willowisp/cre/L0drider.cre~ ~override~
+  SAY NAME1 @233
+  SAY NAME2 @233
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+ COPY ~willowisp/cre/L0drider.cre~ ~override~
+   PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN
+		ADD_CRE_ITEM ~s1-12m2~ #0 #0 #0 ~NONE~ ~WEAPON1~
+	 END
+  SAY NAME1 @233
+  SAY NAME2 @233
+  SAY BATTLE_CRY1 #-1
+  SAY BATTLE_CRY2 #-1
+  SAY BATTLE_CRY3 #-1
+  SAY BATTLE_CRY4 #-1
+  SAY BATTLE_CRY5 #-1
+  SAY DAMAGE #-1
+  SAY DYING #-1
+  SAY HURT #-1
+END
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+ACTION_IF NOT GAME_IS ~eet~ BEGIN
+	COPY ~willowisp/bam-anim~ ~override~
+END
+
+ COPY ~willowisp/itm/L0WSPDL.itm~ ~override~
+ COPY ~willowisp/cre/L0WSPDM.cre~ ~override~
+ WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP_SMALL~))
+  SAY NAME1 @245
+  SAY NAME2 @245
+  
+ COPY ~willowisp/itm/L0WSPWS.itm~ ~override~
+ COPY ~willowisp/spl/L0WSPWS.spl~ ~override~
+ COPY ~willowisp/spl/L0WSPWs2.spl~ ~override~
+  SAY NAME1 @246
+  SAY NAME1 @246
+ COPY ~willowisp/cre/L0WSPWS.cre~ ~override~
+ WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP~))
+  SAY NAME1 @247
+  SAY NAME2 @247
+  
+ COMPILE ~willowisp/baf/L0WSPDM.baf~
+ COMPILE ~willowisp/baf/L0WSPws.baf~
+
+ EXTEND_BOTTOM ~AR1404.bcs~   ~willowisp/baf/AR1404.baf~
+ EXTEND_BOTTOM ~AR2100.bcs~   ~willowisp/baf/AR2100.baf~
+ EXTEND_BOTTOM ~AR1900.bcs~   ~willowisp/baf/AR1900.baf~
+ EXTEND_BOTTOM ~OH6000.bcs~   ~willowisp/baf/OH6000.baf~
+ EXTEND_BOTTOM ~OH4000.bcs~   ~willowisp/baf/OH4000.baf~
+ EXTEND_BOTTOM ~OH5100.bcs~   ~willowisp/baf/OH5100.baf~
+ EXTEND_BOTTOM ~AR6103.bcs~   ~willowisp/baf/AR6103.baf~
+ EXTEND_BOTTOM ~AR2401.bcs~   ~willowisp/baf/AR2401-dri.baf~
+END
+
+ACTION_IF GAME_IS ~iwdee~ BEGIN
+
+// Will-o'-Wisp animation (because IWDEE is STUPID)
+
+  LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0x7000 slotMax = 0x7999 RET slot END
+  ACTION_IF (slot <= 0) BEGIN
+    FAIL @241 // No free creature animation slot found.
+  END
+  LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+  APPEND ~animate.ids~ ~0x%hexNumber% WILL_O_WISP_IWDEE~ UNLESS ~WILL_O_WISP_IWDEE~
+  CLEAR_IDS_MAP
+  COPY ~%MOD_FOLDER%/bam-anim/iwdee/small/7xxx.ini~ ~override/%hexNumber%.ini~
+  
+// Will-o'-Wisp animation 2 (because IWDEE is STUPID)
+
+
+  LAF FIND_FREE_ANIM_SLOT INT_VAR slotMin = 0x7000 slotMax = 0x7999 RET slot END
+  ACTION_IF (slot <= 0) BEGIN
+    FAIL @241 // No free creature animation slot found.
+  END
+  LAF TO_HEX_NUMBER INT_VAR value = slot minDigits = 4 RET hexNumber END
+  APPEND ~animate.ids~ ~0x%hexNumber% WILL_O_WISP_LARGE_IWDEE~ UNLESS ~WILL_O_WISP_LARGE_IWDEE~
+  CLEAR_IDS_MAP
+  COPY ~%MOD_FOLDER%/bam-anim/iwdee/large/7xxx.ini~ ~override/%hexNumber%.ini~
+
+
+//
+ 
+ COPY ~willowisp/itm/L0WSPDL.itm~ ~override~
+ COPY ~willowisp/cre/L0WSPDM.cre~ ~override~
+ WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP_IWDEE~))
+  SAY NAME1 @245
+  SAY NAME2 @245
+  
+ COPY ~willowisp/itm/L0WSPWS.itm~ ~override~
+ COPY ~willowisp/spl/L0WSPWS.spl~ ~override~
+ COPY ~willowisp/spl/L0WSPWs2.spl~ ~override~
+  SAY NAME1 @246
+  SAY NAME1 @246
+ COPY ~willowisp/cre/L0WSPWS.cre~ ~override~
+ WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~WILL_O_WISP_LARGE_IWDEE~))
+  SAY NAME1 @247
+  SAY NAME2 @247
+ 
+ COPY ~willowisp/cre-kit/l0tree.cre~ ~override~
+ SAY NAME1 @33
+ SAY NAME2 @33
+
+
+ COMPILE ~willowisp/baf/L0WSPDM.baf~
+ COMPILE ~willowisp/baf/L0WSPws.baf~
+ EXTEND_BOTTOM ~AR3000.bcs~   ~willowisp/baf/AR3000.baf~
+ EXTEND_BOTTOM ~AR3501.bcs~   ~willowisp/baf/AR3501.baf~
+ EXTEND_BOTTOM ~AR3503.bcs~   ~willowisp/baf/AR3503.baf~
+ EXTEND_BOTTOM ~AR5404.bcs~   ~willowisp/baf/AR5404.baf~
+ EXTEND_BOTTOM ~AR9300.bcs~   ~willowisp/baf/AR9300.baf~
+ EXTEND_BOTTOM ~AR6002.bcs~   ~willowisp/baf/AR6002.baf~
+ EXTEND_BOTTOM ~AR6003.bcs~   ~willowisp/baf/AR6003.baf~
+ EXTEND_BOTTOM ~AR9400.bcs~   ~willowisp/baf/AR9400.baf~
+ EXTEND_BOTTOM ~AR9800.bcs~   ~willowisp/baf/AR9800.baf~
+ EXTEND_BOTTOM ~AR9801.bcs~   ~willowisp/baf/AR9801.baf~
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+BEGIN @242
+  REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @22
+REQUIRE_COMPONENT ~willowisp.tp2~ ~0~ @188
+LABEL L#-WILLOFTHEWISP-CHEAT
+
+COMPILE ~willowisp/d/l0cheat.d~
+
+//EoF

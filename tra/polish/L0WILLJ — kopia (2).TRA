@@ -1,0 +1,1083 @@
+DO SPRAWDZENIA
+
+@0 = ~Jesteśmy. To to miejsce, o którym wspominałem.~
+@1 = ~To miejsce roi się od plugastwa i pajęczyn. Załatw to szybko, żebyśmy mogli się stąd wynieść.~
+@2 = ~Dlaczego musimy przebywać w takim miejscu, <CHARNAME>? Z powodu tego ducha?~
+@3 = ~Jesteśmy tu, bo tak zdecydowałem, Anomenie. Tak czy inaczej, Willu... i co teraz?~
+@4 = ~Co takiego wyjątkowego jest w tym miejscu?~
+@5 = ~Tutaj? Serio? Yyy... jesteś pewien?~
+@6 = ~Okej. To czemu właściwie tu przyszliśmy?~
+@7 = ~To tutaj zginąłem... i z tym miejscem jestem związany. Ale odnowienie Wizjonarium dało mi dość mocy, by osłabić tę więź. Mogę się częściowo od niej uwolnić... na tyle, bym mógł z wami podróżować.~
+@8 = ~On... naprawdę zginął w tym cichym, smutnym miejscu? Jak straszne... musiał się czuć bardzo samotny.~
+@9 = ~Tak, to rzeczywiście smutne, Aerie, ale mimo wszystko powinniśmy pozwolić Willowi zrobić, co trzeba. Potrzebujesz pomocy?~
+@10 = ~Rozumiem. Zrób, co musisz, Willu — i ruszamy w drogę.~
+@11 = ~Potrzebujesz chwili, żeby... zrobić, co trzeba?~
+@12 = ~Mogę ci jakoś pomóc?~
+@13 = ~Mam wszystko, co potrzebne. To potrwa tylko chwilę.~
+@14 = ~Gotowe. Po sprawie.~
+@15 = ~W porządku jesteś?~
+@16 = ~Co właściwie zrobiłeś?~
+@17 = ~Tak... tak, wszystko gra.~
+@18 = ~Na pewno? Jeśli musisz dojść do siebie...~
+@19 = ~Jak już mówiłem — musiałem wpłynąć na moc, która mnie tu trzymała. To miejsce... dużo dla mnie znaczy. W końcu tutaj umarłem. Ale teraz...~
+@20 = ~Powinienem móc przychodzić i odchodzić, kiedy zechcę. Gdybym spróbował wcześniej, moja dusza zostałaby zniszczona i odtworzona tutaj. To miejsce działało jak kopuła, która mnie więziła. Musiałem powiązać część moich szczątków z tym amuletem — dzięki temu mogę zachować swoją postać.~
+@21 = ~Jest jeszcze coś, co powinieneś wiedzieć. Jeśli zginę w walce, twoja magia mnie nie wskrzesi — w końcu jestem tylko duchem. Ale nie odejdę na zawsze. Po jakimś czasie wrócę tutaj. Będziesz mógł tu przyjść i mnie odnaleźć. To chyba wszystko, co najważniejsze.~
+@22 = ~Nie będę kłamał — dziwnie się czuję, opuszczając to miejsce. Świat stoi przede mną otworem, ale minęło tyle czasu, odkąd widziałem coś poza tymi murami. Ale... jestem gotów.~
+@23 = ~Cieszę się, że to słyszę. Chodźmy — czas ruszać.~
+@24 = ~To twoja szansa, Willu. Nie ma tu miejsca na strach. Jesteś teraz bardziej wolny niż kiedykolwiek od chwili swojej śmierci. Wszystko będzie dobrze.~
+@25 = ~Dość już tego gadania. Ustaw się i ruszajmy. Przed nami sporo roboty.~
+@26 = ~Dobrze. Prowadź, a ja będę tuż za tobą.~
+@27 = ~Wiem. Ale to, co czuję, to nie strach. Może odrobina ciekawości i niepokoju... ale nie strach. Ruszajmy.~
+@28 = ~Ciszej. Po prostu prowadź nas dalej.~
+@29 = ~Co to... co to za miejsce...?~
+@30 = ~Jesteśmy w Athkatli. To Brama Miasta.~
+@31 = ~Jesteśmy w Athkatli. To dzielnica portowa.~
+@32 = ~Jesteśmy w Athkatli. To dzielnica nędzy.~
+@33 = ~Jesteśmy w Athkatli. To dzielnica mostowa.~
+@34 = ~Jesteśmy w Athkatli. To Promenada Waukeen.~
+@35 = ~Jesteśmy w Athkatli. To dzielnica świątynna.~
+@36 = ~Jesteśmy w Athkatli. To dzielnica rządowa.~
+@37 = ~Jesteśmy w Athkatli. To zachodnia część dzielnicy rządowej.~
+@38 = ~To Targowo. Miasto Kupieckiego Pokoju. Choć ostatnio z pokojem nie ma tu wiele wspólnego.~
+@39 = ~Co masz na myśli?~
+@40 = ~Nie mamy na to czasu. Ruszajmy dalej.~
+@41 = ~To miejsce... gdzie jesteśmy? Czy ono ma jakąś nazwę?~
+@42 = ~Nie mamy na to czasu, Willu. Chodźmy.~
+@43 = ~Pamiętam to miasto jako znacznie mniejsze, kiedy jeszcze żyłem. Po ulicach chodzili głównie ludzie, a teraz — elfy, krasnoludy, nawet niziołki... tylu różnych mieszkańców. I ta architektura — wszystko się zmieniło. Nic nie przypomina miejsca, które zapamiętałem.~
+@44 = ~Możliwe, że to, co pamiętasz, jest tylko echem tego, czym to miejsce stało się teraz.~
+@45 = ~Czyli zgaduję, że obecny wygląd miasta ci się nie podoba?~
+@46 = ~Heh. Z takim doborem metafor mógłbyś uchodzić za barda albo bajarza.~
+@47 = ~Obawiam się, że to nie czas na dyskusje o miastach i ich infrastrukturze. Ruszajmy, Willu.~
+@48 = ~Nie powiedziałem, że mi się nie podoba. To miasto i to sprzed lat to dwa zupełnie różne miejsca. Śmierć nauczyła mnie, że to czas definiuje przestrzeń. Pamiętam Athkatlę, która była ledwie połową tego, co widzę teraz — z innymi ludźmi i innym prawem.~
+@49 = ~Tamta dawna Athkatla to zupełnie inne miejsce. Twoja... ta, którą widzimy teraz, należy już do innej kultury.~
+@50 = ~Targowo też było inne. Może tylko połowę tak duże, znacznie bardziej... surowe. Mniej ludzi, choć kupców nadal było wielu. I pamiętam, że wokół miasta rosło więcej drzew.~
+@51 = ~Wątpię, by mi się to spodobało. Uwielbiam słuchać opowieści, ale samemu je snuć? Nie... nie jestem żadnym artystą. Poza tym nie sądzę, by nieumarły bard przyciągał tłumy.~
+@52 = ~Wracając do miasta... Athkatla za mojego życia była zupełnie inna. Twoja — ta, którą teraz widzimy — należy do zupełnie innej kultury.~
+@53 = ~A jeśli chodzi o Targowo — kiedy jeszcze żyłem, było inne. Mniejsze, bardziej surowe. Ludzi było mniej, ale kupców nie brakowało. I więcej drzew rosło wokół miasta.~
+@54 = ~Zastanawiam się... czy inne miasta też zmieniły się aż tak bardzo?~
+@55 = ~Cóż, Wrota Baldura były całkiem duże. Spędziłam tam trochę czasu, zanim pojmał mnie Irenicus.~
+@56 = ~To pewnie zależy od regionu. Bogatsze miejsca zmieniają się bardziej niż biedniejsze. Ale wszystkie chyba się zmieniają — choćby trochę.~
+@57 = ~Trudno mi powiedzieć. Niezbyt dobrze znam inne miasta.~
+@58 = ~Wrota Baldura, hmm? Chyba o nich słyszałem. To to wielkie miasto otoczone murem, który rozkazał wznieść sam Balduran, nad rzeką Chionthar, prawda? Nigdy tam nie byłem.~
+@59 = ~Przepraszam. To nie było zbyt mądre pytanie. Oczywiście, że każde miasto się zmienia. Minęło przecież tyle długich lat, odkąd...~
+@60 = ~...~
+@61 = ~Mój ojciec był kupcem. Myślę, że to dlatego obraz miasta tak mocno mną poruszył. Ci wszyscy ludzie, żyjący swoim rytmem — kupujący, sprzedający, wydający pieniądze w okolicznych karczmach... Ojciec zwykł mawiać: "Pieniądz to życiodajna krew miasta, a jak krew — pędzi i nigdy nie zwalnia".~
+@62 = ~Ty i twój ojciec musieliście się dobrze dogadywać. Lubiliście się?~
+@63 = ~Hmm, sądzę, że bywają czasy, gdy ludzie mniej chętnie wydają złoto, ale rozumiem, co miał na myśli.~
+@64 = ~To wszystko bardzo wzruszające, ale naprawdę powinniśmy już ruszać.~
+@65 = ~Ojciec nauczył cię wiele o handlu?~
+@66 = ~Kochaliśmy się... przez większość czasu, przynajmniej. Nie chciał, żebym odchodził, i nie chodziło tylko o to, bym przejął rodzinny interes. Myślę, że wiedział... wiedział, że coś zawsze mnie dręczyło i nie pozwalało mi opuścić gardy. Martwił się o mnie.~
+@67 = ~Myślał, że zawsze będę go potrzebował i... może miał rację. Później w życiu często żałowałem, że nie mogłem zwrócić się do niego po pomoc. Ale jego już nie było... nie, *to mnie* już nie było. To ja oddaliłem się od niego.~
+@68 = ~Oczywiście. Ludzie zaciskają sakiewki, gdy czasy są trudne. Mój ojciec to wiedział. To było po prostu powiedzenie, które lubił. Myślę, że cieszyło go zarówno zarabianie, jak i wydawanie pieniędzy. Odnajdywał spokój w kupowaniu rzeczy, które sprawiały, że czuliśmy się bezpieczni i dobrze w domu.~
+@69 = ~Nie, nie bardzo. Zwykle tylko go obserwowałem. Ale wiedział, że jeśli handel naprawdę mnie zainteresuje, sam zechcę się go nauczyć. Ojciec troszczył się o mnie. Nie chciał, żebym odchodził — i nie chodziło tylko o interes. Myślę, że wiedział... że coś mnie dręczy i nie pozwala mi być naprawdę spokojnym. Martwił się.~
+@70 = ~Patrząc na to wszystko z perspektywy czasu... ojciec był dobrym człowiekiem. Może popełniłem błąd, trzymając swoje myśli tylko dla siebie. Kiedy dorosłem, rozmawialiśmy coraz mniej. Myślę, że to musiało go ranić.~
+@71 = ~A co z twoją matką?~
+@72 = ~Miałeś szczęście mieć kochającego ojca. Dlaczego z nim nie rozmawiałeś?~
+@73 = ~Dość tego, Willu. Powinniśmy ruszać dalej.~
+@74 = ~Była powieściopisarką, choć nie napisała zbyt wielu książek. Żadna nie była też zbyt długa, ale osobiście bardzo je lubiłem. Ojciec pomagał jej wydawać te opowieści. Wszystkie były fikcją, ale... (uśmiech) cóż, może nie były aż tak oderwane od rzeczywistości, jak myślałem. Dziś to już wiem.~
+@75 = ~Wiem o tym.~
+@76 = ~W każdym razie powinniśmy ruszyć dalej. Nie po to tu jesteśmy, ale... dziękuję. Chyba musiałem o tym porozmawiać.~
+@77 = ~Dobrze.~
+@78 = ~Dużo myślałem o ojcu, odkąd ostatnio o nim mówiłem... o tym, jak zostawiłem jego i matkę. Zastanawiam się, co się z nimi stało po moim odejściu. Może wyrządziłem im wielką krzywdę, odchodząc i nigdy nie wracając.~
+@79 = ~Możliwe, że tak... ale wszyscy popełniamy błędy.~
+@80 = ~Zrobiłeś to, co czułeś, że musisz zrobić. Usłyszałeś swoje powołanie i poszedłeś za nim. Wszyscy kiedyś to robimy — tylko okoliczności są inne.~
+@81 = ~To twoja sprawa, Willu. Wolałbym, żebyś nie poruszał tego przy mnie.~
+@82 = ~Może masz rację...~
+@83 = ~Okoliczności... zawsze są najważniejsze. Mogą ranić, niszczyć... albo dawać nadzieję.~
+@84 = ~Ale przeszłość jest już zbyt odległa. Cokolwiek się wydarzyło, dawno się skończyło. Zastanawiałem się, czy nie zapytać duchów o to, jaki los ich spotkał, ale nawet gdybym się dowiedział... nie mógłbym tego cofnąć. Więc nigdy nie zapytałem. I wątpię, bym kiedykolwiek to zrobił.~
+@85 = ~Przykro mi. To musi być dla ciebie trudne.~
+@86 = ~Naprawdę myślisz, że mnie to obchodzi, Willu? Trafiłeś pod zły adres z takimi wynurzeniami.~
+@87 = ~Na pewno nie chcesz zapytać? Nie ma nic złego w poznaniu prawdy. Może przyniosłoby ci to spokój. Może żyli dobrze.~
+@88 = ~Masz rację. Rozpamiętywanie przeszłości nikomu nie służy. Tak jak te miasta, o których mówiliśmy — przeszłość odeszła. Teraz żyjesz nowym życiem, w nowym świecie.~
+@89 = ~Nie chcę słuchać o twoich osobistych sprawach, Willu. Ruszajmy.~
+@90 = ~W porządku. Po prostu myślę na głos — nic więcej, nic mniej.~
+@91 = ~Wciąż uważam, że powinieneś zapytać duchy o swoich rodziców. Co masz do stracenia?~
+@92 = ~Po prostu pamiętaj ich takimi, jacy byli. Dowiedzenie się, kim się stali, może nie być dobrym pomysłem.~
+@93 = ~Jeśli potrzebujesz rady, idź do kogoś innego. To nie mój problem.~
+@94 = ~Muszę się nad tym poważnie zastanowić. Może gdybym wiedział, że wszystko z nimi było w porządku...~
+@95 = ~Tak, chyba masz rację. Odeszli dawno temu, ale... w moim obecnym stanie nie mogę przestać się zastanawiać, czy nie należę do przeszłości tak samo jak oni.~
+@96 = ~Masz ogromny wpływ na obecne czasy, Willu. Myślę, że naprawdę żyjesz — po prostu... inaczej.~
+@97 = ~Wpływasz na całe Krainy, nawet taki, jaki jesteś teraz. Nie jesteś tylko echem przeszłości. Jesteś równie żywy, jak ja i wszyscy, których spotykamy.~
+@98 = ~Może i należysz do przeszłości, ale to nie znaczy, że dziś jesteś bez znaczenia.~
+@99 = ~Jesteś tylko stratą energii. Możemy już ruszać?~
+@100 = ~Wpływ... Hmm... Nigdy nie myślałem o tym w ten sposób.~
+@101 = ~Miło wiedzieć, że mnie nie lekceważysz.~
+@102 = ~W każdym razie nie zrozum mnie źle. To nie tak, że mam o sobie niskie mniemanie. W końcu nie każdy potrafi rozmawiać z duchami. Nie każdy miał szansę stać się częścią Wizjonarium. I nie każdy dostaje drugą szansę na istnienie. Doskonale zdaję sobie z tego sprawę.~
+@103 = ~Sądzę, że rozumiesz, jak mocno przeszłość wpływa na to, kim jesteśmy. Więc nie będę ci wciskać pustych słów. W końcu... jesteś dzieckiem Bhaala.~
+@104 = ~Nie byłem pewien, ile wiesz o moim dziedzictwie, Willu. Wygląda na to, że całkiem sporo.~
+@105 = ~Skąd to wiesz? Nigdy ci nie mówiłem ani o moim ojcu, ani o... ani o niczym innym!~
+@106 = ~Wiem mniej, niż ci się wydaje. Dla mnie jesteś po prostu <CHARNAME> — tym, który sam kształtuje swoją przyszłość. To ty decydujesz o swoich czynach. Nawet jeśli masz w sobie potencjał, jakiego inni nie mają, to twoje decyzje, umysł i dusza czynią cię tym, kim jesteś — nie twoja krew.~
+@107 = ~Wszedłeś do Wizjonarium, gdy wciąż tam byłem. My — szamani — widzimy więcej niż inni. Nie wspominając o szeptach i rozmowach tych, których spotkaliśmy. Ale pamiętaj o tym: dla mnie jesteś <CHARNAME> — tym, który sam kształtuje swoją przyszłość. To ty decydujesz o swoich czynach. Nawet jeśli masz w sobie potencjał, jakiego inni nie mają, to twoje decyzje, umysł i dusza czynią cię tym, kim jesteś — nie twoja krew.~
+@108 = ~Bhaal był może okrutnym i brutalnym bogiem, ale nie żyje — nie ma już nad tobą żadnej władzy.~
+@109 = ~Czasami czuję, że moje decyzje zapadły już w dniu, w którym mnie spłodził. Wiele rzeczy było przesądzonych — na przykład to, że nigdy nie zaznam spokoju.~
+@110 = ~Dziękuję. Dobrze wiedzieć, że ktoś naprawdę wierzy, że jestem czymś więcej niż tylko istotą zła, która tylko czeka, by pożerać dusze niewinnych.~
+@111 = ~Wręcz przeciwnie — jestem dumny ze swojego dziedzictwa.~
+@112 = ~Rozumiem. Tak, to musi być dla ciebie bardzo trudne. Ale mam nadzieję, że mimo wszystko odnajdziesz spokój.~
+@113 = ~Heh, nie. Z tego, co wiem, dzieci Bhaala nie pożerają dusz. To raczej Rzeźnickożercy robią takie rzeczy... Bhaalspawny? Nie, raczej nie.~
+@114 = ~Naprawdę? Cóż... cieszę się dla ciebie, chyba.~
+@115 = ~W takim razie już cię nie będę niepokoić.~
+@116 = ~Opowiadano ci ciekawe historie, gdy byłeś dzieckiem? O magicznych miejscach, dziwacznych bestiach i zapierających dech w piersiach krainach?~
+@117 = ~Moje dzieciństwo nie było szczególnie ekscytujące, ale karczmarz z Candlekeep, Winthrop, opowiadał mi czasem różne historie. Dlaczego pytasz?~
+@118 = ~Nie za wiele. Jeśli miałem ochotę na opowieści, zakradałem się do głównej biblioteki i szukałem starych ksiąg. Zwykle trafiałem na coś ciekawego.~
+@119 = ~Nieszczególnie interesuje mnie takie bajdurzenie. Wolę szukać przygód w prawdziwym życiu niż w bajkach.~
+@120 = ~Wybacz, Willu, ale teraz naprawdę nie mamy czasu na pogawędki.~
+@121 = ~To musisz znać jakieś dobre opowieści! Może kiedyś się nimi wymienimy.~
+@122 = ~Naprawdę? Heh, trudno mi to sobie wyobrazić. Zawsze uważałam, że opowieści są inspirujące w tej swojej... niezwykłości.~
+@123 = ~Zawsze mnie fascynowały. Gdy byłem dzieckiem, często wymykałem się z domu — niezależnie od pory dnia — by posłuchać wędrownych bajarzy w okolicznych karczmach. Jak już któregoś znalazłem, nie ruszałem się, dopóki nie opowiedział wszystkiego, co miał najlepszego.~
+@124 = ~Musiałeś naprawdę to uwielbiać.~
+@125 = ~Na bogów, musiałeś być naprawdę upiornym dzieciakiem!~
+@126 = ~Każdy z nas robił coś podobnego w dzieciństwie. Z wiekiem zmieniają się zasady i schematy, którymi się kierujemy.~
+@127 = ~Wybacz, ale naprawdę powinniśmy już ruszać dalej.~
+@128 = ~Och, ja na pewno tak!~
+@129 = ~Cóż, przypuszczam, że są tacy, którzy by się z tobą zgodzili.~
+@130 = ~Chyba masz rację.~
+@131 = ~Może już ci to mówiłem, ale... przez moje zamiłowanie do opowieści matka nazywała mnie "Will-o’-wisp". Wiesz, taka gra słów — od mojego imienia i tych tajemniczych świateł. Te historie mnie ukształtowały. Myślałem, że z tobą będzie podobnie.~
+@132 = ~Tak, chyba było podobnie. Choć niełatwo powiedzieć, że to opowieści o bohaterach, przygodach i tajemnicach mnie ukształtowały. Wtedy nie wydawało się to niczym poważnym, ale to one stworzyły mnie takim, jakim jestem.~
+@133 = ~Nie sądzę. Zawsze wiedziałem, że to tylko bajki. Myślę, że to prawdziwe doświadczenia mnie ukształtowały — widok dróg, miast, złota, ludzi... wszystkiego — na własne oczy.~
+@134 = ~Naprawdę nie chcę o tym rozmawiać, Willu. Powinniśmy iść dalej.~
+@135 = ~Wiesz, cieszę się, że to powiedziałeś. Dobrze wiedzieć, że nie byłem jedyny, kto tak się czuł.~
+@136 = ~Myślę, że każdego motywuje coś innego, prawda? Dziękuję za szczerość, <CHARNAME>.~
+@137 = ~Zanim ruszymy dalej, mogę zadać ci jeszcze jedno pytanie?~
+@138 = ~Jasne. O co chodzi?~
+@139 = ~Wybacz, ale to nie jest dobry moment.~
+@140 = ~Gdybyś miał taką możliwość... czy zmieniłbyś swoją przeszłość? Gdybyś mógł cofnąć jakieś decyzje, czyny albo nawet słowa, które padły... albo których zabrakło.~
+@141 = ~Myślę, że tak. Popełniłem wiele błędów i są rzeczy, które powinienem był powiedzieć, ale nie powiedziałem. Gdybym mógł je zmienić, zrobiłbym to.~
+@142 = ~Nie. Może i popełniłem błędy, może powiedziałem rzeczy, których żałuję, ale to część mojej przeszłości. Bez niej nie byłbym sobą.~
+@143 = ~Nie wiem. Myślę, że nikt nie może odpowiedzieć na to pytanie, dopóki naprawdę nie stanie przed taką szansą. Dopiero wtedy można zrozumieć, czy warto ponieść cenę.~
+@144 = ~Rozumiem. Chyba będę musiał jeszcze o tym pomyśleć. Dziękuję, że mnie wysłuchałeś.~
+@145 = ~Rozumiem, co masz na myśli. Jesteś mądrym <PRO_MANWOMAN> i dobrze, że w to wierzysz. Myślę, że muszę przemyśleć to, co powiedziałeś.~
+@146 = ~Może masz rację. Może nigdy się nie dowiemy, co moglibyśmy zrobić, będąc uwięzieni w okolicznościach, które nas otaczają. Potrzebuję czasu, by to przemyśleć.~
+@147 = ~W każdym razie przepraszam, jeśli moje pytanie zepsuło ci nastrój. To nie było moją intencją. Prawdę mówiąc, cenię to, że chcesz dzielić się ze mną swoimi myślami.~
+@148 = ~Powinniśmy ruszać. Przed nami jeszcze wiele do zobaczenia i zrobienia.~
+@149 = ~Dobrze. Nie będę ci już więcej przeszkadzał.~
+@150 = ~Czy to pora, byś odpoczął, <CHARNAME>? Mam pilnować ognia?~
+@151 = ~Tak, to by się przydało. Dzięki. A ty? Będziesz coś robił, czytasz coś, kiedy będziemy odpoczywać?~
+@152 = ~Myślę, że każdy już wie, co ma robić. Nie muszę tego powtarzać. Dobrego <DAYNIGHT>.~
+@153 = ~Nie, nie tym razem.~
+@154 = ~Przemyślałem twoje słowa i podjąłem decyzję. Porozmawiam z duchami, by dowiedzieć się, co stało się z moimi rodzicami. Choć wolałbym nie znać szczegółów, chcę mieć pewność, że byli szczęśliwi.~
+@155 = ~Rozumiem. Zaczniesz teraz? Mogę zostać i coś pomóc?~
+@156 = ~Rób, co chcesz, ale ja nie biorę w tym udziału. Jestem wyczerpany. Zajmij się tym sam.~
+@157 = ~Tak, zostań. Nie musisz nic robić — dam sobie radę sam. Usiądź przy ogniu, wtedy zacznę.~
+@158 = ~(Will klęka przy ogniu. Przez chwilę panuje cisza, po czym zaczyna szeptać w dziwnym języku. Wyciąga ręce, dotykając palcami wijących się języków płomieni. Jedną dłonią kreśli symbole w popiele, drugą trzyma przy kościach zawieszonych na naszyjniku.)~
+@159 = ~(Nagle przerywa — zapada cisza, słychać tylko wiatr muskający ogień i iskry sypiące się z mokrego drewna. Po chwili widmo odwraca się w twoją stronę.)~
+@160 = ~Oni... byli szczęśliwi.~
+@161 = ~Moi rodzice żyli jeszcze prawie dwie dekady po moim odejściu. Tęsknili za mną, ale nigdy nie stracili nadziei. Modlili się do bogów — Tymory, Waukeen, nawet Lathandera — nie o mój powrót, ale by... „oświetlali moją drogę i trzymali mrok z dala ode mnie”. Nie chciałem wiedzieć nic więcej. Wystarczy mi, że żyli dobrze, nawet jeśli za mną tęsknili. Czuję, jakby wielki ciężar spadł mi z serca.~
+@162 = ~Ale nadal nie wyglądasz na szczególnie szczęśliwego.~
+@163 = ~To dobrze. Byli szczęśliwi. Wszystko było w porządku... *jest* w porządku.~
+@164 = ~Meh... chyba idę spać. Myślałem, że to będzie ciekawsze...~
+@165 = ~Duchy powiedziały ci to wszystko?~
+@166 = ~Tak... to w porządku. Pierwszy raz zapytałem duchy o coś osobistego. Nawet nie wiedziałem, czy mi odpowiedzą, ale jednak to zrobiły. To nie było wiele, ale... jak mówiłem, nie chciałem wiedzieć więcej.~
+@167 = ~Tak... znów masz rację. I dobrze, że tak jest.~
+@168 = ~Tak. Nie powiedziały mi zbyt wiele więcej... ale to wszystko, czego chciałem się dowiedzieć.~
+@169 = ~Zanim się położysz... zostaniesz ze mną jeszcze chwilę przy ogniu? Chciałbym podzielić się z tobą pewną myślą.~
+@170 = ~Oczywiście. O co chodzi?~
+@171 = ~Nie. Jestem zbyt zmęczony. Znajdź sobie kogoś innego do rozmowy.~
+
+@172 = ~Przemyślałem twoje słowa i uznałem, że miałeś rację. Nie zapytam duchów o los moich rodziców. To ja zdecydowałem się odejść i muszę żyć z konsekwencjami. Moje życie należy do mnie — nawet teraz, po śmierci, wciąż jestem za nie odpowiedzialny. Chęć poznania przeszłości, której się nie wybrało, byłaby chciwością... chciwością wiedzy i kontroli nad tym, co już minęło.~
+
+@173 = ~Może i tak. Może to jednak również znak, że nie potrafisz pogodzić się z możliwymi konsekwencjami swoich działań.~
+
+@174 = ~Nie mam ochoty o tym rozmawiać, Willu. Twoja przeszłość to twoja sprawa. Znajdź kogoś innego, kto wysłucha twoich wątpliwości.~
+
+@175 = ~Możliwość rozmowy z duchami to cenna umiejętność. Można ją wykorzystać lepiej niż tylko do spraw rodzinnych. Namierzanie potężnych artefaktów, na przykład... to dopiero byłoby coś.~
+
+@176 = ~Phi, myślałem, że chodzi o coś ważnego. Skoro nie masz nic ciekawego do powiedzenia, idę spać.~
+
+@177 = ~Hmm... jesteś brutalnie szczery, <CHARNAME>. Choć... może twoje słowa są prawdziwe — przynajmniej częściowo. Decyzja, by nie poznać prawdy o przeszłości, była trudna, ale teraz... czuję, że słuszna.~
+
+@178 = ~Duchy to nie drogowskazy do zaginionych skarbów czy mocy, <CHARNAME>. Ale zgadzam się — taką moc należy zachować dla spraw naprawdę ważnych.~
+
+@179 = ~(Will przez chwilę zapatruje się tęsknie w ogień, zanim mówi dalej.)~
+
+@180 = ~Na bogów, oddałbym wiele, żeby teraz napić się z tobą czegoś przy tym ogniu. Miło byłoby znów poczuć to ciepło...~
+
+@181 = ~Heh, wiem, co masz na myśli. To byłoby całkiem przyjemne.~
+
+@182 = ~Nie piję, Willu. Ale rozumiem, czemu za tym tęsknisz.~
+
+@183 = ~Robi się późno, Willu, a ja chcę już odpocząć. Idź i... rób to, co robisz, kiedy śpimy. Dobrego <DAYNIGHT>.~
+
+@184 = ~Wiesz... nigdy nie powiedziałem ci, dlaczego odszedłem, prawda? Mówiłem tylko, że oddaliłem się od rodziny.~
+
+@185 = ~Nie musisz mi mówić niczego, na co nie masz ochoty.~
+
+@186 = ~I tak bym w końcu zapytał. Dlaczego odszedłeś? Po prostu chciałeś zobaczyć świat?~
+
+@187 = ~Nie interesuje mnie to. Nie jesteśmy aż tak blisko, żebym się przejmował. Chcę po prostu w końcu się przespać.~
+
+@188 = ~W porządku. Nie mam się czego wstydzić.~
+
+@189 = ~Zakochałem się. W Kirianie. Był synem jednego ze wspólników mojego ojca. Ale nie miałem odwagi powiedzieć nikomu. Ani ojcu, ani jemu.~
+
+@190 = ~To nie dlatego, że ojciec by się sprzeciwił. Wiem, że nie — matka też nie. Po prostu... nie potrafiłem znaleźć właściwych słów.~
+
+@191 = ~Z Kirianem często rozmawialiśmy o kontraktach i codziennych sprawach, dzieliliśmy też pasję do sztuki, ale... nigdy nie mówiliśmy o uczuciach. Gdybym coś powiedział, może dostałbym wsparcie, którego potrzebowałem, ale... trzymałem dystans do samego końca. Aż w końcu odszedłem.~
+
+@192 = ~Może twoja rodzina oczekiwała dziedzica, a to było dla ciebie problemem?~
+
+@193 = ~Dlaczego nic mu nie powiedziałeś? Miałeś ojca, który by cię wsparł. Nie każdy ma takie szczęście.~
+
+@194 = ~Ty? Nieśmiały wobec własnych uczuć? Nigdy bym się tego po tobie nie spodziewała.~
+
+@195 = ~Ten cały Kirian... myślisz, że wiedział? Nigdy nie dawałeś żadnych znaków? Może czuł to samo.~
+
+@196 = ~Ha! Nie, wątpię, żeby to był problem. Moi rodzice nigdy niczego nie wymuszali. Byli rozsądni — wdzięczni za każdą radość w życiu. Zdarzały im się kłótnie, ale komu nie?~
+
+@197 = ~Myślę, że to dlatego, że byłem po prostu dzieckiem. Brakowało mi doświadczenia, a interesowałem się głównie czytaniem i... zbieraniem pająków w szklanych słoikach. Nie miałem pojęcia, jak mówić o uczuciach czy zauroczeniach.~
+
+@198 = ~Naprawdę? Nawet teraz uważam się za dość nieśmiałego! Pewnie dlatego, że skupiasz się bardziej na tym, czym jestem... albo na tym, że potrafię rozmawiać ze zmarłymi.~
+
+@199 = ~Nie, raczej nie. Zresztą to już nie ma znaczenia. Jestem wystarczająco dojrzały, by rozpoznać te uczucia jako to, czym były — dziecięce zauroczenie, nic więcej.~
+
+@200 = ~Heh... wygląda na to, że znowu zrobiłem się sentymentalny. A to jeszcze nie wszystko — mógłbym ci opowiedzieć o tym, jak pierwszy raz naprawdę się zakochałem.~
+
+@201 = ~Bogowie... o ile lepiej byłoby rozmawiać o takich sprawach z ciepłym ale w dłoni. Tak czy inaczej... myślę, że na dzisiaj wystarczy tej rozmowy, <DAYNIGHT>. Powinieneś odpocząć.~
+
+@202 = ~Rozumiem. W takim razie nie będę ci już przeszkadzał.~
+
+@203 = ~Mogę cię na chwilę zatrzymać, <CHARNAME>? Mam coś dla ciebie.~
+
+@204 = ~Ooo, prezent? Uwielbiam prezenty!~
+
+@205 = ~Masz coś dla mnie? Dlaczego?~
+
+@206 = ~Nie teraz, Willu. Mamy robotę do zrobienia.~
+
+@207 = ~Mam nadzieję, że sprawi ci tyle radości, co każdy inny prezent od przyjaciela.~
+
+@208 = ~Potraktuj to jako moje podziękowanie. Dużo ze sobą rozmawialiśmy i uznałem, że powinienem dać ci coś od siebie.~
+
+@209 = ~Proszę. Mówiłem, że żałuję, iż nie mogliśmy razem napić się ostatnio. Zapomniałem, że ty, w przeciwieństwie do mnie, możesz pić. Pomyślałem, że to piwo może posłużyć za przeprosiny — za to, że myślałem tylko o sobie, nie biorąc pod uwagę twojego stanu.~
+
+@210 = ~Obawiam się, przyjacielu, że będziesz musiał wypić za nas obu, heh.~
+
+@211 = ~Cóż, wygląda na porządny trunek. Dziękuję.~
+
+@212 = ~Przykro mi, Willu, ale mówiłem już — nie piję. Obawiam się, że zmarnowałeś na mnie złoto.~
+
+@213 = ~Naprawdę nie trzeba było. Ale... dziękuję.~
+
+@214 = ~Nieważne. Mamy co robić, więc lepiej ruszajmy dalej.~
+
+@215 = ~Cieszę się, że ci się podoba. Ja... cóż, wziąłem je z karczmy i zostawiłem parę monet. Nie mogłem po prostu podejść i je kupić. Żywi zwykle nie obsługują takich jak ja.~
+
+@216 = ~Racja... zapomniałem. Ale i tak myślę, że powinieneś spróbować. W końcu twoje życie nie było łatwe, a od jednego drinka jeszcze nikt nie umarł. Co z nim zrobisz, zależy od ciebie. Oddaj go komuś, na kim ci zależy, jeśli sam nie chcesz.~
+
+@217 = ~Był czas, kiedy zapomniałem dźwięku własnego głosu... To było jeszcze wtedy, gdy przebywałem w Wizjonarium. Dziwna to rzecz, tak sobie to przypomnieć. Ale z tobą...~
+
+@218 = ~Z tobą wszystko wygląda inaczej. Rozmawiamy, podróżujemy, widzimy rzeczy piękne i straszne. Heh... czasami nawet zapominam, że jestem martwy.~
+
+@219 = ~Jak wyglądało życie w Wizjonarium?~
+@220 = ~Tak, tak, życie w grocie było dziwne. Możemy już skończyć ten temat?~
+
+@221 = ~Wewnątrz groty byłem tylko jednym z wielu. Czułem się bezpiecznie, ale trudno było odróżnić, które myśli należą do mnie, a które do innych. Zawsze wiedziałem, co czują inni, a oni wiedzieli, co czuję ja. Wszystko było splątane, jakby moje czyny należały do czyjegoś życia.~
+
+@222 = ~Trudno to wyjaśnić, jeśli samemu się tego nie doświadczyło.~
+
+@223 = ~Brzmi okropnie. Żyć bez prywatności, bez... indywidualności.~
+
+@224 = ~Brzmi to całkiem fascynująco, jak dla mnie.~
+
+@225 = ~Ilu duchów zebrało się, by stworzyć Wizjonarium? Musiało być ich co najmniej kilkadziesiąt.~
+
+@226 = ~Jak mówisz, słyszę tylko: "bla bla bla, duchy, bla bla, wizje, bla"! Możemy już ruszać dalej, czy mam dalej znosić te bzdury?~
+
+@227 = ~Nie było tak źle, jak myślisz. Prywatność ma większe znaczenie za życia. Po śmierci nie ma już tabu. Wszyscy są równi w swoim doświadczeniu. W wiedzy nie ma wstydu.~
+
+@228 = ~Tak, ale to oznacza także poświęcenie. Niczego nie czułbyś tak, jak teraz. Z drugiej strony miałbyś zapewnione bezpieczeństwo. To kwestia tego, czy cena jest tego warta.~
+
+@229 = ~O wiele więcej. Teraz to już setki tuzinów, jeśli nie więcej.~
+
+@230 = ~Moje istnienie tutaj nie przypomina tego z Wizjonarium. Tu jestem zupełnie innym odcieniem — innym niż byłem za życia i innym niż wtedy, gdy byłem w grocie. Może to także jakaś boska moc, którą posiadasz — przekształcanie istoty tych, których spotykasz.~
+
+@231 = ~To jednak niewiele ma z tobą wspólnego, przyjacielu. Chodź, czekają nas kolejne przygody. I nie zapomnij nacieszyć się tym piwem.~
+
+@232 = ~Myślałem, że ucieszy cię chwila przerwy, ale najwyraźniej się pomyliłem. Niech będzie.~
+
+@233 = ~Chciałbym cię o coś zapytać, <CHARNAME>, o twoją przyjaciółkę... Imoen, prawda? Niewiele o niej wiem, poza tym, co sam mi powiedziałeś. Kochasz ją?~
+
+@234 = ~Kocham ją? Cóż, jak siostrę. Wychowywaliśmy się razem.~
+
+@235 = ~Jest dla mnie ważna, ale nie powiedziałbym, że ją kocham.~
+
+@236 = ~Nie jesteśmy kochankami, jeśli o to ci chodziło. Jest jak młodsza, czasem irytująca siostra.~
+
+@237 = ~Nie, raczej nie.~
+
+@238 = ~Nie zamierzam rozmawiać z tobą o Imoen, Willu. Zostaw mnie.~
+
+@239 = ~Rozumiem. A co z tym magiem... Irenicusem, tak? Jak dokładnie cię schwytał?~
+
+@240 = ~To długa historia. Był obecny podczas oblężenia Zamku Smoczej Włóczni, jakby mnie nawiedzał. Gdy wszystko się skończyło, napięcie narastało... Musiałem uciekać, by ratować życie, ale jego ludzie mnie dopadli. Mnie, Imoen i moich towarzyszy. Kolejna rzecz, którą pamiętam, to przebudzenie w jego lochu. Przeprowadzał na mnie... eksperymenty. A raczej — tortury.~
+
+@241 = ~To nie było żadne widowiskowe pojmanie. Po prostu obserwował mnie przez długi czas, a potem wysłał kilku ludzi, żeby mnie schwytali.~
+
+@242 = ~To nie twoja sprawa, Willu, i nie mam ochoty się w to wdawać. Moja przeszłość nie jest czymś, o czym chcę z tobą rozmawiać. Rozumiesz?~
+
+@243 = ~Rozumiem. Nie wiedziałem, że wpadłeś w pułapkę ani że ten człowiek miał wyznawców. Nadal wiem niewiele o twojej przeszłości.~
+
+@244 = ~Zapytałem o Imoen, bo zastanawiałem się, czy wasza relacja to coś więcej niż przyjaźń. Chciałem opowiedzieć ci więcej o swojej przeszłości — o pierwszym razie, gdy naprawdę się zakochałem. Już po tym, jak opuściłem dom i zrozumiałem, że uczucia do Kiriana były tylko ulotnym zauroczeniem.~
+
+@245 = ~Chętnie posłucham. Zacznij od początku. Kim była ta osoba?~
+
+@246 = ~To twoja prywatna sprawa, Willu. Chyba nie do końca zrozumiałeś charakter naszej relacji. Nie jesteśmy tu po to, by się zaprzyjaźniać. Ustaw się w szeregu i ruszajmy dalej.~
+
+@247 = ~Historia twojej pierwszej miłości? Zamieniam się w słuch.~
+
+@248 = ~Nazywał się Higam, był porucznikiem. Miał dwadzieścia sześć lat, gdy się poznaliśmy, ja byłem o dwa lata młodszy. Wtedy już od jakiegoś czasu byłem poza domem. Podczas wędrówki po gajach na południe od Targowa natrafiłem na niego — ciężko rannego i samotnego.~
+
+@249 = ~Zostawili go jego własni ludzie. Został otruty, a oni uznali, że nie przeżyje i nie warto go nieść. Zostawili mu tylko nóż, by mógł skrócić swoje cierpienia. Gdy go znalazłem, był ledwie przytomny, leżał pod wierzbą. Miał przy sobie kilka starych bandaży i niemal pustą butelkę whiskey.~
+
+@250 = ~Zabrałem go do schronienia i opatrzyłem. Tonął w potach i bólu, ale z czasem dochodził do siebie. Po trzech dniach w końcu się obudził — zdezorientowany i przestraszony. Uspokoiłem go, a potem przyniosłem zapasy do naszej tymczasowej kryjówki — wodę, zioła, trochę grzybów i kilka bochenków chleba. Heh... żyliśmy na chlebie i zupie, czasem trafiały się jagody. Raz nawet złowiłem rybę — to był dla nas prawdziwy festyn.~
+
+@251 = ~Po tygodniu jego ciało było prawie całkowicie wyleczone. Zostały tylko rany w sercu. Gdyby żył ostrożnie, mógłby jeszcze przeżyć kilka szczęśliwych lat, może nawet dekadę, ale...~
+
+@252 = ~Heh, pamiętam, jak dużo rozmawialiśmy. Zawsze opowiadał mi historie z wojny, w której brał udział. Czasem zastanawiałem się, czy niektóre nie były zmyślone, żeby mi zaimponować!~
+@253 = ~Co było dalej?~
+
+@254 = ~Próbujesz mnie zanudzić na śmierć tą żałosną historią?~
+
+@255 = ~Bywały trudne chwile, parę kłótni, czasem ciężko było się dogadać... ale mimo to zbliżyliśmy się do siebie. Żyliśmy razem, jedliśmy razem, czuwaliśmy nad sobą nawzajem. Z każdym dniem byliśmy sobie bliżsi. Cieszyliśmy się każdą chwilą i... mogę szczerze powiedzieć, że byliśmy szczęśliwi.~
+
+@256 = ~Ale to musiało się kiedyś skończyć. Mogę zapytać, jak on...~
+
+@257 = ~Byliście bezpieczni i zakochani. Nic dziwnego, że czuliście się szczęśliwi.~
+
+@258 = ~Bah, od tej słodyczy aż mnie mdli. Nie chcę słuchać dalej.~
+
+@259 = ~...zmarł?~
+
+@260 = ~Heh, przynajmniej ja byłem szczęśliwy. Mam tylko nadzieję, że on też. Było coś w jego spojrzeniu... coś, co pozwalało mi wierzyć, że mnie kocha.~
+
+@261 = ~W końcu postanowiliśmy opuścić nasz azyl. Ale byliśmy nierozważni — weszliśmy na teren niedźwiedzia i zostaliśmy zaatakowani. Podczas ucieczki bestia wbiła zęby głęboko w moje ramię, a drugie rozorała pazurami. Udało nam się uciec, ale traciłem mnóstwo krwi. Ledwo mogłem się ruszać i... chyba po prostu padłem.~
+
+@262 = ~Tym razem to Higam się mną zaopiekował. Polował, żeby utrzymać mnie przy życiu, opatrywał rany, czuwał, by drapieżniki nie zwabiły się moją krwią. Te dziewięć lat, które wtedy przeżyłem, zawdzięczam tylko jemu. Ale Higam...~
+
+@263 = ~Zaczął słabnąć. Prawie całe jedzenie i wodę oddawał mi. Byłem zbyt słaby, by protestować, ale powiedziałem mu, że umiera — że jego stan jest zbyt poważny, by przestać o siebie dbać. Ale on myślał tylko o mnie. Nie mogłem go ocalić po raz drugi.~
+
+@264 = ~Przykro mi, Will.~
+
+@265 = ~To okrutne zakończenie smutnej historii, ale... przynajmniej przez chwilę byliście szczęśliwi.~
+
+@266 = ~Nigdy nie spotkałeś już nikogo, kogo mógłbyś pokochać tak samo?~
+
+@267 = ~Bah, co to za bzdury? Po co mi to wszystko opowiadasz?~
+
+@268 = ~...W porządku. Pogodziłem się ze stratą już dawno temu, chociaż było to... piekielnie trudne.~
+
+@269 = ~Tak... tak, byłem. Wiem o tym. Wciąż cenię czas, który razem spędziliśmy, choć był tak krótki.~
+
+@270 = ~Nigdy.~
+
+@271 = ~Nie byłem całkiem wstrzemięźliwy od tamtej pory. Zdarzało się, że dzieliłem z kimś posłanie... ale to nigdy nie było to samo. Ten pasek w moim naszyjniku należał do Higama. To jedyna rzecz, którą po nim mam. Nie miał nic więcej. Ale to i tak lepsze niż nic.~
+
+@272 = ~Utrata kogoś bliskiego zawsze boli.~
+
+@273 = ~Wiem. Czułem to samo, gdy straciłem Goriona... jedynego ojca, jakiego znałem.~
+
+@274 = ~Właśnie dlatego nie poddam się w walce o Imoen. Jest dla mnie zbyt ważna. Nawet jeśli nie łączy nas miłość, nie zniosę jej straty.~
+
+@275 = ~Tak, to prawda.~
+
+@276 = ~Właśnie dlatego staram się nie przywiązywać do innych. Tak jest łatwiej.~
+
+@277 = ~Nie sądzę, bym potrafił tak łatwo to zaakceptować.~
+
+@278 = ~Więc znasz ten gorzki smak utraty kogoś bliskiego. To... dziwnie oczyszczające uczucie.~
+
+@279 = ~Dość już tego ponurego gadania. Na pewno mamy coś do zrobienia, prawda? Nie powinienem cię spowalniać. Dokończymy innym razem, przyjacielu.~
+
+@280 = ~Może i nie masz wyboru, ale szansa zawsze istnieje. Na razie wystarczy — ruszajmy dalej, co ty na to?~
+
+@281 = ~Tak... w każdym razie, chyba już dość długo rozmawialiśmy o śmierci, prawda? Ruszajmy dalej.~
+
+@282 = ~To prawda, ale czy to samo w sobie nie jest też stratą? Zostawię cię z tą myślą. Czas wracać do szeregu.~
+
+@283 = ~Sądzę, że trudniej będzie to zignorować, niż ci się wydaje. Może jeszcze nie straciłeś nikogo, kto naprawdę się liczył.~
+
+@284 = ~Chodź, ruszajmy. Na pewno mamy coś do zrobienia.~
+
+@285 = ~Widzę, że wybrałem zły moment na rozmowę. Dobrze, nie będę ci już przeszkadzał.~
+
+@286 = ~Grosik za twoje myśli, <CHARNAME>? Wyglądasz, jakbyś był pogrążony w zadumie.~
+
+@287 = ~Myślałem o Irenicusie. I o wszystkim, co mi zrobił.~
+
+@288 = ~Myślę o Imoen. Może być teraz gdziekolwiek, w jakimkolwiek stanie.~
+
+@289 = ~Och, musisz się mylić. Po prostu wpatrywałem się w żar.~
+
+@290 = ~Zastanawiałem się nad jutrzejszym dniem. Co przyniesie.~
+
+@291 = ~To nie twoja sprawa.~
+
+@292 = ~Rozumiem. Po prostu chciałem z tobą porozmawiać — nie chcę, byś się zadręczał. Przed nami jeszcze wiele do zrobienia, ale wierzę, że twoja przyszłość będzie jasna... jaśniejsza niż samo istnienie.~
+
+@293 = ~Zastanawiam się... co zrobisz, gdy osiągniesz swój cel? Gdy Irenicus zostanie powstrzymany, a ty odzyskasz przyjaciela?~
+
+@294 = ~Nie myślałem jeszcze tak daleko w przyszłość.~
+
+@295 = ~Chciałbym założyć rodzinę. Być z kimś, kogo kocham, zacząć spokojne życie. Może od czasu do czasu wyruszyć na przygodę — ale z wyboru, nie z przymusu.~
+
+@296 = ~Nie widzę siebie nigdzie indziej poza życiem poszukiwacza przygód. Chcę ekscytacji, chcę odkrywać ruiny, zapomniane cywilizacje, artefakty, które pozwolą mi robić rzeczy niezwykłe.~
+
+@297 = ~Chcę potęgi. Chcę być silniejszy, większy niż ktokolwiek inny. Nie chcę już nigdy być czyimś pionkiem ani obiektem eksperymentów.~
+
+@298 = ~Hmm... a może zostać szefem kuchni i założyć własną gospodę? Serwować ucztę każdego wieczoru? Tak, to byłoby życie marzeń!~
+
+@299 = ~To nie twoja sprawa, Will. Daj mi spokój, dobrze?~
+
+@300 = ~Pewnie masz jeszcze mnóstwo czasu. Wątpię, by twoja podróż skończyła się w najbliższym miesiącu... ani tym po nim.~
+
+@301 = ~Rodzina, hm? Sądzę, że większość właśnie tego pragnie — życia u boku ukochanej osoby...~
+
+@302 = ~Chcesz zabawy, sławy i bogactwa, tak? Pragniesz odkrywać miejsca zapomniane przez świat, pełne magii i tajemnic. Rozumiem, czemu nigdy się nie nudzisz.~
+
+@303 = ~Szukać potęgi, mówisz. Widzę, że Irenicus zasiał w tobie dość silne ziarno.~
+@304 = ~Karczma? Heh, niezły pomysł. Spodziewałem się czegoś bardziej wzniosłego, ale skoro już to powiedziałeś... może faktycznie nie byłoby tak źle.~
+
+@305 = ~To ważne — mieć plan. Nie tylko na najbliższy czas, ale i na dalszą przyszłość. Nasze cele nas kształtują — ciało i duszę. Bez względu na to, czego szukamy, zmieniamy się... hartujemy umysł i siebie samych, by to osiągnąć.~
+
+@397 = ~Nie zamierzam ci tego mówić. To moja prywatna sprawa!~
+
+@398 = ~Rozumiem. (uśmiech) To dobrze. Warto szukać więzi z innymi.~
+
+@399 = ~Rozumiem! Mam nadzieję, że dobrze wspominasz to nowe doświadczenie!~
+
+@400 = ~Mam tylko nadzieję, że nie zrobi się zbyt… *ekhm* niechlujnie. To się czasem zdarza… i nigdy nie jest przyjemnie, gdy nie ma pod ręką wody albo pełnego bukłaka.~
+
+@401 = ~...yyy, powinienem za to przeprosić. Zwykle nie mówię takich rzeczy. Chyba nie powinienem był wypowiadać tego na głos.~
+
+@402 = ~A teraz mnie zaciekawiłeś. Masz jakieś przemyślenia na ten temat?~
+
+@403 = ~Eee… chyba w porządku. Po prostu ruszajmy dalej.~
+
+@404 = ~Uwierzyłbyś, że ja też wiem, jak… klejąco… potrafi się zrobić?~
+
+@405 = ~Cóż, rozmowa nagle zrobiła się dziwna. Zapomnijmy, że w ogóle coś powiedzieliśmy.~
+
+@406 = ~Nie chcę rozmawiać o takich rzeczach, Will.~
+
+@407 = ~Wolałbym nie… powiedzmy tylko, że ktoś się zbyt podekscytował i… zrobiło się trochę niezręcznie. Później się z tego śmialiśmy, ale *naprawdę* wolę nie wchodzić w szczegóły, heh. Zmieńmy temat.~
+
+@408 = ~Racja…~
+
+@409 = ~Heh. No cóż, wygląda na to, że naprawdę znasz te niezręczne sytuacje… eee, może po prostu ruszmy dalej?~
+
+@410 = ~Skoro tak chcesz. Prowadź, idę za tobą.~
+
+@411 = ~Ach... tyle duchów tutaj. Tyle echa... krzyczących i wirujących w ciemności...~
+
+@412 = ~Wszystko w porządku, Will? Zachowujesz się dość dziwnie, odkąd tu weszliśmy.~
+
+@413 = ~O czym ty mówisz?~
+
+@414 = ~Ja nic nie słyszę...~
+
+@415 = ~Nie mamy na to czasu. Ruszajmy.~
+
+@416 = ~Gdy byliśmy jeszcze na powierzchni, słyszałem tylko szepty, ale tutaj… echo odbija się od wszystkich ścian. Słyszę głosy przeszłości, teraźniejszości i przyszłości. Wszystko się splata i kręci, jakby to był staw pełen węży i węgorzy.~
+
+@417 = ~Skup się, Will.~
+
+@418 = ~Nie myśl o tym. Spróbuj się czymś zająć.~
+
+@419 = ~Tak...~
+
+@420 = ~Ah... czuję się już trochę lepiej. To miejsce zupełnie nie przypomina Gniazda Wizji. Wręcz przeciwnie — jest martwe, przepełnione negatywną energią. Na początku mnie to przytłoczyło, ale teraz już dochodzę do siebie.~
+
+@421 = ~To dobrze. Wiesz, czego możemy się spodziewać w tym grobowcu?~
+
+@422 = ~Rozumiem. Ruszajmy dalej.~
+
+@423 = ~Pułapki, zimne kamienie, cienie, padlina. Może nieumarli. Nic, co żywi uznaliby za przyjemne, obawiam się.~
+
+@424 = ~To miejsce jest ostoją dla zmarłych. Żywi nie powinni tu przebywać zbyt długo. Zróbmy, co trzeba, <CHARNAME>, i odejdźmy stąd jak najszybciej.~
+
+@425 = ~Dobrze. Postaram się zignorować te szepty. Załatwmy, co trzeba, i zmywajmy się stąd jak najszybciej.~
+
+@426 = ~Zastanawiałem się, <CHARNAME>… czy jesteś szczęśliwy z tym, kim jesteś?~
+
+@427 = ~Trudno powiedzieć. Szczerze mówiąc, nie wiem. Od chwili, gdy opuściłem Candlekeep, wydarzyło się zbyt wiele. Więcej, niż się spodziewałem.~
+
+@428 = ~Chyba tak. Nawet jeśli życie mnie nie oszczędzało, mogło być gorzej. Wciąż żyję i to mnie cieszy.~
+
+@429 = ~Nie, Will. Zbyt wielu bliskich straciłem. Najpierw Goriona, potem Khalida i Dynahier. Nawet nie miałem okazji ich opłakać.~
+
+@430 = ~Przestań zadawać mi te bezsensowne pytania, Will. Ruszajmy.~
+
+@431 = ~Ten czas musiał być dla ciebie trudny. Nic dziwnego, że trudno ci nawet powiedzieć, czy jesteś szczęśliwy. Wierz lub nie, ale to mnie smuci.~
+
+@432 = ~Cieszę się to słyszeć. Wiem, że spotkało cię wiele złego — straty, porwanie Imoen — ale jesteś silnym <PRO_MANWOMAN>, skoro mimo to potrafisz odnaleźć szczęście.~
+
+@433 = ~Przykro mi to słyszeć. Powinieneś przynajmniej mieć czas, by się pożegnać.~
+
+@434 = ~Też miałem chwile, gdy czułem się słaby i bezradny. Gdy straciłem Higama — tego, którego kochałem — byłem jednocześnie smutny i wściekły. Piłem, aż się zatracałem, a potem milczałem całymi dniami. Przestałem dbać o innych, nawet jeśli mnie wołali — ignorowałem ich.~
+
+@435 = ~Ale jakoś się z tego podniosłeś.~
+
+@436 = ~Nie było to niesprawiedliwe wobec tych, którzy cię potrzebowali?~
+
+@437 = ~Tak. Ale to zajęło dużo czasu… bardzo dużo czasu.~
+
+@438 = ~Możliwe. Ale utrata Higama też była niesprawiedliwa. „Dlaczego mam ratować kogokolwiek, skoro nie zdołałem ocalić tego, którego kochałem najbardziej, ani nawet siebie?” Powtarzałem to sobie wiele razy.~
+
+@439 = ~Chciałem tylko powiedzieć, <CHARNAME>… jeśli kiedykolwiek będziesz potrzebować pomocy… jeśli poczujesz się przytłoczony… daj mi znać. Nie powiem ci, że wszystko będzie dobrze. Nie skłamię. Ale cię wysłucham. A jeśli nie będziesz chciał mówić, po prostu posiedzimy razem przy ogniu. Cokolwiek ci pomoże.~
+
+@440 = ~Dlaczego jesteś taki miły?~
+
+@441 = ~Nie potrzebuję nikogo, Will. Nie jestem słabeuszem.~
+
+@442 = ~Dziękuję. Zapamiętam to.~
+
+@443 = ~Bo mogę. Pomogłeś mi. Pomagasz innym, nawet jeśli nic w zamian nie dostajesz. Zasługujesz przynajmniej na tyle.~
+
+@444 = ~Jestem do twoich usług, przywódco... przyjacielu.~
+
+@445 = ~Heh… gdybym żył, zaproponowałbym kufel piwa albo ucztę, ale oboje wiemy, jak z tym jest. Nie mogę pić ani jeść. Heh, nawet zapalić bym nie mógł. Szkoda.~
+
+@446 = ~Przynajmniej możemy rozmawiać. Dla mnie to wystarczy.~
+
+@447 = ~Paliłeś za życia?~
+
+@448 = ~Nieważne. Możemy już iść?~
+
+@449 = ~Obawiam się, że to wszystko, co mogę ci zaoferować. Ale to i tak lepsze niż nic.~
+
+@450 = ~Czasem paliłem fajkę z tytoniem. Nie nazwałbym się palaczem, ale nie byłem od tego wolny. Próbowałem też Haunspeiru i Czerwonych Liści parę razy, ale to nie dla mnie.~
+
+@451 = ~W każdym razie powinniśmy ruszać. Ale jeśli mnie potrzebujesz — zawsze jestem gotów cię wysłuchać.~
+
+@452 = ~Dobrze. Już cię więcej nie będę niepokoić.~
+
+@453 = ~Muszę się do czegoś przyznać, <CHARNAME>. Gdy zrozumiałem, że znalazłeś kogoś bliskiego… przypomniałem sobie siebie. To, jak czułem się przy Higamie. Może i jesteśmy teraz rozdzieleni, ale widok twojej więzi z kimś przywrócił mi trochę życia.~
+
+@454 = ~Zdecydowanie dobrze mieć kogoś, kto się troszczy.~
+
+@455 = ~Wiesz, Will, to może nie potrwać wiecznie. Nie przywiązuj się zbytnio. Nauczyłem się, że wszystko — nawet więzi — potrafią się zmieniać.~
+
+@456 = ~To moje życie, Will, nie twoje. Trzymaj się z daleka od moich spraw.~
+
+@457 = ~To moja prywatna sprawa, Will. Nie chcę, żebyś się w to mieszał.~
+
+@458 = ~Nie martw się. Wiem o tym.~
+
+@459 = ~Co? Myślisz, że chcę żyć twoim życiem? Chciałem tylko powiedzieć, że cieszę się z twojego szczęścia. Jeśli to cię drażni…~
+
+@460 = ~Wybacz. Jestem ci wdzięczny, że tak się czujesz. Po prostu nie chciałem czuć się pod presją.~
+
+@461 = ~Tylko co, jeśli to się nie uda? Jeśli wszystko się posypie i znów zostaniemy tylko towarzyszami?~
+
+@462 = ~Nie obchodzi mnie to. Trzymaj się z daleka.~
+
+@463 = ~Heh, pewnie masz rację. Przepraszam — po prostu minęło sporo czasu, odkąd czułem coś takiego, jak ty teraz.~
+@464 = ~Chciałem jeszcze coś ci powiedzieć, <CHARNAME>.~
+
+@465 = ~Rozumiem. Nic się nie stało.~
+
+@466 = ~Słuchaj, nie chcę, żebyś myślał, że cię obserwuję, naciskam czy oceniam. Po prostu... zbyt długo nie rozmawiałem z nikim żywym. Odkąd stałem się czymś więcej niż tylko bytem wizji czy snu, chyba trochę się w tym wszystkim duszę.~
+
+@467 = ~Chcę tylko, żebyś wiedział, że… uważam cię za prawdziwego przyjaciela. Za <PRO_BROTHERSISTER>. Może nie z krwi, ale z więzi.~
+
+@468 = ~Szczęściarz ze mnie. Gdybyśmy dzielili krew, też byłbyś pomiotem Bhaala! …Heh, dzięki, Will. Uważam cię za dobrego przyjaciela i to dla mnie zaszczyt.~
+
+@469 = ~Słuchaj, Will. Uważam cię za cennego towarzysza. Jesteś szamanem z użytecznymi zdolnościami i potrafię z nich korzystać. Może to cię rozczaruje, ale nie będę kłamał z grzeczności.~
+
+@470 = ~Zabawne, bo ja też myślę o tobie jak o bracie, Will. Prawdziwym. Takim, z którego mogę być dumny — nie tylko kolejnym noszącym moje brzemię.~
+
+@471 = ~Nie rozśmieszaj mnie, duchu. Jeśli szukasz czułości, wezwij sobie jakieś duchy i niech cię zabawią. Mnie to nie interesuje.~
+
+@472 = ~Dziękuję.~
+
+@473 = ~...Heh. Zaczyna się robić zbyt sentymentalnie jak na mój gust. Powiedzieliśmy, co chcieliśmy. Może wróćmy do zadań, co?~
+
+@474 = ~Masz rację. Ruszajmy.~
+
+@475 = ~Chciałem ci jeszcze coś powiedzieć.~
+
+@476 = ~Tak? Co takiego?~
+
+@477 = ~Naprawdę sądzisz, że nam się uda? Że pokonamy Irenicusa i każdego potwora, którego zdołał sobie podporządkować?~
+
+@478 = ~W ogóle się mnie nie boisz? Wiesz, czym są pomioty Bhaala, znasz zło jego imienia. Nawet za życia musiałeś o tym wiedzieć.~
+
+@479 = ~Ciężko to przyznać, ale… chyba zaczynam się w tobie zakochiwać.~
+
+@480 = ~Nic. To nic. Ruszajmy dalej.~
+
+@481 = ~Rozumiem, <CHARNAME>. Dziękuję za szczerość. Chyba już wystarczająco długo zajmuję twój czas, więc… prowadź.~
+
+@512 = ~Zastanawiam się... czy kiedykolwiek wstydziłeś się swoich uczuć?~
+
+@513 = ~Bogowie, nie! Dlaczego w ogóle pytasz?~
+
+@514 = ~Nigdy. Wychowywał mnie tylko Gorion, a poza nim była jeszcze Imoen — nigdy by mnie nie osądziła. Choć gdybym powiedział Gorionowi, że zakochałem się na przykład w jakimś Zhencie, to chyba trochę bym się tego wstydził.~
+
+@515 = ~Na początku byłem trochę zagubiony, ale teraz już nie. Jestem szczęśliwy z tym, kim jestem.~
+
+@516 = ~Na początku byłem trochę zagubiony... i w sumie do dziś trochę jestem. Trudno o tym rozmawiać z innymi, kiedy nigdy nie wiadomo, czy czują to samo.~
+
+@517 = ~Raz się tak czułem...~
+
+@518 = ~Nie chcę o tym rozmawiać. Ruszajmy dalej.~
+
+@519 = ~Gdy zakochałem się w Kirianie, czułem się zawstydzony. Teraz już nie, ale... wciąż nie wiem, co bym powiedział ojcu.~
+@520 = ~Tak, to rzeczywiście byłaby skomplikowana sytuacja.~
+
+@521 = ~Rozumiem.~
+
+@522 = ~Nie ma się czym gubić, <CHARNAME>. Wszystko z tobą w porządku.~
+
+@523 = ~Rozumiem. Nie będę już dopytywał.~
+
+@524 = ~Zastanawiam się czasem... dlaczego tak wielu ludzi wstydzi się swoich uczuć, niezależnie od tego, czy kochają mężczyzn, czy kobiety. Czy nie powinniśmy mieć wolności, by patrzeć na innych tak, jak chcemy?~
+
+@525 = ~Tak wielu unika rozmów o swoich emocjach, jakby wstydzili się własnych uczuć, miłości, a nawet godności.~
+
+@526 = ~Nie ma powodu, by się wstydzić. Ale potrzeba odwagi, by to przyznać.~
+
+@527 = ~Ludzie boją się łamać schematy. To nie zawsze kwestia wstydu.~
+
+@528 = ~Nie wiem i, szczerze mówiąc, nie chcę się nad tym zastanawiać. Możemy to zostawić?~
+
+@529 = ~Myślę, że najpierw trzeba zaakceptować siebie. Wstyd może brać się stąd, że nie każdy jest na to gotowy.~
+
+@530 = ~Trudno powiedzieć... Chciałbym znać odpowiedź, ale nie wiem, co ci powiedzieć.~
+
+@531 = ~Chyba masz rację.~
+
+@532 = ~Status quo? Dlaczego miałoby kogoś powstrzymywać? Czy naprawdę większość musi zawsze narzucać, co jest słuszne? Ludzie są różni, każdy ma swoje uczucia. Dlaczego głos jednego ma być mniej ważny niż setki innych?~
+
+@533 = ~Możliwe, że masz rację. Może właśnie dlatego ludzie zakładają maski.~
+
+@534 = ~Czyli myślimy podobnie.~
+
+@535 = ~Rozmyślam o tym, bo chciałbym, żeby to wszystko było łatwiejsze. Bez względu na to, ile czasu mija, niektóre zasady zdają się nigdy nie zmieniać.~
+
+@536 = ~Byłbyś szczęśliwy, gdyby twój przybrany ojciec — Gorion — miał okazję poznać osobę, którą kochasz?~
+
+@537 = ~Tak. Szkoda, że to już niemożliwe.~
+
+@538 = ~Nie bardzo. Byłoby raczej niezręcznie. I tak nie byliśmy sobie bliscy.~
+
+@539 = ~Nie wiem... może?~
+
+@540 = ~Ja... chciałbym, żeby ojciec zobaczył mnie z Higamem. Ale to już się nie stanie.~
+
+@541 = ~Dość już tego, <CHARNAME>! Mamy jeszcze wiele do zrobienia i do zobaczenia! Chodź, przyjacielu — przyszłość na nas czeka!~
+
+@542 = ~Chyba nie powinienem cię tym męczyć.~
+
+@543 = ~Nie jesteś już zbyt zmęczony, <CHARNAME>? Co powiesz na partyjkę w karty przed snem?~
+
+@544 = ~Gra losowa, tak? Mogę ci ufać, że nie podpytywałeś duchów o moje karty?~
+
+@545 = ~Brzmi dobrze. Rozdaj karty.~
+
+@546 = ~Nie, dzięki. Wolę się położyć. Do rana.~
+
+@547 = ~Heh, nawet o tym nie pomyślałem. Niezły pomysł.~
+
+@548 = ~Obiecuję, że nie będę oszukiwać duchami. Wolę zachować moce na ważniejsze sprawy.~
+
+@549 = ~Dobrze, gramy.~
+
+@550 = ~Wolę odpocząć. Dobranoc, Will.~
+
+@551 = ~W porządku, tylko przetasuję talię... dobra, twoja kolej... masz pięć, tak? Zaczynaj.~
+
+@552 = ~Mogę cię o coś zapytać podczas gry? W ostatnim mieście słyszałem plotkę, że Bhaalspawnowie to czternastostopowe tytany, cuchnące siarką i miażdżące wszystko na swojej drodze. Co o tym sądzisz?~
+
+@553 = ~Szkoda, że tak nie potrafię! Może wcale nie jestem Bhaalspawnem?~
+
+@554 = ~Ludzie czasem gadają głupoty.~
+
+@555 = ~Tylko nikomu nie mów, ale... gdybym chciał, mógłbym zrobić znacznie więcej.~
+
+@556 = ~Hah... może nie jesteś. Czy to by cię pocieszyło?~
+
+@557 = ~Oj tak, ludzie potrafią naprawdę bredzić.~
+
+@558 = ~Nie zrozum mnie źle, <CHARNAME>. Ani trochę nie wątpię w twoją moc.~
+
+@559 = ~Ciekawe, ile jeszcze historii o tobie usłyszymy, zanim to wszystko się skończy.~
+
+@560 = ~W każdym razie... twoja kolej, <CHARNAME>. Zagrajmy, zanim ogień zgaśnie!~
+
+@561 = ~W porządku. Słodkich snów.~
+
+@562 = ~Heh... wyglądasz na kompletnie zalanego, <CHARNAME>.~
+
+@563 = ~T-tak! *hik* Jestem!~
+
+@564 = ~Nieeee, wcale nie! Jestem po prostu... *hik* bardzo, BARDZO szczęśliwy! Patrz na ten kufel...! O, to nie kufel...?~
+
+@565 = ~Ugh... to był po prostu... k-kiepski dzień. Musiałem się napić, wiesz? *hik*~
+
+@566 = ~Z-zajmij się sobą! *hik*~
+
+@567 = ~No dobrze, skoro jeszcze mówisz, to może też chodzisz? Nigdy cię tak pijanego nie widziałem! Ile wypiłeś, <PRO_BROTHERSISTER>?~
+
+@568 = ~Tylko... *hik* trochę... chyba.~
+
+@569 = ~Hnn... piłem, jak podawali... aż ten zły barman... mnie zatrzymał. *hik* Popsuł mi zabawę.~
+
+@570 = ~Z-zajmij się sobą. Zejdź mi z drogi!~
+
+@571 = ~W takim razie... chyba mam jeszcze jedną butelkę gdzieś tutaj...~
+
+@572 = ~D-dawaj to!~
+
+@573 = ~M-mógłbym cię pocałować! Nalej jeszcze!~
+
+@574 = ~N-nie, już wystarczy... przed nami... długa droga...~
+
+@575 = ~O-bojętne. Po prostu się odsuń, dobra?~
+
+@576 = ~Ha! Serio myślisz, że dam ci więcej? Nie, nie, nie — zdecydowanie nie. Jeszcze jeden łyk i będziesz blady jak ja.~
+
+@577 = ~Dobrze widzieć, że jeszcze trochę rozsądku ci zostało! Heh.~
+
+@578 = ~Haha... próbowałeś się popisać swoją twardością, co? Pewnie masz wielkie, imponujące... ale nie musiałeś wypić wszystkiego, żeby to udowodnić.~
+
+@579 = ~Haha... próbowałeś udawać twardziela? Widzę to wystarczająco często w walce — nie musisz się testować w ten sposób.~
+
+@580 = ~Dobra, już cię wystarczająco podrażniłem. Potrzebujesz pomocy?~
+
+@581 = ~Nie, w- w porządku. Świeże powietrze dobrze mi zrobi.~
+
+@582 = ~Hmm, tak... z- zdecydowanie się przyda.~
+
+@583 = ~Nie, wystarczy mi ciepłe łóżko... albo koc... albo cokolwiek ciepłego i płaskiego...~
+
+@584 = ~W porządku, prowadź. Idę zaraz za tobą... (na wypadek, gdybyś się wywalił i rozbił łeb)~
+
+@585 = ~Dobrze, że nie mam węchu. Podejrzewam, że jutro będziesz potrzebował kąpieli.~
+
+@586 = ~Ciepłe i płaskie, mówisz? To da się załatwić, heh. Chodź, znajdziemy ci jakieś miłe miejsce do spania.~
+
+@587 = ~Myślałem o tym, co mi ostatnio powiedziałeś.~
+
+@588 = ~Skoro uważasz, że powinniśmy o tym porozmawiać, to zgoda.~
+
+@589 = ~Czy byłoby zbyt śmiałe zapytać, czy nie zmieniłeś zdania?~
+
+@590 = ~Musimy do tego wracać? Powiedzieliśmy już wszystko. Wolę iść dalej, niż gonić za czymś, czego nie ma.~
+
+@591 = ~Tak, myślę, że powinniśmy porozmawiać.~
+
+@592 = ~Ja... nie wiem.~
+
+@593 = ~Nie będę kłamać — zaskoczyłeś mnie wtedy. Ale... nie czuję tego samego.~
+
+@594 = ~Choć wyglądam jak zwykły człowiek, to... nie jestem nim. Już nie. Ta twarz, to ciało — należą do kogoś, kto dawno odszedł. Nie mogę być jak ty.~
+
+@595 = ~Ta twarz, to ciało — to pozostałość po człowieku, którego już nie ma. Choć mam wątpliwości jak żywy, nie czuję już tak samo. Moja obecność w tym świecie wiąże się z czymś zupełnie innym niż twoja.~
+
+@596 = ~To znaczy, że nie możesz odwzajemnić moich uczuć?~
+
+@597 = ~Rozumiem. Po prostu... jesteś w wielu aspektach tak normalny, że czasem zapominam, kim naprawdę jesteś.~
+
+@598 = ~Nie chcę o tym rozmawiać. Myślę, że już wystarczająco jasno się wcześniej wypowiedziałeś.~
+
+@599 = ~Nie. Potrafię czuć... ale inaczej niż ty. Nawet samo stanie tu, przed tobą, odczuwam zupełnie inaczej niż ty.~
+@600 = ~To, że rozumiesz... nie sprawia, że jest mi łatwiej.~
+
+@601 = ~Myślę, że oboje zgodzimy się, że ta sytuacja jest trudna... dla nas obojga.~
+
+@602 = ~Will... słuchaj. Cokolwiek powiedziałam, nie chciałam zmieniać tego, co już nas łączy. Jesteś moim przyjacielem. Masz prawo czuć to, co czujesz. Chcę, żebyśmy dalej byli wobec siebie uczciwi — żebyśmy nie unikali się nawzajem.~
+
+@603 = ~Nie dla mnie. Już wystarczająco jasno się wobec mnie wyraziłeś. Skupmy się na tym, co naprawdę ważne — na naszych wrogach i zadaniu. Straciliśmy już coś, czego słowa nie przywrócą. Po prostu o tym zapomnijmy i idźmy dalej.~
+
+@604 = ~Pewnie masz rację. Po prostu... byłem zdezorientowany. Nadal jestem. Ale to minie. Cieszę się, że nie trzymałeś tego w sobie i nie dusiłeś w samotności.~
+
+@605 = ~Zgadzam się. Powinniśmy spróbować to przezwyciężyć. To nie powinno nas powstrzymywać przed rozmową.~
+
+@606 = ~Dobrze. Mamy to ustalone.~
+
+@607 = ~Wiesz co... nie jestem już taki pewien, czy będę potrafił rozmawiać z tobą jak wcześniej. Nie — zmieniłem zdanie. Powinniśmy pozostać jedynie sojusznikami. Nie potrafię tak po prostu wrócić do dawnej przyjaźni. Przepraszam, że w ogóle to poruszyłem.~
+
+@608 = ~To dobrze. Na razie ruszajmy dalej, ale obiecuję — jeszcze porozmawiamy.~
+
+@609 = ~Rozumiem... Teraz sprawa jest dla mnie jasna. Jeśli tak chcesz, ruszajmy dalej.~
+
+@610 = ~<CHARNAME>, muszę zapytać... czy wszystko u ciebie w porządku? Myślałem ostatnio o tym, co powiedziałeś. O tej... sympatii do mnie. Powiedziałeś, że wszystko gra i że możemy dalej współpracować, ale... chciałem się upewnić, czy naprawdę tak jest.~
+
+@611 = ~Odrzucenie boli, ale już mi lepiej. Przynajmniej byłeś szczery.~
+
+@612 = ~Jeśli naprawdę ci zależało, mogłeś powiedzieć coś, co chciałabym usłyszeć. Trzymaj się z daleka.~
+
+@613 = ~Nie, wszystko dobrze. To ja powinienem przeprosić, że tak nagle to powiedziałem. Rozumiem cię i... wystarczy mi, że jesteśmy przyjaciółmi.~
+
+@614 = ~Wolałem powiedzieć prawdę, niż cię okłamywać albo uciekać. Bez urazy, ale... nie zmienię zdania. Ani wtedy, ani teraz.~
+
+@615 = ~Nie przepraszaj. Nie zrobiłeś nic złego, wyznając swoje uczucia.~
+
+@616 = ~Pomyślałem, że powinienem zapytać... tak na wszelki wypadek. Czy moja obecność cię nie krępuje? Jeśli chcesz, odejdę...~
+
+@617 = ~Nie, nie odchodź. Naprawdę już wszystko gra.~
+
+@618 = ~T-tak. Myślę, że tak będzie lepiej. Przepraszam.~
+
+@619 = ~Masz chociaż tyle rozumu. Zjeżdżaj stąd.~
+
+@620 = ~Nie waż się o tym nawet myśleć. Chcę, żebyś został — i nie dlatego, że kiedyś miałam do ciebie słabość. To już za mną.~
+
+@621 = ~Dobrze... to dobrze. Cieszę się, że tak mówisz.~
+
+@622 = ~Jeśli to wszystko, to chyba pora ruszać dalej. Chodź, przyjacielu! Przed nami jeszcze wiele do zrobienia.~
+
+@623 = ~Rozumiem. Niezależnie od wszystkiego, to był zaszczyt podróżować z tobą. Niech ci sprzyjają wiatry — cokolwiek przyniesie przyszłość.~
+
+@624 = ~Heh, w porządku.~
+
+@625 = ~Przepraszam, że cię niepokoiłem.~
+
+@626 = ~Więc postanowiłeś zostać bohaterem? Nie wiem, czy to dobry pomysł.~
+
+@627 = ~Dlaczego? Myślałam, że ucieszy cię to, że pomagamy innym.~
+
+@628 = ~Nie robię tego, żeby cię zadowolić, Will. Nie powstrzymuj mnie przed robieniem tego, co uznaję za słuszne.~
+
+@629 = ~Nie jestem temu przeciwny, ale... każdy bohater coś traci. Czy możesz pozwolić sobie na stratę większą, niż już poniosłeś? Wiem, że robisz to z troski o innych — to szlachetne — ale ryzykujesz własne życie. Czy jesteś gotów poświęcić wszystko, czym jesteś, dla innych?~
+
+@630 = ~Może <PRO_HESHE> nie powinien się poświęcać, ale nie możemy stać z boku, skoro mamy moc, by pomóc. Myślałam, że przynajmniej to zrozumiesz.~
+
+@631 = ~Rozumiem, Nalia. Nie mam nic przeciw pomaganiu, ale nie chcę, by <CHARNAME> zginął dla cudzej sprawy, zanim osiągnie własne cele.~
+
+@632 = ~Nie zapominam o sobie, Will. Zawsze zostawiam coś, by zadbać o własne potrzeby.~
+
+@633 = ~Nie martw się, Nalia. Zgadzam się z tobą. Chcę uczynić świat lepszym — zarówno dla innych, jak i dla siebie.~
+
+@634 = ~Pomaganie innym też jest moim celem, Will. Nie będę biernie patrzeć, jak nikczemni krzywdzą niewinnych. Chcę uczynić ten świat jak najlepszym.~
+
+@635 = ~Jest w tym dla mnie korzyść. Bohaterstwo przynosi nagrody. Nazywaj mnie bohaterem albo najemnikiem — ważne, że dostanę to, na co zasłużyłem.~
+
+@636 = ~Cokolwiek, Will. Nie jestem tu po to, by spełniać twoje zachcianki. Idźmy dalej.~
+
+@637 = ~Dobrze. Nie chciałbym, byś zgubił własną drogę, pomagając innym na ich.~
+
+@638 = ~Jesteś całkiem pewny siebie.~
+
+@639 = ~Rozumiem.~
+
+@640 = ~Znasz historie największych bohaterów. Są chwaleni przez lud, ale wszyscy coś stracili. Rodzinę, życie, miłość... albo spokój. To wysoka cena.~
+
+@641 = ~Nie powiem ci, byś ignorował cierpienie innych, ale musisz pamiętać, że sam też cierpisz. Nie poświęcaj siebie dla wszystkich. Pomagaj, jeśli musisz — ale nie kosztem siebie.~
+
+@642 = ~Dlaczego mówisz mi to wszystko dopiero teraz?~
+
+@643 = ~Wiem, do czego zmierzasz, Will. Nie martw się. Wiem, gdzie postawić granicę.~
+
+@644 = ~Myślę, że znam konsekwencje moich działań lepiej niż ty, Will.~
+
+@645 = ~*Westchnienie* Możemy dać sobie spokój? I tak się nie dogadamy.~
+
+@646 = ~Bo ludzie cię znają. Wszyscy o tobie mówią. Wiedzą, że mogą zwrócić się do ciebie o pomoc — żebyś ich uratował.~
+
+@647 = ~Jeśli to prawda, to się cieszę.~
+
+@648 = ~Powiem to raz jeszcze. Nie sugeruję, byś ignorował ludzi w potrzebie. Ale czy każdy, kto zgubił psa albo sakiewkę, musi nas zatrzymywać, gdy Irenicus jest tuż przed tobą? Myślałem, że to zrozumiesz.~
+
+@649 = ~Nie sądziłem, że jesteś zbyt zajęty, by choć chwilę posłuchać. W porządku. Prowadź.~
+
+@650 = ~<CHARNAME>, coś jest nie tak... Czuję dziwną obecność. Jakaś potężna siła mnie chwyta... i nie chce puścić. Te szepty... <CHARNAME>, co tu się dzieje?!~
+
+@651 = ~To miejsce...~
+
+@652 = ~Myślę, że rozumiem. To miejsce... to schronienie duchów, dlatego mnie przywołało. Przypomina Visionhive, ale... jest podłe i okrutne. Mroczne istoty nazywają je domem, <CHARNAME>. One krzyczą z głodu, pragną krwi...~
+
+@653 = ~Głodu... czego?~
+
+@654 = ~Czy chcesz powiedzieć to, co myślę, że chcesz powiedzieć?~
+
+@655 = ~...nas. Tak, obawiam się, że chcą pożreć nas. Nie tylko naszą krew, ale też energię, sny i nadzieję. Wszystko, co daje życie.~
+
+@656 = ~Wspaniale. Po prostu cudownie! Nie wiesz może, jak się stąd wydostać, zanim zostaniemy obiadem?~
+
+@657 = ~Hmm... ale musi być jakieś wyjście, prawda?~
+
+@658 = ~Ha! Wygląda na to, że szykuje się niezła zabawa.~
+
+@659 = ~Hmm... Muszę się rozejrzeć i zastanowić...~
+
+@660 = ~Miejsca takie jak to zwykle mają jakiegoś opiekuna. Jeśli chcemy uciec, musimy się nim zająć... siłą, jeśli zajdzie taka potrzeba. To osłabi zasłonę otaczającą to miejsce.~
+
+@661 = ~Ale czy taka istota nie będzie bardzo potężna?~
+
+@662 = ~Dobra. Rozejrzyjmy się. Mam lepsze rzeczy do roboty niż błąkać się tu wiecznie.~
+
+@663 = ~Bez wątpienia. Ale dowiemy się tylko wtedy, gdy ich znajdziemy. I to szybko — zanim oni znajdą nas.~
+
+@664 = ~Masz rację. Idę za tobą.~
+
+@665 = ~*Nowe istoty wkroczyły do mego siedliska. Inne niż pająki i czarne elfy z Wielkiej Jaskini! Wyczuwam cię, istoto z ciała — twój oddech, twoją energię, twoje pragnienia. Najpierw poczułem tylko ducha, ale wiedziałem, że kroczy przy nim coś więcej... coś większego.*~
+
+@666 = ~Więc ta istota wyczuła najpierw mnie? Ale... chyba wie, kim jesteś, <CHARNAME>.~
+
+@667 = ~*Tak... Wiem, kim jesteś i kim masz się stać. W tobie drzemie wielki potencjał, istoto z ciała. To niemal wyryte w twej esencji. Gdybym cię pożarł, moja moc wzrosłaby dziesięciokrotnie. Mógłbym uczynić swój dom potężnym, ponad wszelkie pojęcie!*~
+
+@668 = ~Co?! Chcesz mnie zjeść?!~
+
+@669 = ~O nie... świetnie.~
+
+@670 = ~*Tak, istoto z ciała. Czy nie byłem dość jasny?*~
+
+@671 = ~*Wiem, że nie jesteś obcy miejscom takim jak to, istoto. Widzę słowo „Visionhive” w twoim umyśle. Widzę obrazy tej żałosnej groty. Jest tylko pyłkiem w porównaniu z moim władztwem! To gniazdo ma stać się wielkie... to dom wiecznej energii.*~
+
+@672 = ~*A ty, istoto... *ty* jesteś kluczem do jej uwolnienia.*~
+
+@673 = ~Nie interesują mnie twoje plany! Pozwól nam odejść, póki nie pożałujesz.~
+@674 = ~Chcesz walki, bestio? To ją dostaniesz!~
+
+@675 = ~*Twoje żałosne istnienie ma tylko jeden cel... by nas nakarmić i wzmocnić.*~
+
+@676 = ~To... to stworzenie było najbardziej spektakularną rzeczą, jaką widziałem za życia... i po śmierci. Było śmiercionośne. Energia, którą dysponowało, była niewyobrażalna. Szkoda, że zmarnowało ją na sianie grozy.~
+
+@677 = ~Bez niego to miejsce umrze — powoli, lecz nieuchronnie. Wątpię, by pojawił się nowy strażnik. Może to nawet dobrze... obecność tej bestii wypaczyła duchy, które wcześniej nazywały to miejsce domem.~
+
+@678 = ~Widziałeś błyski. Były dzikie, okrutne — bardziej niż inne ich rodzaje. Pragnęły pożreć naszą energię.~
+
+@679 = ~To miejsce zasługuje na śmierć. Może kiedyś odrodzi się jako coś lepszego.~
+
+@680 = ~Will, to nie pora na dyskusję o losie bestii ani tego miejsca. Musimy się stąd wydostać jak najszybciej.~
+
+@681 = ~Mam taką nadzieję. Przeszukajmy szczątki bestii. Może znajdziemy coś, co pomoże nam w ucieczce.~
+
+@682 = ~Tak, masz rację. Sprawdźmy szczątki. Może coś nam pomoże w ucieczce.~
+
+@683 = ~Ach... dotarliśmy do głównej jaskini. Możemy wrócić do pierwotnego zadania, <CHARNAME>. Prowadź.~
+
+@684 = ~Jak się czujesz, <CHARNAME>? Ta przemiana, którą ci narzucono, była okrutna. Przykro mi.~
+
+@685 = ~Czemu przepraszasz?~
+
+@686 = ~Wątpię, byś mógł coś zrobić, Will. Nie udawaj, że było inaczej.~
+
+@687 = ~Masz jakiś cel w tym współczuciu, czy tylko patrzysz na mnie jak na chore zwierzę? Nie potrzebuję litości. Daj mi spokój, żebym mógł iść dalej.~
+
+@688 = ~Chciałbym tylko, żeby było coś, co mógłbym zrobić. Gdybym był silniejszy, powstrzymałbym tego śmiecia, Irenicusa, zanim wyrządziłby więcej zła.~
+
+@689 = ~Wydajesz się rozdrażniony, <CHARNAME>. Chciałem tylko powiedzieć, że mi zależy.~
+
+@690 = ~Martwię się o ciebie, <CHARNAME>. Nie wiem, co zrobił ci Irenicus, ale wyglądasz na... niepełnego. Jakby coś w tobie zniknęło. Jakby—~
+
+@691 = ~Jakbym stracił duszę? Tak, właśnie to się stało. Nie martw się — odzyskamy ją.~
+
+@692 = ~Doceniam twoje wsparcie, Will. Jeśli zabrzmiałem obcesowo, przepraszam. Po prostu... czuję się słaby i... niecały.~
+
+@693 = ~Twoje durne węszenie było do zniesienia przez chwilę, ale mam tego dość. Zejdź mi z oczu!~
+
+@694 = ~Will... dlaczego? Dlaczego to wszystko przytrafia się właśnie mnie? Dlaczego w piekłach wszyscy chcą mojego życia, duszy... albo zguby? Mam dość... jestem zmęczony.~
+
+@695 = ~Odzyskamy ją. Przysięgam. Znajdziemy Irenicusa i zrobimy wszystko, by cię przywrócić.~
+
+@696 = ~Czuję to. Przeprosiny przyjęte, <CHARNAME>... rozumiem.~
+
+@697 = ~Nie wiem. Przykro mi. Może to przez twoją krew, ale uwierz — wszystko się zmieni, jeśli tego zażądamy. I tak właśnie zrobimy.~
+
+@698 = ~Przyznaję: gdy zobaczyłem twoją przemianę, pomyślałem, że przegraliśmy. Ale potem... jakoś odzyskałeś ciało i umysł. Wtedy zrozumiałem, że jeszcze nic nie jest stracone. Masz w sobie moc, której Irenicus nie dostrzega i której nie może ci odebrać. Coś większego niż ktokolwiek z nas. Coś, co na zawsze pozostanie wyryte w twojej woli.~
+
+@699 = ~Eee... nie rozumiem całej tej szamańskiej gadki, ale... dziękuję, Will. Damy z siebie wszystko. Mam nadzieję, że to wystarczy.~
+
+@700 = ~Znam siebie. Wiem, gdzie są moje granice — a jeszcze nawet się do nich nie zbliżyłem. Jeśli coś się zmieni, to dlatego, że sam to zmienię. Zobaczysz.~
+
+@701 = ~Dzięki za dobre słowo, Will.~
+
+@702 = ~Cokolwiek. Daj mi spokój, żebym mógł iść dalej.~
+
+@703 = ~Odzyskamy twoją duszę albo zginiemy, próbując. Ale wiem, że będzie to to pierwsze.~
+
+@704 = ~Heh... rozumiem. Irenicus może i ukradł twoją duszę, ale... chyba nikt nie zdołałby ci zabrać pewności siebie.~
+
+@705 = ~Jeszcze jedno... ta istota, w którą się zmieniłeś. Powinieneś uważać — nawet bez szamańskiej wizji widać, że jest niebezpieczna. Jej pazury mogą rozszarpać nie tylko ciało, ale i duszę. Dlatego błagam... uważaj.~
+
+@706 = ~Będę ostrożny. Ale jeśli będę musiał się nią stać... mam nadzieję, że nauczę się to kontrolować. Tak czy inaczej — ruszajmy.~
+
+@707 = ~Mam tylko nadzieję, że znajdę w sobie siłę, by zamknąć tę moc głęboko we mnie — na zawsze. Idziemy.~
+
+@708 = ~Obyśmy nigdy więcej nie zobaczyli tej bestii. No, chodźmy już.~
+
+@709 = ~Tak jest. Naprzód.~
+
+@710 = ~Hmm... chyba wolałbyś, żebym ci nie zawracał głowy.~
+
+@711 = ~Nie spodziewałem się, że kiedykolwiek ujrzę miasto drowów na własne oczy. Nie można im odmówić — choć są podli i zdradzieccy, potrafią tworzyć rzeczy piękne.~
+
+@712 = ~Nie widzę tu piękna. Tylko konstrukcje tak skrzywione jak bestie, które je zbudowały.~
+
+@713 = ~Wygląda... interesująco. Nigdy nie widziałam czegoś tak... ogromnego. Albo tak kolczastego. Uch.~
+
+@714 = ~To okropne. Czuję się jak przynęta w paszczy rekina.~
+
+@715 = ~To nie czas ani miejsce na pogaduszki. Chodźmy.~
+
+@716 = ~Może masz rację. Ta architektura jest niepokojąca, ale... nie mogę powiedzieć, że jest zła. To wciąż sztuka... ze swoją formą i kształtem.~
+
+@717 = ~Heh... trafne porównanie, choć sam bym na to nie wpadł.~
+
+@718 = ~Nigdy nie pomyślałem, że naturalne stalagmity i stalaktyty można przekształcić w domy — ani że zdołają wypełnić nimi całe jamy.~
+
+@719 = ~A drowowie... nie spodziewałem się, że będzie ich tu aż tylu.~
+
+@720 = ~I to martwi mnie najbardziej. Jeden zły ruch i zostaniemy otoczeni. Jesteśmy całkowicie, beznadziejnie przeważeni liczebnie.~
+
+@721 = ~Musimy uważać. To legowisko samych pająków. Jeden błąd i zginiemy.~
+
+@722 = ~To zbyt ryzykowne, by teraz rozmawiać, Will. Ruszajmy, zanim ktoś nas rozpozna.~
+
+@723 = ~W takim razie działajmy mądrze i ostrożnie. Jeśli nie możemy ich zabić wszystkich, nie próbujmy. Może uda nam się przeżyć, nie zwracając na siebie uwagi. Po tym wszystkim nie chciałbym zostać zaszlachtowany przez drowów.~
+
+@724 = ~Chodźmy. Nie wzbudzajmy podejrzeń.~
+
+@725 = ~Może masz rację. Ruszajmy.~
+
+@726 = ~Dobrze znów zobaczyć światło dzienne. Po czasie spędzonym w Spellhold, a potem w Podmroku, brakowało mi tego.~
+
+@727 = ~Czuję to samo. Miałem dość ciemności, niebezpieczeństw, drowów i wszystkich tych potworów.~
+
+@728 = ~To niewielka różnica. Może wróciliśmy, ale nasza sytuacja się nie poprawiła.~
+
+@729 = ~Nie czas na rozmowy, Will. Naszym celem jest powstrzymanie wrogów. Są o krok od realizacji swoich chorych planów.~
+
+@730 = ~Może to jeszcze nie koniec walk, ale przynajmniej teraz są inne okoliczności.~
+
+@731 = ~Widać różnicę. Znów stąpamy po znanym terenie, gdzie jest bezpieczniej. A nasi wrogowie — Bodhi i Irenicus — kończą się kryjówki.~
+
+@732 = ~Ciekawe, jakie pułapki Bodhi przygotowała. Jestem pewien, że jeszcze zmierzymy się z okropnościami. Irenicus to mózg operacji, ale Bodhi to jego kły i pazury. Nie możemy pozwolić, by znowu uciekła, <CHARNAME>.~
+
+@733 = ~Myślisz, że do tego dopuszczę? To znaczy, że jeszcze mnie nie znasz, Will.~
+
+@734 = ~Nie obchodzi mnie, co się z nią stanie. Wezmę, co mi się należy — reszta mnie nie obchodzi.~
+
+@735 = ~Od dawna mam ją na celowniku. Wiem, jak bardzo jest niebezpieczna. Nie musisz mi mówić, że trzeba ją zgładzić.~
+
+@736 = ~Możemy znaleźć lepszy moment na rozmowę, Will? Jestem zajęty.~
+
+@737 = ~Wybacz, że zwątpiłem. Wiem, że nie pozwolisz jej po prostu odejść.~
+
+@738 = ~To ważne, więc proszę... przemyśl to. Możesz ją pokonać, ale jeśli jej nie zniszczysz, wróci. Po ciebie — i po wszystkich, którzy jej się sprzeciwili. Ryzyko jest zbyt wielkie.~
+
+@739 = ~Dobrze... cieszę się, że to słyszę.~
+
+@740 = ~Co do nadchodzącej bitwy... mam plan. Ryzykowny, ale... dzięki mojej mocy i pomocy dusz, które mnie słyszą, możemy stanąć do walki z jej armią wampirów. Oni mogą wyssać życie z żywych, ale nie ze mnie. W końcu ja też jestem martwy.~
+
+@741 = ~Jeśli zapewnisz mi bezpieczeństwo, wypuszczę legion wiernych duchów przeciw niej, a gdy nadejdzie pora — przebijemy jej czarne serce.~
+
+@742 = ~Brzmi jak plan.~
+
+@743 = ~Zobaczymy. Muszę jeszcze wszystko przemyśleć.~
+
+@744 = ~Wolę zabić ją własnymi rękami. Wiem, że jesteśmy dość silni.~
+
+@745 = ~Mam nadzieję, że to wystarczy. Przygotujmy się do ostatecznej bitwy. Musimy być gotowi.~
+
+@746 = ~Rozumiem. Wierzę w twoje dowództwo, <CHARNAME>, skoro zaszedłeś tak daleko. Musimy być gotowi na bitwę.~
+
+@747 = ~Mam nadzieję, że masz rację. Musimy być gotowi.~
+
+@748 = ~Dobrze... prowadź. Idę za tobą.~
+
+@749 = ~Więc to jest słynne elfi miasto... przypomina mi drowów — Ust Natha, prawda? Szkoda byłoby patrzeć na jego upadek. Musimy powstrzymać Irenicusa jak najszybciej, <CHARNAME>. Ruszajmy.~
+
+@750 = ~Will Rattlemoth, duchowy szaman, który opuścił Visionhive, by podróżować z tobą, patrzy na ciebie z akceptacją. Wspierał cię całą swą mocą, ale zastanawiasz się, czy naprawdę jest gotów zaryzykować własne istnienie dla ciebie.~

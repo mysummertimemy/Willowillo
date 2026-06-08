@@ -1,0 +1,67 @@
+@0    = ~Witaj. Przyszedłeś posłuchać moich opowieści?~~Witaj. Przyszłaś posłuchać moich opowieści?~
+
+@1    = ~Opowieści? Jakich opowieści? I... kim właściwie jesteś?~
+
+@2    = ~Nie, przepraszam. Szukałem kogoś innego. Żegnaj.~~Nie, przepraszam. Szukałam kogoś innego. Żegnaj.~
+
+@3    = ~Wróciłeś. Chcesz posłuchać jednej z moich historii?~~Wróciłaś. Chcesz posłuchać jednej z moich historii?~
+
+@4    = ~Być może. Opowiedz mi coś, ogniku.~
+
+@5    = ~(Właściwe pytanie brzmi nie kim jestem... lecz kim byłem. Byłem niegdyś opowiadaczem. Związałem umysł i duszę z historiami, które kochałem, by mogły być opowiadane i nigdy nie zostały zapomniane. Może zechcesz której posłuchać?)~
+
+@6    = ~Dobrze. Zobaczmy, co masz do opowiedzenia.~
+
+@7    = ~Może innym razem. Muszę już iść.~
+
+@8    = ~Znam wiele opowieści, o wiele więcej niż tylko jedną. Mógłbym ci opowiedzieć o bibliotekarzu, który stracił nadzieję... albo o wielkim potworze... a może chcesz usłyszeć historię o kluczu karczmarza?~
+@9 = ~Opowiedz mi o bibliotekarzu.~
+@10 = ~Opowiedz mi o potworze.~
+@11 = ~Opowiedz mi o karczmarzu.~
+@12 = ~Opowiedz mi, jak umarłeś.~
+@13 = ~Chyba nie mam dziś nastroju na opowieści. Żegnaj.~
+@14 = ~(Jak sobie życzysz.)~
+
+@15 = ~Dawno temu żył bibliotekarz, który utracił swoją bibliotekę. Pewnej nocy zasnął w swoich komnatach, a budynek stanął w ogniu. Wielu mieszczan obarczyło go winą — twierdzili, że powinien był na miejscu i zapobiec tragedii. Pogrążony w rozpaczy, sięgnął po alkohol, bo stracił nie tylko księgi, lecz także wiarę we własne życie. Niejednokrotnie myślał, by zakończyć swą niedolę, lecz lęk i wątpliwości nie pozwoliły mu wymazać ostatniej opowieści, za którą był odpowiedzialny.~
+
+@16 = ~Z czasem stracił cały swój majątek oraz wszystko, co posiadał. Zostały mu jedynie łachmany na grzbiecie, które chroniły go przed chłodem. Nie wierzył już, że los może się odmienić... aż spotkał pewnego człowieka — dżentelmena, który przygarniał bezdomnych i zagubionych, dając im jedzenie i schronienie. Ów człowiek zbudował dom dla wielu jemu podobnych i choć daleko mu było do luksusu, dawał on poczucie bezpieczeństwa. Zaproponował bibliotekarzowi miejsce u swego boku, by ten mógł odnaleźć coś więcej niż smutek. Nie mając nic do stracenia, bibliotekarz przystał na tę propozycję.~
+
+@17 = ~Bibliotekarz wiernie wspierał swego wybawcę, stając się jego prawą ręką  i pomagając w prowadzeniu domu oraz opiece nad jego mieszkańcami. Rozmawiał z ludźmi, poznawał historie o tym, jak tracili dachy nad głową, słuchał o ich uczuciach, o tych, których kochali i których nienawidzili. Bibliotekarz spędził tam wiele lat, wsłuchując się w opowieści wielu ludzi.~
+
+
+@18 = ~Aż pewnego dnia dowiedział się, że los daje mu jeszcze jedną szansę — mógł odbudować swoje życie w nowej bibliotece. Innej niż ta utracona, lecz pełnej możliwości i nowych ksiąg, które należało chronić. Była to sposobność, by odkupić dawne błędy.~
+
+@19 = ~To była ciekawa opowieść. Opowiesz mi jeszcze jedną?~
+@20 = ~Dobrze, wystarczy mi tych historii. Muszę już iść.~
+@21 = ~Dziękuję. Może innym razem posłucham kolejnej opowieści.~
+@22   = ~Ach, doskonały wybór. Lepiej usiądź, bo ta opowieść jest długa. Zatem... pozwól, że zacznę.~
+
+@23 = ~Dawno, dawno temu żyła krwiożercza bestia o potężnym ogonie oraz pazurach i kłach tak ostrych, że rozdzierały ciało każdego, kto był na tyle głupi, by rzucić jej wyzwanie. Wielu ludzi z osad graniczących z matecznikiem potwora żyło w ciągłym strachu. Nazwali oni stworzenie „Krańcem Miłości”, a to za sprawą tych, którzy dobrowolnie zapuszczali się w głąb puszczy, próbując zgładzić bestię tylko po to, by zdobyć względy swych ukochanych.~
+
+
+@24 = ~Wielu poległo, tracąc życie w mrokach kniei, ocalał tylko jeden. Był nim syn kowala z niewielkiego miasteczka na północy. Pragnął on zdobyć łeb bestii jako trofeum, by dowieść swego męstwa i podarować go kobiecie, która skradła jego serce. Dzierżąc w dłoni najwspanialsze ostrze wykute przez ojca, ruszył do lasu, by odnaleźć potwora.~
+
+
+@25 = ~Młodzieniec spędził dziesięć dni i nocy na łowach, aż w końcu ubił bestię i przyniósł jej głowę do domu. Zdobył serce ukochanej i szacunek współmieszkańców. Wszyscy wychwalali pogromcę i śpiewali pieśni na jego cześć. W tawernach wznoszono toasty za siłę jego ramienia, bystrość oka i przenikliwość umysłu. Jednak gdy wszyscy świętowali śmierć potwora, pewne ciekawe świata dziecko postanowiło odnaleźć w lesie truchło bestii. I znalazło je – leżało martwe na trawie, otoczone przez swe młode.~
+
+
+
+@26 = ~Dziecko zrozumiało wtedy, że monstrum zawsze działało jedynie w obronie własnych dzieci, a ludzie przypisali mu miano złowrogiego drapieżcy. Nazwano je „potworem” tylko z powodu tych, którzy chcieli się wsławić jego zgładzeniem.~
+@27 = ~To dziecko było pierwszym, które opowiedziało historię, którą właśnie usłyszałeś.~~To dziecko było pierwszym, które opowiedziało historię, którą właśnie usłyszałaś.~
+
+@28 = ~To była smutna historia. Mogę usłyszeć kolejną?~ 
+@29 = ~Chcę usłyszeć historię o karczmarzu.~ 
+@30 = ~Ta historia zaczęła się nie tak dawno temu, w mieście oddalonym o dziesięć dni marszu stąd. Stała tam karczma tak wielka, że nawet sam karczmarz nie wiedział, ile pokoi skrywa się w jej wnętrzu. Z zewnątrz budynek wydawał się mały, lecz gdy tylko podróżnik przekraczał próg, nie mógł uwierzyć własnym oczom. Niektórzy powiadali, że to miejsce nie pochodzi z tego świata, a jego gospodarz jest magiczną istotą, która przybrała ludzką postać.~ 
+@31 = ~Zawsze darzył on sympatią mieszkańców tego świata, choć niektórzy potrafili go czasem rozczarować. Nie potrafił nie lubić innych ludzi; śmiał się, płakał, uśmiechał i tańczył z nami – mimo że wcześniej nie przepadał za tańcem. Nic jednak nie może trwać wiecznie i pewnego dnia musiał w końcu odejść. Legendy głoszą jednak, że gdzieś na tym świecie pozostał klucz, który po sobie zostawił... klucz do jego magicznej gospody, który czeka, aż odnajdzie go odpowiednia osoba. Choć nikt jeszcze nie odnalazł klucza, karczmarz podobno wciąż wierzy, że jest to możliwe.~ 
+@32 = ~Być może pewnego dnia ty lub ktoś, kogo znasz, odnajdzie ten klucz, a znalezisko to na zawsze odmieni życie znalazcy.~ 
+@33 = ~...~ 
+@34 = ~Nie spodziewałem się, że kiedyś przyjdzie mi wyjawić tą opowieść. No dobrze... myślę, że mogę ci opowiedzieć o tym, jak stałem się jednością z Wizjonarium.~ 
+
+@35 = ~Znasz już historię o chłopcu, który odnalazł truchło bestii działającej jedynie w obronie swych dzieci. To ludzkie okrzyknęli te zwierzę potworem. Nawet teraz używam tego słowa tylko dlatego, że pod taką nazwą wszyscy ją znali... ale gdy znalazłem te maleństwa, tak małe i bezbronne... postanowiłem zostać bajarzem, by mieć pewność, że inni poznają prawdę. Każdy powinien zrozumieć, że to stworzenie nie było potworem.~ 
+@36 = ~Nie wierzę, by ktokolwiek w mojej opowieści był zły. Nie winię tych, którzy podążają za swymi ambicjami, ani nie winię stworzenia za obronę młodych.~ 
+@37 = ~Snuję swe opowieści, by skłaniać innych do przemyśleń i odczuwania. Chcę, by inni mogli doświadczyć tych wydarzeń, nawet jeśli nie było ich na miejscu. A skoro moje opowieści wpłynęły na życie choćby jednej osoby... to dlaczego miałbym nie czuć spełnienia?~ 
+@38 = ~W końcu zestarzałem się i zmarłem tuż u progu tej jaskini. Sądzę, że mój duch splótł się z historiami, które opowiadałem i pozostał tutaj. Przyznaję też, że cieszy mnie to.~ 
+@39 = ~Rozumiem. Czy opowiesz mi kolejną historię?~ 
+@40 = ~Wątpię, bym kiedykolwiek zrozumiał ciebie lub twoje motywacje. Mam dość tych opowieści.~ 
+@41 = ~Dziękuję, że podzieliłeś się ze mną swoją historią. Do zobaczenia następnym razem.~ 
+@42 = ~Żegnaj. Niech dane ci będzie napisać kolejny rozdział twojej własnej opowieści.~

@@ -1,0 +1,702 @@
+@0    = ~Will's Grave~
+@1    = ~Wolf Cave~
+@2    = ~Visionhive Grotto~
+@3    = ~So that's how it is? I'm disappointed, <CHARNAME>.~
+@4    = ~Will-o'-wisp and ashes
+A mysterious spectre appeared out of nowhere to tell me about a powerful grotto near the Temple Ruins I may be able to restore. To do so, I'll need bag of the cave's former protector. It was taken by a thief who might be somewhere in the Imnesville village. When I find the ashes, I should put them in the grotto's pond.~
+@5    = ~Shamanic Stronghold
+Wisp told me to talk to some emissary that came to the Visionhive.~
+@6    = ~Shamanic Stronghold
+I set a truce between emissary and the Visionhive. That should stop the long started conflict.~
+@7    = ~Shamanic Stronghold
+The emissary is dead. He should no longer be threat to the Visionhive. I should talk to the wisp now.~
+@8    = ~Shamanic Stronghold
+The Day of the Bitter Moss is almost here. As the new grotto's protector, I am supposed to prepare a special ritual. In order to do so I'll need some objects: dencrawler spider's web which may be taken from arachnid seen near the entrance to the ruins; metal bowl which may be found somewhere inside the grotto; some tigertooth grapes which perhaps may be found in Imnesvile village and vilecrow mushroom, which is sometimes used to cook some meals. When I have all of these, I should place them on the stone near the tree inside Visionhive and start the ritual.~
+@9    = ~Shamanic Stronghold
+Wisp told me that some merchant visited the grotto. If I want, I may browse his wares. He will leave the cave soon, though.~
+@10   = ~Shamanic Stronghold
+Wisp said that an old beast called Ghastlycleaver is trying to force its way into the Visionhive in order to destroy it. As the grotto's protector I should stop that thing. I should get back to wisp when I'm ready - the barriers will be taken down to allow the creature enter the Visionhive. Then I must kill it once and for all.~
+@11   = ~Shamanic Stronghold
+I proved that I'm a fine Visionhive's protector. I killed the Ghastlycleaver, performed the Day of the Bitter Moss ritual, stopped the Eidolon Mists attackers. Thanks to me, the Visionhive is a strong and safe place now.~
+@12   = ~Eight Friendly Legs
+I bought a strange spider and let it stay in the Visionhive. He seems hungry. I'm not sure if I can find a suitable fly for him now, but if I find a huge fat fly somehwere in the future, I should bring it to the grotto.~
+@13   = ~Eight Friendly Legs
+I found a huge fly in the Underdark. I brought it to the spider from the Visionhive. It was very happy to eat it. It gave me a nice Ioun stone in exchange. Well... that was a bit weird.~
+@14   = ~(You can feel tension grow along with the flora of the cave)~
+@15   = ~(You can see as the Visionhive starts the ritual - everything is like from an arcane performance)~
+@16   = ~(You feel a strange energy surrounding you)~
+@17   = ~(You can sense something awaits you in the Visionhive)~
+
+
+
+@21   = ~Will NPC, shaman stronghold and new shaman kit for BG2EE~
+@22   = ~This component must be played on BG2:EE~
+@23   = ~Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)~
+@24   = ~Witchlight Shaman~
+@25   = ~WITCHLIGHT SHAMAN: Also known as "necrotic shamans", these men and women commit themselves to the study of death, spirits and feared necromantic rituals. Although they are not evil and choose to preserve the common balance between the dead and the living, most people associate them with necromancers, members of the Cult of the Dragon and followers of Cyric. Because of their infamous reputation, they mostly try to stay away from civilization. Most Witchlight Shamans do not wish harm upon others and some even help those who suffer from illnesses and diseases to - as they would say - examine if it's their time to join the dead.
+
+Advantages:
+ - +2 bonus to save vs. death.
+ - Receives the following necromancy spells as divine magic: 
+ 
+   Level 1: Larloch's Minor Drain (gained at 3rd level)
+   Level 2: Horror (gained at 5th level)
+   Level 3: Vampiric Touch (gained at 7th level)
+   Level 4: Animate Dead (gained at 9th level) 
+   Level 5: Exploding Skull (gained at 11th level)
+   Level 6: Death Spell (gained at 13th level)
+   
+ - Shamanic dance summons the following creatures:
+   1st level: Necrotic Fireflies, up to 2 swarms at the same time
+   6th level: Lesser will-o'-wisps and Greater Necrotic Fireflies, up to 3 spirits at the same time
+   12th level: Will-o'-wisps and Spectres, up to 4 spirits at the same time
+   18th level: Greater will-o'-wisps and Fiery Spirits, up to 5 spirits at the same time
+
+ - 6th level: May use Control Undead.
+ 
+CONTROL UNDEAD: The witchlight shaman takes control of a target undead creature for 1 round per level on a failed save vs. spell, with an extra -1 penalty to save every 10 levels.
+ 
+ - 8th level: May use Boneblade.
+ 
+BONEBLADE: The witchlight shaman conjures forth a magical dagger of bone. The dagger deals 2D4+2 piercing damage per hit and has 10% chance of dealing one poison damage per second for 10 seconds (save vs. death to avoid) and a 5% chance of draining one level from the victim (no save). The boneblade lasts for one turn and strikes as a +4 weapon.
+
+From 16th level onwards, the boneblade deals 2d4+4 damage per hit and has a 20% and 10% to poison and level drain respectively.
+
+ - 14th level: May shapeshift into a Spirit Treant once per day.
+
+SPIRIT TREANT: The witchlight shaman performs a ritual which transforms him temporarily into a powerful treant, granting great strength and durability at the cost of mobility. While transformed, the shaman is capable of dancing and casting spells at a reduced rate. This transformation lasts for up to two minutes.
+
+DISADVANTAGES:
+ - -2 penalty to save vs. spells.
+ - -2 penalty to maximum dexterity and charisma.
+ - May be only of true neutral alignment.
+ - May only be proficient in daggers, spears, axes, quarterstaves and shortbows.
+ - Begins with 10% in Detect Illusion instead of 20%.
+ - -1 penalty to party reputation.~
+@26   = ~Necrotic Fireflies~
+@27   = ~Lesser Will-o'-Wisp~
+@28   = ~Greater Necrotic Fireflies~
+@29   = ~Will-o'-Wisp~
+@30   = ~Spectre~
+@31   = ~Greater Will-o'-Wisp~
+@32   = ~Fiery Spirit~
+@33   = ~Dark Treant~
+@34   = ~A weak necrotic spirit answers your call.~
+@35   = ~A lesser necrotic spirit answers your call.~
+@36   = ~A strong necrotic spirit answers your call.~
+@37   = ~A greater necrotic spirit answers your call.~
+@38   = ~No spirits answer your call.~
+@39   = ~Larloch's Minor Drain~
+@40   = ~Larloch's Minor Drain 
+(Necromancy)
+
+Level: 1
+Range: 30 ft.
+Duration: Special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None
+
+With this spell, the caster drains the life force from a target and adds it to <PRO_HISHER> own. The target creature suffers 4 damage, while the caster gains 4 Hit Points. If the caster goes over <PRO_HISHER> maximum Hit Point total with this spell, <PRO_HESHE> loses any extra Hit Points after 1 turn.~
+@41   = ~Horror~
+@42   = ~Horror
+(Necromancy)
+
+Level: 2
+Range: 40 ft.
+Duration: 1 turn
+Casting Time: 2
+Area of Effect: 30-ft. radius
+Saving Throw: Neg.
+
+All enemies within the area of effect when this spell is cast must save vs. Spell or flee in terror. Certain creatures are immune to the effects of fear, including all undead.~
+@43   = ~Vampiric Touch~
+@44   = ~Vampiric Touch 
+(Necromancy)
+
+Level: 3
+Range: Touch
+Duration: Instant 
+Casting Time: 3 
+Area of Effect: 1 creature
+Saving Throw: None 
+
+When this spell is cast, the target loses 1d6 Hit Points for every 2 caster levels, to a maximum drain of 6d6 for a 12th-level caster. These Hit Points are added to the caster's current Hit Points, with any Hit Points over the caster's normal maximum treated as temporary additional Hit Points. The temporary Hit Points last for 1 hour.
+
+Note: This spell may not be cast multiple times to radically increase the caster's Hit Points. The caster must wait for the first Vampiric Touch spell to run its course before casting another.~
+@45   = ~Animate Dead~
+@46   = ~Animate Dead
+(Necromancy)
+
+Level: 4
+Range: 30 ft.
+Duration: 8 hours
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+This spell causes a skeleton warrior to rise and serve the caster under any conditions. The type of skeleton warrior that appears depends upon the level of the wizard casting the spell.
+  1st - 6th: a 3 HD skeleton warrior wielding a long sword.
+  7th - 10th: a 5 HD skeleton warrior wielding a long sword +1.
+  11th - 14th: a 7 HD skeleton warrior wielding a bastard sword +1.
+  15th and up: a 9 HD skeleton warrior wielding a two-handed sword +1.
+The skeleton warrior can follow the caster, remain in an area and attack any creature entering the place, etc. It remains animated until it is destroyed in combat, 8 hours pass, or it is turned. This spell cannot be dispelled.~
+@47   = ~Exploding Skull~
+@48   = ~Exploding Skull
+(Necromancy)
+
+Level: 5
+Range: 60 ft.
+Duration: Special
+Casting Time: 7
+Area of Effect: 30-ft. radius
+Saving Throw: 1/2
+
+When this spell is cast, the Witchlight shaman launches a skull charged with necrotic energy at the target area. The skull floats in the area until a creature comes within 20 ft. of it. When this happens, the skull is triggered and explodes damaging everyone within a 30-ft. radius. The damage inflicted is equal to 1d4 per level of the caster (to a maximum of 12d4) and decreases all targets' Strength by 2 for 5 rounds. A successful Saving Throw vs. Spell halves damage dealt and avoids strength loss. When casting this spell, it is wise to set it far away from the party lest they set it off accidentally.~
+@49   = ~Death Spell~
+@50   = ~Death Spell
+(Necromancy)
+
+Level: 6
+Range: Visual range of the caster
+Duration: Instant
+Casting Time: 6
+Area of Effect: 30-ft. radius
+Saving Throw: None
+
+When a Death Spell is cast, it snuffs out the life force of creatures within the area of effect, instantly and irrevocably. Creatures with more than 8 Hit Dice are immune to this spell with the exception of summoned creatures, which are automatically slain. Only enemies are affected by this spell.~
+@51   = ~Control Undead~
+@52   = ~Control Undead
+The Witchlight shaman takes control of a target undead creature for 1 round per level on a failed save vs. spell, with an extra -1 penalty to save every 10 levels.~
+@53   = ~Boneblade~
+@54   = ~Boneblade
+The Witchlight shaman conjures forth a magical dagger of bone. The dagger deals 2D4+2 piercing damage per hit and has 10% chance of dealing one poison damage per second for 10 seconds (save vs. death to avoid) and a 5% chance of draining one level from the victim (no save). The boneblade lasts for one turn and strikes as a +4 weapon.~
+@55   = ~Shapeshift: Spirit Treant~
+@56   = ~Shapeshift: Spirit Treant
+The witchlight shaman performs a ritual which transforms him temporarily into a powerful treant, granting great strength and durability at the cost of mobility. While transformed, the shaman is capable of dancing and casting spells at a reduced rate. This transformation lasts for up to two minutes.
+
+Strength: 20
+Dexterity: 5
+50% resistance to physical damage
+90% resistance to cold
+25% resistance to acid and electricity
+-50 resistance to fire
+Reduced movement and casting rate
+Attacks once per round, dealing 1d10+3 crushing damage and entangles for 2 rounds on hit, save vs. spells at -2 to avoid~
+@57   = ~Shapeshift: Natural Form~
+@58   = ~Shapeshift: Natural Form
+This ability causes the character to return to <PRO_HISHER> natural shape and ends the polymorph effect.~
+@59   = ~Death Mastery~
+@60   = ~Death Mastery
+
+Range: 0
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+The Witchlight shaman's mastery of necromancy allows them to temporarily become a partially undead creature themselves, gaining a +5 bonus to saves vs. death and immunity to fear, poison, disease, hold, charm, sleep, level drain and all forms of death magic. In addition, the Witchlight shaman also becomes immune to all necromancy spells for the duration, including beneficial effects such as healing spells.~
+@61   = ~Soul Eater~
+@62   = ~Soul Eater
+
+Range: 0
+Duration: Special
+Casting Time: 9
+Area of Effect: The caster
+Saving Throw: None
+
+This powerful ritual, only mastered by the most powerful of Witchlight shamans, drains the life force of all enemies around the caster. All enemies below 8 Hit Dice are slain instantly with no saving throw, and all other targets must make a save vs. death at -2 or take 8d10 magic damage instantly.
+
+Additionally, all targets slain by this spell are then raised as skeleton warriors under the Witchlight shaman's command (up to the usual summoning limit). The Witchlight shaman is also healed for 17 hit points for each enemy slain. Undead, constructs and incorporeal creatures are unaffected by this spell.
+
+Requires: Death Mastery~
+@63   = ~spectre~
+@64   = ~Will~
+@65   = ~When asked about his past, WILL does not tell you much. He says that he spent many years as a part of the Visionhive's roots, among other spirits and the sacred energy that sustains them. Will as a living man died a long time ago, and the present realms are as though a brand new world to him, though he will not admit it. You can see this much in the way he looks at everything around him, from the buildings to the people he meets.~
+
+@67   = ~As it should be.~ [l0will02]
+@68   = ~Do you think what we did was right?~ [l0will03]
+@69   = ~Some alternative solutions may be appropriate.~ [l0will04]
+@70   = ~I can stand this no more.~ [l0will05]
+@71   = ~The dead should never lead those who live.~ [l0will06]
+@72   = ~Perhaps you need to rest? I can watch over you.~ [l0will07]
+@73   = ~We should move on. There are no roots that keep us in this place, are there?~ [l0will08]
+@74   = ~For the Visionhive!~ [l0will09]
+@75   = ~Your corpse will feed the nightmares!~ [l0will10]
+@76   = ~I've already seen your death!~ [l0will12]
+@77   = ~Dance with the dead!~ [l0will11]
+@78   = ~This is your last day!~ [l0will13]
+@79   = ~Ah!~ [l0will14]
+@80   = ~I... can't die!~ [l0will15]
+@81   = ~I'm fading away...~ [l0will16]
+@82   = ~I can hear the land's voice. It sings.~ [l0will17]
+@83   = ~There are so many people here. And just as many living whispers that they do not even hear.~ [l0will18]
+@84   = ~We should be careful.~ [l0will19]
+@85   = ~I'm jealous you may feel the warmth of this sun.~ [l0will20]
+@86   = ~Together with the night come many dark thoughts.~ [l0will21]
+@87   = ~Let me hear what you need.~ [l0will22]
+@88   = ~You need advice?~ [l0will23]
+@89   = ~Is there something you need?~ [l0will24]
+@90   = ~Yes?~ [l0will25]
+@91   = ~Spirits will show us the way.~ [l0will33]
+@92   = ~I saw that coming.~ [l0will34]
+@93   = ~With pleasure.~ [l0will30]
+@94   = ~Rapidly.~ [l0will27]
+@95   = ~With a weasel's swiftness.~ [l0will32]
+@96   = ~Yes, yes.~ [l0will29]
+@97   = ~What's next?~ [l0will01]
+@98   = ~This reminds me of some distant days...~ [l0will26]
+@99   = ~Hmm...~ [l0will28]
+@100  = ~One step closer to your death!~ [l0will35]
+@101  = ~I missed!~ [l0will36]
+@102  = ~This isn't working! We should change our tactics!~ [l0will37]
+@103  = ~I can't take that. Even I have my limits.~ [l0will38]
+@104  = ~Heh, even after death some can find no peace.~ [l0will40]
+@105  = ~I saw this place once. Or perhaps it's a reflection of the land of dreams.~ [l0will12]
+@106  = ~I've lost my spell!~ [l0will39]
+@107  = ~Spirit merchant~
+@108  = ~Rattlemoth's Company~
+@109  = ~Will-o'-wisp~
+@110  = ~Storyteller Wisp~
+@111  = ~Spider~
+@112  = ~Donny Pick~
+@113  = ~Emissary Shy'glegh~
+@114  = ~Eidolon Mist~
+@115  = ~Dencrawler Spider~
+@116  = ~Merchant~
+@117  = ~Squirrel~
+@118  = ~Ghastlycleaver~
+@119  = ~Dense Energy~
+@120  = ~Beast of Gloom~
+@121  = ~Mother-o'-wisps~
+@122  = ~Electric Attack~
+@123  = ~Beast's Heart~
+@124  = ~This was once the heart of a Beast of Gloom which you encountered within the Underdark's spiritual sanctuary. It may be used as a key to leaving the sanctuary. When you hold it, you may still feel its warmth.
+
+Weight: 1 lbs.~
+@125  = ~Armband~
+@126  = ~Iglith'klamm~
+@127  = ~This armband looks really old. It was found in the Underdark's spiritual sanctuary, the very same place you fought the Beast of Gloom. It is hard to tell if that item was there for decades or centuries. You can see the word "Iglith'klamm" engraved on the inner part of that band. 
+
+STATISTICS:
+
+Equipped abilities:
+ - Strength: +1
+ - Wisdom: +1
+ - Crushing Resistance: +10%~
+@128  = ~Wisp!~
+@129  = ~Yes, I am a wisp!~
+@130  = ~Ioun Stone~
+@131  = ~Ioun of Primal Souls~
+@132  = ~This old and raw ioun stone has a light blue colour and glows slightly with white and purple energy. It is believed that those who use it are protected by the power of ancient spirits.
+
+STATISTICS:
+
+Equipped abilities:
+ - Armor Class: +1 (+2 bonus vs. animals)
+ - Detect Illusions: +20%~
+@133  = ~Nothing~
+@134  = ~Due to their nature, will-o'-wisps are unable to use any items.~
+@135  = ~Bag of Ashes~
+@136  = ~This strange bag smells like wet moss. When you touch it, you get a strange feeling, as if the ashes within had some kind of power.~
+@137  = ~Lord Toadeus II~
+@138  = ~This toad seems remarkably healthy given the place that you discovered it.~
+@139  = ~Lord Toadeus is an amazing toad. Many believe toads are harmless beings that can do nothing but eat flies and stare at you when you visit their swamps. They are quite wrong, and this specific toad serves as a great example. When thrown at an enemy, it will attack the wielder's opponent before leaping back back. Toadeus's slime can poison your enemy, and some may suffer further from the slime's acidic properties. Is that not enough reason to wield him? Then just look at him and embrace the wisdom visible in his round eyes.
+
+STATISTICS:
+
+Combat abilities:
+ - 35% chance to poison target on hit (poison will deal 1 damage per second; duration: 10 seconds; save vs. death -4 to negate)
+
+Equipped abilities:
+ - Sets attacks per round to 2
+ - Dexterity: +1 (Note that this bonus is granted because Toadeus is a dexterous being. His aid is a blessing for nice and caring adventurers, so remember to feed him with some tasty flies!)
+
+Damage: 1D4 +3, +1 acid damage
+THAC0: +3
+Proficiency: dart
+Range: 20
+
+Weight: 1~
+@140  = ~Naga Skin~
+@141  = ~This is a fair skin took of a creature called a naga. Nagas are a race of intelligent snake-like creatures they resemble giant snakes, some with humanoid heads and some with more snake-like heads, both of which have a certain amount of spell casting power. They have also been known to eat the flesh of humans, orcs, and other races. Nagas were created, along with yuan-ti, by the reptilian Creator Race, the sarrukh.~
+@142  = ~Naga Skin Armor~
+@143  = ~This fine and elastic leather armour was made by Cromwell out of naga skin, given to you from the Visionhive grotto. Nagas are a race of intelligent snake-like creatures they resemble giant snakes, some with humanoid heads and some with more snake-like heads, both of which have a certain amount of spell casting power. They have also been known to eat the flesh of humans, orcs, and other races. Nagas were created, along with yuan-ti, by the reptilian Creator Race, the sarrukh.
+
+STATISTICS:
+
+Equipped abilities:
+- Allows arcane spellcasting while worn
+- Naga's Embrace: when the wearer is poisoned, <PRO_HESHE> will be healed for 2d8+1 hit points, poison will be neutralized, and the wearer gains +1 Strength for 20 seconds.
+
+Armor Class: 3 (2 vs. missile and piercing, 1 vs. slashing)
+Weight: 5
+Requires: 6 Strength~
+@144  = ~This is a spider. It seems it doesn't have any special abilities. It has eight legs and it looks healthy. Nothing less, nothing more. Likely only a very unusual person would spend a great amount of gold on something so ordinary.~
+@145  = ~Fly~
+@146  = ~This big and fat fly was found in the Underdark. You're not sure if you can even use it for anything. It's probably just a big fly, nothing more. Really now, would anyone carry a fly around?~
+@147  = ~Silver Bowl~
+@148  = ~This is an old silver bowl found in the Visionhive grotto. It is a component of The Day of the Bitter Moss ritual.~
+@149  = ~Dencrawler Web~
+@150  = ~This web was made by a dencrawler spider. It has a dark grey color and is extremely sticky. It is a component of The Day of the Bitter Moss ritual.~
+@151  = ~Vilecrow Mushroom~
+@152  = ~This mushroom emits a rather appetizing scent. It is a component of The Day of the Bitter Moss ritual.~
+@153  = ~Tigertooth Grapes~
+@154  = ~These grapes emit a sweet scent and are dark as the night. It is a component of The Day of the Bitter Moss ritual.~
+@155  = ~Ale~
+@156  = ~This well brewed ale from Sembia was a gift from Will. It has a bitter scent and seems to be quite potent.~
+@157  = ~Buckler~
+@158  = ~Oozegaze~
+@159  = ~A buckler is a small shield of wood or metal that fastens to the forearm. Because of its size it is light and can be worn with very little restriction to movement. This buckler has some form of generic enchantment, making it more resistant to blows.
+This particular buckler is named Oozegaze, likely because of the marking that reminds one of an unusual eye.
+
+STATISTICS:
+
+Equipped abilities:
+ - Lore: +10
+ - Movement Rate: +1
+ - Armor Class: +3
+ - No protection against missile and piercing attacks
+
+Requires:
+ 4 Strength
+
+Weight: 2~
+@160  = ~Burning Blade~
+@161  = ~Burning Blade: "Viperdom" +3~
+@162  = ~This flaming blade produces a strange snake-like hiss when drawn. It flickers with green fire that does not harm whatever it touches, instead seemingly embracing close objects and beings. As far as you know, this blade is able to weaken enemies and provide their strength to the wielder. What's more, the blade can protect its user from all kind of diseases both natural and magical.
+
+STATISTICS:
+
+Combat abilities:
+ - Targets struck have a 10% chance to lose one point of strength and transfer it to the wielder for 20 seconds.
+
+THAC0: +3 (strikes as a +4 weapon)
+Damage: 1d8+3 (slashing)
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+@163  = ~Belt~
+@164  = ~Potent Enforcer~
+@165  = ~This belt - even though it doesn't really look extra-ordinary - is a powerful item that may reduce casting time. Some tales say that this particular belt was once used by Chozzelia, an elven bard from Evereska.
+
+STATISTICS:
+
+- Casting Time: -1
+
+Weight: 2~
+@166  = ~Amulet~
+@167  = ~Devourer's Frenzy~
+@168  = ~This piece of black stone holds the essence of the malignant spirit, Ghastlycleaver, and the rage and destructive instinct of the dead spirit remains within it. While the wearer feels greatly empowered, there is also a sense of wrongness with holding the object close - and spirits summoned by the wearer appear to take on some of Ghastlycleaver's fury.
+
+STATISTICS:
+
+- Strength: +1
+- Hit Points: -10
+- Summoned spirits deal +4 magic damage per hit but have a -2 penalty in armor class
+
+Weight: 1~
+@169  = ~Ghastlycleaver's Frenzy~
+@170  = ~Will's Bone Necklace~
+@171  = ~This bone necklace was made from the remains of Will's living body. With this personal item, he may leave the Visionhive and the woods where he died and walk the realms freely. 
+
+STATISTICS: 
+
+- With this necklace, Will can leave the Visionhive and the woods where he died.
+- As a spectre, Will is immune to healing by divine spells and innate abilities, but can drink healing potions. He may not be resurrected by normal means (if he loses all his HP, he will recreate his form near his grave)
+- As a spectre, Will is immune to poison, disease, level drain, fatigue, Horrid Wilting and petrification.~
+@172  = ~Will's Necklace~
+@173  = ~This is Will's shamanic necklace. It has a simple design and doesn't look extra-ordinary. There is some kind of symbol on it, bou're not sure if it actually means anything.
+
+STATISTICS: 
+
+- As a spectre, Will is immune to healing by divine spells and innate abilities, but can drink healing potions. He may not be resurrected by normal means (if he loses all his HP, he will recreate his form near his grave)
+- As a spectre, Will is immune to poison, disease, level drain, fatigue, Horrid Wilting and petrification.~
+@174  = ~Wand~
+@175  = ~Wand of Blind Flames~
+@176  = ~This wand calls upon burning mists that not only burn the enemy, but also weaken them. Many who are touched by the flames suffer from painful burns, becoming clumsy and fighting worse as a result.
+
+STATISTICS: 
+
+Charge abilities:
+
+- Deals 2D10+2 fire damage to one enemy - the victim suffers from -5 penalty to THAC0 for 30 seconds~
+@177  = ~Summon Mother-o'-wisps~
+@178  = ~Restore Form~
+@179  = ~Restore Form
+As Will cannot be healed by normal priest spells, he can restore a part of his spectral body by drawing upon energy from another plane, healing him for 2 hit points per level up to a maximum of 40 hit points at level 20.~
+@180  = ~Acid Embrace~
+@181  = ~Naga's Acid embrace~
+@182  = ~Healing Embrace~
+@183  = ~Naga's Healing embrace~
+@184  = ~After his adventures with the Bhaalspawn, Will felt that something has changed. After the Pocket Plane was destroyed, the energy that bound Will to it and the living world started to fade. The repercussions influenced Will greatly and he began to slowly fade away. Day by day, his structure became more and more fragile, feeling as though a disease. However, thanks to all of his adventures with the Bhaalspawn, Will easily accepted what is to come. Just before he experienced his final end, he returned to the where the ruined temple of Amaunator stood and to Visionhive. Although his original bond to the grounds, as well as his bones, both disappeared when he was bound to the Pocket Plane, visiting his true home felt right to him. He left this world feeling a proper calmness.~
+@185  = ~After his adventures with the Bhaalspawn, Will felt that something has changed. <CHARNAME> had a great influence on the witchlight shaman's growth - perhaps because the spectre considered <CHARNAME> a <PRO_BROTHERSISTER> of sorts. After the Pocket Plane was destroyed, the energy that bound Will to that very place and this world started to fade. The repercussions influenced Will greatly and he began to slowly fade away. Day by day, his structure became more and more fragile, feeling as though a disease. However, thanks to all of his adventures with the Bhaalspawn, Will easily accepted what is to come. Just before he experienced his final end, he returned to the where the ruined temple of Amaunator stood and to Visionhive. Although his original bond to the grounds, as well as his bones, both disappeared when he was bound to the Pocket Plane, visiting his true home felt right to him. He left this world feeling a proper calmness.~
+@186  = ~NOTE: make sure to start a new game or use save game from before entering the Temple Ruins area.~
+@187  = ~Change shaman .tlk string to remove "Ineligible for any stronghold" line~
+@188  = ~Main components - NPC & Stronghold - was not installed.~
+@189  = ~SHAMAN: Shamans forge a divine connection with the natural world, similar to the way Druids commune with nature, but Shamans are more spiritual than primal. They directly tap into the energies that flow through the earth and air, through plants and animals, and even through the dead, and shape these energies to obey their will. Nowhere is this more evident than in their ability to summon powerful spirits as guardians and defenders. A being of two worlds, Shamans value balance over dominance.
+
+CLASS FEATURES:
+
+- May only wear leather, studded leather, and hide armor.
+- May not equip shields larger than bucklers.
+- May only use the following weapons: dagger, club, spear, axe, quarterstaff, dart, sling, and shortbow.
+- May only become Proficient (one slot) in any weapon class.
+- May only become Proficient (one slot) in any fighting style.
+- May cast druidic spells.
+- Does not automatically learn all spells of a given level as Druids do. Instead, Shamans select new spells to learn at each level, which they can cast daily without memorization.
+- Gains immediate access to a number of Shaman-specific spells, which can be cast like any other: Spirit Ward, Writhing Fog, Spiritual Clarity, Spirit Fire, Recall Spirit, Spiritual Lock, and Ether Gate.
+- Gains use of the Detect Illusion skill with 20% points as a base and an 4 points per level, up to a maximum of 100% at level 20.
+- May use Shamanic Dance at will.
+
+SHAMANIC DANCE: Shamans can summon spirit allies by performing a ritualistic dance. While dancing, the Shaman takes a -4 penalty to Armor Class and cannot move, attack, cast spells, use items and special abilities, or perform any other activity. Each round while the Shaman dances, there is a 35% base chance plus 2% for each level of the Shaman that a spirit will answer the call, up to a maximum of 75% at level 20. Any summoned spirits will disappear if the Shaman moves, stops dancing, or if the spirits leave visual range. The spirits grow in power as the Shaman gains additional levels:
+  Level 1: Minor animal spirits (snake, fox, hound), up to 2 spirits at the same time.
+  Level 6: Major animal spirits (bear, panther, boar), up to 3 spirits at the same time.
+  Level 12: Minor nature spirits (lesser air spirit, lesser earth spirit, lesser fire spirit), up to 4 spirits at the same time.
+  Level 18: Major nature spirits (air spirit, earth spirit, fire spirit), up to 5 spirits at the same time.
+The type of the summoned spirit is randomly determined from all the spirits available at the Shaman's level. For example, a level 12 Shaman will summon either a minor nature spirit, a major animal spirit, or a minor animal spirit, but cannot choose which one appears. Spirits will do their best to protect the Shaman but are not controlled directly.
+
+- Does not gain bonus spells per day from high Wisdom.
+- Alignment restricted to neutral good, true neutral, and neutral evil.
+- Hit Die: d8~
+@190  = ~Description changed~
+@191  = ~New items for shamans and undead NPCs~
+@192  = ~Installation of the new items~
+@193  = ~Leather Armor~
+@194  = ~Leather of the Dead~
+@195  = ~This leather vest was made from leather and bones. It is said that the very first armor of this type was specially prepared for the vampire Klysia Gohr, an infamous assassin from Silverymoon. Although many clerics and paladins were sent to kill the unholy creature, the Leather of the Dead protected her from their blessed weapons.
+
+Since these armors were made and enchanted with negative energy to protect the dead, only undead creatures may use this item.
+
+STATISTICS:
+
+Equipped abilities:
+ - Charisma: -1
+ - Magic Resistance: +3%
+
+Armor Class: 2 (0 vs. slashing, 1 vs. piercing and missile, +2 bonus vs. clerics and paladins)
+Requires:
+ 6 Strength
+
+Weight: 10~
+@196  = ~Ritual Dagger~
+@197  = ~Ritual Dagger: 'Okku-Oor' +4~
+@198  = ~This ritual dagger was used mostly by different kinds of shamans, but no one ever found out who is responsible for creating this blade. However, some say that it is from a different plane of existence. There are some strange markings on the curved blade. You are not sure if it some kind of mirage, but from time to time you have a feeling that the dagger moves like a viper. 
+
+This blade is known to feed on its user's energy to fuel its power.
+
+STATISTICS:
+
+Charge abilities: 
+ - User may attempt to restore his/her energy with a 35% chance to restore all cast spells. This ability has 5 charges which do not recharge on rest.
+
+Equipped abilities:
+ - Hit Points: -5
+ - Lore: +15
+ 
+THAC0: +4
+Damage: 1d4+2 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1
+~
+@199  = ~Staff~
+@200  = ~Staff of the Battle Shaman~
+@201  = ~This staff was created by the grand kobold shaman Ykir Ka. It is said that her great power allowed her tribe to fend off a tribe of giants for twenty days they lost their lives. No one knows how Ykir and her people survived so long, especially as there was no food in the cavern they used as their last bastion, but many suspect the shaman's magic, or her magical staff, had a hand in their survival.
+
+STATISTICS:
+
+Charge abilities:
+ - Create Goodberries three times per day
+
+Equipped abilities:
+ - Casting Level: +3
+ - Armor Class: +3 (vs. missiles)
+
+THAC0: +3
+Damage: 1d6+3 (crushing)
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4
+~
+@202  = ~This is some kind of shamanic staff.
+
+Weight: 4~
+@203  = ~Ring~
+@204  = ~Seeker of Sins~
+@205  = ~This unusual ring is made of leather and a piece of metal with strange symbols etched on  it. When the wearer faces illusions of any sort, the ring informs its master through a telepathic message. However, the ring may be worn only by those who have the ability to speak with spirits.
+
+STATISTICS:
+
+Equipped abilities:
+
+ - Detect Illusions: +15%
+ - THAC0: +2
+
+Weight: 1
+~
+@206  = ~Cold Light~
+@207  = ~Shamanic Artifact~
+@208  = ~Caged Light~
+@209  = ~This strange container is actually a kind of cage. You can see strange, levitating light levitating inside it. It is a small will-o'-wisp that does not use electricity to wound enemies, but cuts with sharp tongues of fire instead. Those who have experience with creatures like these may be able to control it and use in battle.
+
+STATISTICS:
+
+Charge abilities:
+
+ - Summons Cold Light once per day. It will fight on summoner's side for 120 seconds and then return to its cage.
+
+Weight: 1
+~
+@210  = ~This is some kind of container with a strange being inside. It may be a good idea to identify this cage before releasing the spirit inside it.
+
+Weight: 1~
+@211  = ~Dagger~
+@212  = ~Bodhi's Breath~
+@213  = ~This dagger was named after Bodhi, a powerful vampire assassin and mistress of the guild which fought against the Shadow Thieves for dominance of Athkatla. The blade pulses with dark, cold magic, and is curved with strange markings on it. Its handle handle is well-made, yet marred with red stains - likely of blood.
+
+The blade is tainted to such an extent that only powerful undead beings are able to hold it.
+
+STATISTICS:
+
+Equipped abilities:
+ Cold Resistance: +25%
+ 
+Combat abilities:
+ - 10% chance to drain 2 levels (save vs. death -5 to negate)
+ - 10% chance to slow target for 15 seconds (save vs. magic -3 to negate)
+ - 45% chance to cause additional 1 magic damage
+ 
+
+THAC0: +4
+Damage: 1d4+4 (piercing)
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires:
+ 3 Strength
+
+Weight: 1
+~
+@214  = ~Boots~
+@215  = ~Bonesmashers~
+@216  = ~These boots are made of fine leather and bones. They were made by a skeleton blacksmith for the vampire warrior Klyh'daar who decided to kill his own kind in order to retrieve the stolen bones of his son. You're not sure if these are bones of some kind of humanoid or a different kind of being.
+
+The magic used in the enchantment allow only the undead to wear these.
+
+STATISTICS:
+
+ - Movement Rate: +1
+ - Armor Class: +2 (vs. undead)
+
+Weight: 3~
+@217  = ~Arsonist's Spirit~
+@218  = ~This buckler is believed to hold a spirit of an arsonist who once one of the temples of Luskan on fire. Some say that it was his revenge against the priestesses of the temple for refusing to save his beloved, who was stabbed in the streets.
+
+The buckler glows with a peculiarly strange light. Due to its magic, only shamans may use this enchanted item.
+
+STATISTICS:
+
+Equipped abilities:
+ - Armor Class: +3
+ - No protection against missile and piercing attacks
+ - Fire Resistance: +25%
+ - Wisdom: +1 
+ - 75% chance to deal 1 fire damage to attacker when the wielder is struck
+
+Requires:
+ 4 Strength
+
+Weight: 2~
+@219  = ~Ioun of Visions~
+@220  = ~This ioun stone may be used only by shamans - spiritual casters that may see through life and death. Thanks to this ioun stone, the shaman may see through the veil of life and mark them with death.
+
+STATISTICS:
+
+Equipped abilities:
+ - THAC0: +1
+
+Combat abilities:
+ - While equipped, wearer's critical hits dispel the target's illusions
+
+Weight: 1~
+@221  = ~Undead~
+@222  = ~Ioun of Liquid Death~
+@223  = ~Iouns of Liquid Death are unusual ioun stones created by priests of Cyric. They were gifted to their greatest priests, but as time passed these stones started to change. They fed on the deaths of those who once used them, giving birth to the Ioun of Liquid Death.
+
+After the magical changes to the stones, no living being is able to use them. Only the living dead may use these peculiar stones.
+
+STATISTICS:
+
+Equipped abilities:
+ - THAC0: +1
+
+Combat abilities:
+ - While equipped, wearer's critical hits cast Vampiric Touch on target
+
+Weight: 1~
+@224  = ~Drum~
+@225  = ~Drum of Hope~
+@226  = ~This drum is a magical instrument that let a shaman give hope to their allies. It also protects the user from being silenced, and due to being blessed by spirits, a shaman who wields this drum will find that <PRO_HISHER> spells become more powerful. It seems to be made from the wood of apple tree and fine hide.
+
+STATISTICS:
+
+Equipped abilities:
+ - Casting Level: +2
+ - Vocalize
+
+Charge abilities:
+ - Resist Fear once per day
+
+Weight: 2
+~
+@227  = ~This is some kind of war drum. It may be useful for adventurers that know how to use it.
+
+Weight: 2~
+@228  = ~Totem~
+@229  = ~Totem: 'Rha-tikhi'~
+@230  = ~This strange totem shows a peculiar being. You're not sure if you have ever seen it before, but appears to be some hybrid of wereowl and panther. The item itself is made of grayish wood and is rather cold to the touch.
+
+With this item, shamans may summon a powerful primal being of rotting vegetation.
+
+STATISTICS:
+
+Charge abilities:
+ May summon Shambling Mound once per day
+
+Weight: 1
+~
+@231  = ~This strange totem shows a peculiar being. You're not sure if you have ever seen it before, but appears to be some hybrid of wereowl and panther. The item itself is made of grayish wood and is rather cold to the touch.
+
+Weight: 1~
+@232  = ~Optional: Drider, Dark Treant, Will-o'-wisp Enemies~
+@233  = ~Drider~
+@234  = ~Crossmod Banters~
+@235  = ~This component requires Will to be installed~
+@236  = ~Adding crossmod banter between Will and Sirene~
+@237  = ~Adding crossmod banter between Will and Pai'Na~
+@238  = ~Adding crossmod banter between Will and Foundling~
+@239  = ~Witchlight Shaman Standalone Kit~
+@240  = ~Will NPC is already installed.~
+@241  = ~No free creature animation slot found.~
+@242  = ~[CHEAT] Enable shaman stronghold for all classes~
+
+@243  = ~Town Medium (Shaman) Kit~
+@244  = ~It looks like your game already includes the Town Medium kit.~
+
+@245  = ~Dreadful Light~
+
+@246  = ~Wisp's Flicker~
+@247  = ~Will-o'-wisp~

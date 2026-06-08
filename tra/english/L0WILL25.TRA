@@ -1,0 +1,25 @@
+@0    = ~Ah, the spirits suggested that you may need my help again. But what is this? Are we in another Hell?~
+@1    = ~Yes. And I'm afraid something big is to start again, Will. I need a skilled shaman in my group. What do you say?~
+@2    = ~You know, I think I made a mistake. I don't need your help now or anytime soon. Excuse me, I think there's someone else I should talk to right now.~
+@3    = ~You know you may count on me, <CHARNAME>. However... because we're far away from the Visionhive and my grave, we must bind me with some place closer... this place will work. Can you do that?~
+@4    = ~I think there may be a way. Fate Spirit! Can you hear me? I need to bind this spirit with the Pocket Plane. Can you take care of this?~
+@5    = ~I changed my mind. Just stand over there and let me call someone else.~
+@6    = ~Yes. As a Fate Spirit I may become a temporary anchor for this spectre. Since this very moment this Plane shall be just as his grave was for him. When hurt, his energy shall return to these arms and reshape itself to wait for you, <CHARNAME>.~
+@7    = ~It--it's true, <CHARNAME>. I feel something has changed. I think Fate Spirit indeed temporarly bound me with these walls. If I am destroyed in battle, I will reform here.~
+@8    = ~Good. Does that mean we can start the journey?~
+@9    = ~I changed my mind. I think you should stay here. I'll come back if I need you.~
+@10   = ~Yes. So show me the way.~
+@11   = ~Quite disappointing.~
+@12   = ~Ah, it is you. The spirits told me that you may be back.~
+@13   = ~That's very nice of them. Would you like to join my group?~
+@14   = ~I was looking for someone else. Excuse me.~
+@15   = ~You returned for me?~
+@16   = ~Yes, join the group.~
+@17   = ~I don't need you now, so... no.~
+@18   = ~So you don't need me anymore? Do you want me to leave?~
+@19   = ~Yes. I'm sorry. But perhaps one day we'll meet again.~
+@20   = ~No, it's a mistake. You should stay.~
+@21   = ~I understand. I'll return to my grave. You may meet me there.~
+@22   = ~I'm glad.~
+
+@19000   = ~Will returned to the area he's currently bound with: the Pocket Plane.~

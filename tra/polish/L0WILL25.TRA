@@ -1,0 +1,25 @@
+@0    = ~Ach... duchy wspominały, że możesz znów potrzebować mojej pomocy. Ale co to za miejsce? Czy trafiliśmy do kolejnego Piekła?~
+@1    = ~Tak. I obawiam się, że znów zaczyna się coś poważnego, Willu. Potrzebuję w drużynie doświadczonego szamana. Co ty na to?~
+@2    = ~Wiesz co... to był błąd. Nie potrzebuję teraz twojej pomocy. Wybacz, muszę porozmawiać z kimś innym.~
+@3    = ~Wiesz, że możesz na mnie liczyć, <CHARNAME>. Jednak... jesteśmy daleko od Wizjonarium i mojego grobu. Musimy związać mnie z miejscem bliższym... to miejsce się nada. Potrafisz to uczynić?~
+@4    = ~Myślę, że jest na to sposób. Duchu Losu! Słyszysz mnie? Muszę związać to widmo ze Sferą kieszeniową. Możesz się tym zająć?~
+@5    = ~Jednak muszę zmienić zdanie. Zostań tu. Zawołam kogoś innego.~
+@6    = ~Tak. Jako Duch Losu mogę stać się tymczasową kotwicą dla tego widma. Od tej chwili ten Plan będzie dla niego tym, czym był grób. Gdy zostanie zraniony, jego energia powróci w moje ramiona i ukształtuje się na nowo, by tu oczekiwać na ciebie.~
+@7    = ~To... to prawda, <CHARNAME>. Czuję, że coś się zmieniło. Duch Losu rzeczywiście związał mnie tymczasowo z tymi murami. Jeśli polegnę w walce, odtworzę się tutaj.~
+@8    = ~Dobrze. Czy to znaczy, że możemy wyruszać?~
+@9    = ~Zmieniam zdanie. Zostań tutaj. Wrócę, jeśli będę cię potrzebować.~
+@10   = ~Tak. Prowadź.~
+@11   = ~To dość rozczarowujące.~
+@12   = ~Ach, to ty. Duchy mówiły, że możesz wrócić.~
+@13   = ~To bardzo miłe z ich strony. Dołączysz do mojej drużyny?~
+@14   = ~Szukam kogoś innego. Wybacz.~
+@15   = ~Wróciłeś po mnie?~~Wróciłaś po mnie?~
+@16   = ~Tak. Dołącz do drużyny.~
+@17   = ~Nie potrzebuję cię teraz, więc... nie.~
+@18   = ~A więc już mnie nie potrzebujesz? Chcesz, żebym odszedł?~
+@19   = ~Tak. Przykro mi. Być może kiedyś znów się spotkamy.~
+@20   = ~Nie, to pomyłka. Zostań.~
+@21   = ~Rozumiem. Wrócę do mojego grobu. Tam możesz mnie odnaleźć.~
+@22   = ~Cieszę się.~
+
+@19000   = ~Will powrócił do miejsca, z którym jest obecnie związany, czyli do Sferą kieszeniowej.~
