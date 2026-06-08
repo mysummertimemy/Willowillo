@@ -1,0 +1,45 @@
+BEGIN L0MOW
+
+CHAIN IF ~Global("L0MotherOfWisps","GLOBAL",0)~ THEN L0MOW Mother000
+@0
+END
+IF~InParty("L0Will")~THEN REPLY @1 EXTERN L0WillJ Mother001
+IF~~THEN REPLY @2 EXTERN L0MOW Mother002
+IF~~THEN REPLY @3 EXTERN L0MOW Mother004
+IF~~THEN REPLY @4 EXTERN L0MOW Mother00E
+
+CHAIN L0WillJ Mother001
+@5
+EXTERN L0MOW Mother003
+
+CHAIN L0MOW Mother002
+@6
+EXTERN L0MOW Mother004
+
+CHAIN L0MOW Mother003
+@7
+EXTERN L0MOW Mother004
+
+CHAIN L0MOW Mother004
+@8
+==L0MOW @9
+END
+IF~~THEN REPLY @10 EXTERN L0WillJ Mother005
+IF~~THEN REPLY @11 EXTERN L0MOW Mother00E
+IF~~THEN REPLY @12 EXTERN L0MOW Mother006
+
+CHAIN L0WillJ Mother005
+@13
+==L0WillJ @14
+==L0MOW @15
+==L0WillJ @16
+==L0MOW @17
+DO ~SetGlobal("L0MotherOfWisps","GLOBAL",3) ActionOverride("L0Will",AddSpecialAbility("L0MOW")) DestroySelf()~ EXIT
+
+CHAIN L0MOW Mother006
+@18
+DO ~SetGlobal("L0MotherOfWisps","GLOBAL",2) DestroySelf()~ EXIT
+
+CHAIN L0MOW Mother00E
+@19
+DO ~SetGlobal("L0MotherOfWisps","GLOBAL",1) Enemy()~ EXIT
